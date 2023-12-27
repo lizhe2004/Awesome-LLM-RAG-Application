@@ -19,3 +19,7 @@ the resources about the application based on LLM with RAG pattern
   - [在 RAG 流程中提高检索效果：融合传统关键词与现代向量搜索的混合式搜索技术](https://baoyu.io/translations/rag/improving-retrieval-performance-in-rag-pipelines-with-hybrid-search)
 - [Evaluating RAG Applications with RAGAs](https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a)
   - [用 RAGAs（检索增强生成评估）评估 RAG（检索增强型生成）应用](https://baoyu.io/translations/rag/evaluating-rag-applications-with-ragas)  
+
+ ## 开源工具
+ - [LangChain](https://github.com/langchain-ai/langchain/)
+ - [LlamaIndex](https://github.com/run-llama/llama_index/)
