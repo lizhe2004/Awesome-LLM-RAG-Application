@@ -12,3 +12,10 @@ the resources about the application based on LLM with RAG pattern
   - [面向大语言模型的检索增强生成技术：调查](https://baoyu.io/translations/ai-paper/2312.10997-retrieval-augmented-generation-for-large-language-models-a-survey)
 
 - [短课程 Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
+
+- [提示工程、RAGs 与微调的对比](https://github.com/lizhe2004/Awesome-LLM-RAG-Application/blob/main/Prompting-RAGs-Fine-tuning.md)
+
+- [Improving Retrieval Performance in RAG Pipelines with Hybrid Search](https://towardsdatascience.com/improving-retrieval-performance-in-rag-pipelines-with-hybrid-search-c75203c2f2f5)
+  - [在 RAG 流程中提高检索效果：融合传统关键词与现代向量搜索的混合式搜索技术](https://baoyu.io/translations/rag/improving-retrieval-performance-in-rag-pipelines-with-hybrid-search)
+- [Evaluating RAG Applications with RAGAs](https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a)
+  - [用 RAGAs（检索增强生成评估）评估 RAG（检索增强型生成）应用](https://baoyu.io/translations/rag/evaluating-rag-applications-with-ragas)  
