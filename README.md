@@ -43,8 +43,12 @@ the resources about the application based on LLM with RAG pattern
   - [搭建基于RAG的用于生产环境的LLM应用](https://tczjw7bsp1.feishu.cn/docx/MJnPdkuTnoN5TYxqzHecNTUEnee?from=from_copylink)
 - [Why Your RAG is Not Reliable in a Production ](https://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/why-your-rag-is-not-reliable-in-a-production-environment-9e6a73b3eddb)
   - [为什么你的RAG应用在生产环境中不可靠](https://tczjw7bsp1.feishu.cn/docx/RjsCdsDbro6JxExAeWPcgap1nTc?from=from_copylink)
-  - 
- 
+- [Why do RAG pipelines fail? Advanced RAG Patterns — Part1](https://cloudatlas.me/why-do-rag-pipelines-fail-advanced-rag-patterns-part1-841faad8b3c2)
+  - [为什么 RAG 流水线会失败？高级 RAG 模式 — 第 1 部分 ](https://tczjw7bsp1.feishu.cn/docx/KHkwdRrg9oAcd1xTNMDcsmBqnSp?from=from_copylink)
+- [How to improve RAG peformance — Advanced RAG Patterns — Part2](https://cloudatlas.me/how-to-improve-rag-peformance-advanced-rag-patterns-part2-0c84e2df66e6)
+  - [如何提高 RAG 性能 — 高级 RAG 模式](https://tczjw7bsp1.feishu.cn/docx/H5pDd8g8Lo2wanxuUaGcCkEjnYg?from=from_copylink)
+- [Multi-Modal RAG](https://blog.llamaindex.ai/multi-modal-rag-621de7525fea)
+  - [Multi-Modal RAG](https://tczjw7bsp1.feishu.cn/docx/OwXadpyWIopYc5xNvv9cErEZnLc?from=from_copylink)
 - []()
   -[]()     
  ## 开源工具
