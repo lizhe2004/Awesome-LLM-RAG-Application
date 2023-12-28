@@ -15,6 +15,10 @@ the resources about the application based on LLM with RAG pattern
   - [RAG的缺点](https://tczjw7bsp1.feishu.cn/docx/UZCCdKmLEo7VHQxWPdNcGzICnEd?from=from_copylink)
 - [What is retrieval-augmented generation-IBM](https://research.ibm.com/blog/retrieval-augmented-generation-RAG)
   - [什么是检索增强生成-IBM](https://tczjw7bsp1.feishu.cn/wiki/OMUVwsxlSiqjj4k4YkicUQbcnDg?from=from_copylink)
+- [What Is Retrieval-Augmented Generation?](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/?ncid=so-twit-174237&=&linkId=100000226744098)
+  - [什么是检索增强生成](https://tczjw7bsp1.feishu.cn/docx/V6ysdAewzoflhmxJDwTcahZCnYI?from=from_copylink)  
+- [Retrieval-Augmented Generation (RAG) or Fine-tuning  — Which Is the Best Tool to Boost Your LLM Application?](https://www.linkedin.com/pulse/retrieval-augmented-generation-rag-fine-tuning-which-best-victoria-s-)
+  - [RAG还是微调，优化LLM应用的最佳工具是哪个？](https://tczjw7bsp1.feishu.cn/wiki/TEtHwkclWirBwqkWeddcY8HXnZf?chunked=false)   
 ## 检索
 - [Query Transformations](https://blog.langchain.dev/query-transformations/)
   - [基于LLM的RAG应用的问句转换的技巧（译）](https://tczjw7bsp1.feishu.cn/docx/UaOJdXdIzoUTBTxIuxscRAJLnfh?from=from_copylink)
@@ -32,6 +36,8 @@ the resources about the application based on LLM with RAG pattern
   - [用 RAGAs（检索增强生成评估）评估 RAG（检索增强型生成）应用](https://baoyu.io/translations/rag/evaluating-rag-applications-with-ragas)
 - [Best Practices for LLM Evaluation of RAG Applications](https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG)
   - [RAG应用的LLM评估最佳实践（译）](https://tczjw7bsp1.feishu.cn/docx/TQJcdzfcfomL4QxqgkfchvbOnog?from=from_copylink)
+- [Exploring End-to-End Evaluation of RAG Pipelines](https://webcache.googleusercontent.com/search?q=cache:https://betterprogramming.pub/exploring-end-to-end-evaluation-of-rag-pipelines-e4c03221429)
+  - [探索 RAG 管道的端到端评估](https://tczjw7bsp1.feishu.cn/wiki/XL8WwjYU9i1sltkawl1cYOounOg?from=from_copylink)
 ## 操作实践
 - [Retrieval-Augmented Generation (RAG): From Theory to LangChain Implementation](https://towardsdatascience.com/retrieval-augmented-generation-rag-from-theory-to-langchain-implementation-4e9bd5f6a4f2)
   - [中译版 检索增强生成（RAG）：从理论到 LangChain 实践](https://baoyu.io/translations/rag/retrieval-augmented-generation-rag-from-theory-to-langchain-implementation)
@@ -51,8 +57,10 @@ the resources about the application based on LLM with RAG pattern
   - [如何提高 RAG 性能 — 高级 RAG 模式](https://tczjw7bsp1.feishu.cn/docx/H5pDd8g8Lo2wanxuUaGcCkEjnYg?from=from_copylink)
 - [Multi-Modal RAG](https://blog.llamaindex.ai/multi-modal-rag-621de7525fea)
   - [Multi-Modal RAG](https://tczjw7bsp1.feishu.cn/docx/OwXadpyWIopYc5xNvv9cErEZnLc?from=from_copylink)
-- []()
-  -[]()     
+- [10 Ways to Improve the Performance of Retrieval Augmented Generation Systems](https://towardsdatascience.com/10-ways-to-improve-the-performance-of-retrieval-augmented-generation-systems-5fa2cee7cd5c)
+  - [提高检索增强生成（RAG）系统性能的 10 种方法](https://tczjw7bsp1.feishu.cn/docx/ChhJdoSH8oLIHix6Nr6cZE12nqg)
+- [The Complete Guide to Retrieval Augmented Generation (RAG)](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/@alcarazanthony1/the-complete-guide-to-retrieval-augmented-generation-rag-3ce54a57d8be)
+  -[检索增强生成（RAG）完整指南](https://tczjw7bsp1.feishu.cn/wiki/WKawwO7lmir7BqkH39jcz4hdnAe)     
  ## 开源工具
  - [LangChain](https://github.com/langchain-ai/langchain/)
  - [LlamaIndex](https://github.com/run-llama/llama_index/)
