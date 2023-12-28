@@ -12,7 +12,9 @@ the resources about the application based on LLM with RAG pattern
 - [Retrieval Augmented Generation (RAG) in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview)
   - [Azure AI 搜索之检索增强生成（RAG）](https://tczjw7bsp1.feishu.cn/docx/JJ7ldrO4Zokjq7xZIJcc5IZjnFh?from=from_copylink) 
 - [Disadvantages of RAG ](https://medium.com/@kelvin.lu.au/disadvantages-of-rag-5024692f2c53)
-  - [RAG的缺点](https://tczjw7bsp1.feishu.cn/docx/UZCCdKmLEo7VHQxWPdNcGzICnEd?from=from_copylink) 
+  - [RAG的缺点](https://tczjw7bsp1.feishu.cn/docx/UZCCdKmLEo7VHQxWPdNcGzICnEd?from=from_copylink)
+- [What is retrieval-augmented generation-IBM](https://research.ibm.com/blog/retrieval-augmented-generation-RAG)
+  - [什么是检索增强生成-IBM](https://tczjw7bsp1.feishu.cn/wiki/OMUVwsxlSiqjj4k4YkicUQbcnDg?from=from_copylink)
 ## 检索
 - [Query Transformations](https://blog.langchain.dev/query-transformations/)
   - [基于LLM的RAG应用的问句转换的技巧（译）](https://tczjw7bsp1.feishu.cn/docx/UaOJdXdIzoUTBTxIuxscRAJLnfh?from=from_copylink)
