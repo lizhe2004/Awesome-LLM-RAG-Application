@@ -20,10 +20,10 @@ the resources about the application based on LLM with RAG pattern
   - [在 RAG 流程中提高检索效果：融合传统关键词与现代向量搜索的混合式搜索技术](https://baoyu.io/translations/rag/improving-retrieval-performance-in-rag-pipelines-with-hybrid-search)
 - [Multi-Vector Retriever for RAG on tables, text, and images](https://blog.langchain.dev/semi-structured-multi-modal-rag/)
   - [针对表格、文本和图片的RAG多向量检索器](https://tczjw7bsp1.feishu.cn/docx/Q8T8dZC0qoV2KRxPh8ScqoHanHg?from=from_copylink)
--  [Relevance and ranking in vector search](https://learn.microsoft.com/en-us/azure/search/vector-search-ranking#hybrid-search)
+- [Relevance and ranking in vector search](https://learn.microsoft.com/en-us/azure/search/vector-search-ranking#hybrid-search)
   - [向量查询中的相关性和排序](https://tczjw7bsp1.feishu.cn/docx/VJIWd90fUohXLlxY243cQhKCnXf?from=from_copylink)
 - [Boosting RAG: Picking the Best Embedding & Reranker models](https://blog.llamaindex.ai/boosting-rag-picking-the-best-embedding-reranker-models-42d079022e83)  
-  -  [提升优化 RAG：挑选最好的嵌入和重排模型](https://tczjw7bsp1.feishu.cn/docx/CtLCdwon9oDIF4x49mOchmjxnud)
+  -  [提升优化 RAG：挑选最好的嵌入和重排模型](https://tczjw7bsp1.feishu.cn/docx/CtLCdwon9oDIF4x49mOchmjxnud?from=from_copylink)
 
 ## 评估
 - [Evaluating RAG Applications with RAGAs](https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a)
