@@ -24,8 +24,6 @@ the resources about the application based on LLM with RAG pattern
   - [基于LLM的RAG应用的问句转换的技巧（译）](https://tczjw7bsp1.feishu.cn/docx/UaOJdXdIzoUTBTxIuxscRAJLnfh?from=from_copylink)
 - [Query Construction](https://blog.langchain.dev/query-construction/)
   - [查询构造](https://tczjw7bsp1.feishu.cn/docx/Wo0Sdn23voh0Wqx245zcu1Kpnuf?from=from_copylink)
-- 
-
 - [Improving Retrieval Performance in RAG Pipelines with Hybrid Search](https://towardsdatascience.com/improving-retrieval-performance-in-rag-pipelines-with-hybrid-search-c75203c2f2f5)
   - [在 RAG 流程中提高检索效果：融合传统关键词与现代向量搜索的混合式搜索技术](https://baoyu.io/translations/rag/improving-retrieval-performance-in-rag-pipelines-with-hybrid-search)
 - [Multi-Vector Retriever for RAG on tables, text, and images](https://blog.langchain.dev/semi-structured-multi-modal-rag/)
@@ -34,7 +32,10 @@ the resources about the application based on LLM with RAG pattern
   - [向量查询中的相关性和排序](https://tczjw7bsp1.feishu.cn/docx/VJIWd90fUohXLlxY243cQhKCnXf?from=from_copylink)
 - [Boosting RAG: Picking the Best Embedding & Reranker models](https://blog.llamaindex.ai/boosting-rag-picking-the-best-embedding-reranker-models-42d079022e83)  
   -  [提升优化 RAG：挑选最好的嵌入和重排模型](https://tczjw7bsp1.feishu.cn/docx/CtLCdwon9oDIF4x49mOchmjxnud?from=from_copylink)
-
+- [Azure Cognitive Search: Outperforming vector search with hybrid retrieval and ranking capabilities](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/azure-cognitive-search-outperforming-vector-search-with-hybrid/ba-p/3929167)
+  - [Azure认知搜索:通过混合检索和排序功能优于向量搜索](https://tczjw7bsp1.feishu.cn/docx/CDtGdwQJXo0mYVxaLpecXWuRnLc?from=from_copylink)
+- [Optimizing Retrieval Augmentation with Dynamic Top-K Tuning for Efficient Question Answering](https://medium.com/@sauravjoshi23/optimizing-retrieval-augmentation-with-dynamic-top-k-tuning-for-efficient-question-answering-11961503d4ae)
+  - [动态 Top-K 调优优化检索增强功能实现高效的问答](https://tczjw7bsp1.feishu.cn/docx/HCzAdk2BmoBg3lxA7ZOcn3KlnJb?from=from_copylink)   
 ## 评估
 - [Evaluating RAG Applications with RAGAs](https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a)
   - [用 RAGAs（检索增强生成评估）评估 RAG（检索增强型生成）应用](https://baoyu.io/translations/rag/evaluating-rag-applications-with-ragas)
@@ -43,7 +44,9 @@ the resources about the application based on LLM with RAG pattern
 - [Exploring End-to-End Evaluation of RAG Pipelines](https://webcache.googleusercontent.com/search?q=cache:https://betterprogramming.pub/exploring-end-to-end-evaluation-of-rag-pipelines-e4c03221429)
   - [探索 RAG 管道的端到端评估](https://tczjw7bsp1.feishu.cn/wiki/XL8WwjYU9i1sltkawl1cYOounOg?from=from_copylink)
 - [Evaluating Multi-Modal Retrieval-Augmented Generation](https://blog.llamaindex.ai/evaluating-multi-modal-retrieval-augmented-generation-db3ca824d428)
-  - [评估多模态检索增强生成](https://tczjw7bsp1.feishu.cn/docx/DrDQdj29DoDhahx9439cjb30nrd?from=from_copylink)   
+  - [评估多模态检索增强生成](https://tczjw7bsp1.feishu.cn/docx/DrDQdj29DoDhahx9439cjb30nrd?from=from_copylink)
+- [RAG Evaluation](https://cobusgreyling.medium.com/rag-evaluation-9813a931b3d4)   
+  - [RAG评估](https://tczjw7bsp1.feishu.cn/wiki/WzPnwFMgbisICCk9BFrc9XYanme?from=from_copylink)
 ## 操作实践
 - [Retrieval-Augmented Generation (RAG): From Theory to LangChain Implementation](https://towardsdatascience.com/retrieval-augmented-generation-rag-from-theory-to-langchain-implementation-4e9bd5f6a4f2)
   - [中译版 检索增强生成（RAG）：从理论到 LangChain 实践](https://baoyu.io/translations/rag/retrieval-augmented-generation-rag-from-theory-to-langchain-implementation)
@@ -66,7 +69,10 @@ the resources about the application based on LLM with RAG pattern
 - [10 Ways to Improve the Performance of Retrieval Augmented Generation Systems](https://towardsdatascience.com/10-ways-to-improve-the-performance-of-retrieval-augmented-generation-systems-5fa2cee7cd5c)
   - [提高检索增强生成（RAG）系统性能的 10 种方法](https://tczjw7bsp1.feishu.cn/docx/ChhJdoSH8oLIHix6Nr6cZE12nqg)
 - [The Complete Guide to Retrieval Augmented Generation (RAG)](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/@alcarazanthony1/the-complete-guide-to-retrieval-augmented-generation-rag-3ce54a57d8be)
-  -[检索增强生成（RAG）完整指南](https://tczjw7bsp1.feishu.cn/wiki/WKawwO7lmir7BqkH39jcz4hdnAe)     
+  -[检索增强生成（RAG）完整指南](https://tczjw7bsp1.feishu.cn/wiki/WKawwO7lmir7BqkH39jcz4hdnAe)
+- [Crafting Knowledgeable AI with Retrieval Augmentation: A Guide to Best Practices](https://webcache.googleusercontent.com/search?q=cache:https://ai.plainenglish.io/crafting-knowledgeable-ai-with-retrieval-augmentation-a-guide-to-best-practices-33c84626be1e)
+  - [使用检索增强打造知识渊博的 AI：最佳实践指南](https://tczjw7bsp1.feishu.cn/docx/TEXbdfcYToU4QFxSeJzcTDRTnMe?from=from_copylink)  
+       
  ## 开源工具
  - [LangChain](https://github.com/langchain-ai/langchain/)
  - [LlamaIndex](https://github.com/run-llama/llama_index/)
