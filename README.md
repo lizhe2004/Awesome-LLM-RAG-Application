@@ -131,6 +131,8 @@ the resources about the application based on LLM with RAG pattern
     
 ## 课程
 - [短课程 Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
+## 视频
+  - [A Survey of Techniques for Maximizing LLM Performance](https://www.youtube.com/watch?v=ahnGLM-RC1Y&ab_channel=OpenAI)
 ## 其他
 - [构建企业级AI助手的经验教训](https://tczjw7bsp1.feishu.cn/docx/Hq4Hd7JXEoHdGZxomkecEDs3n6b?from=from_copylink)
   - [How to build an AI assistant for the enterprise](https://www.glean.com/blog/lessons-and-learnings-from-building-an-enterprise-ready-ai-assistant)
@@ -138,3 +140,4 @@ the resources about the application based on LLM with RAG pattern
   - [大型语言模型 （LLM）对聊天机器人的颠覆 ](https://tczjw7bsp1.feishu.cn/docx/GbxKdkpwrodWRnxW4ffcBU0Gnur?from=from_copylink)
 - [Gen AI: why does simple Retrieval Augmented Generation (RAG) not work for insurance?](https://www.zelros.com/2023/10/27/gen-ai-why-does-simple-retrieval-augmented-generation-rag-not-work-for-insurance/)
   - [什么是检索增强生成 （RAG） ？为什么我们需要RAG来投保？](https://tczjw7bsp1.feishu.cn/docx/KfbidIiZBoPfb3xrT0WcL70LnPd?from=from_copylink) 
+- [OpenAI 如何优化 LLM 的效果](https://www.breezedeus.com/article/make-llm-greater)
