@@ -13,6 +13,7 @@ the resources about the application based on LLM with RAG pattern
   - [Azure AI 搜索之检索增强生成（RAG）](https://tczjw7bsp1.feishu.cn/docx/JJ7ldrO4Zokjq7xZIJcc5IZjnFh?from=from_copylink) 
 - [IBM-What is retrieval-augmented generation-IBM](https://research.ibm.com/blog/retrieval-augmented-generation-RAG)
   - [IBM-什么是检索增强生成](https://tczjw7bsp1.feishu.cn/wiki/OMUVwsxlSiqjj4k4YkicUQbcnDg?from=from_copylink)
+- [Amazon-Retrieval Augmented Generation (RAG)](https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-foundation-models-customize-rag.html)
 - [Nvidia=What Is Retrieval-Augmented Generation?](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/?ncid=so-twit-174237&=&linkId=100000226744098)
   - [英伟达-什么是检索增强生成](https://tczjw7bsp1.feishu.cn/docx/V6ysdAewzoflhmxJDwTcahZCnYI?from=from_copylink)
 - [Meta-Retrieval Augmented Generation: Streamlining the creation of intelligent natural language processing models](https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/)
@@ -95,6 +96,8 @@ the resources about the application based on LLM with RAG pattern
  - [How an LLM Chatbot Works: Exploring Chat with Retrieval-Augmented Generation (RAG)](https://tczjw7bsp1.feishu.cn/docx/FQGcda7PDo307Zx3BF0cdX2SnKe?from=from_copylink)
  -[Pinecone-Retrieval Augmented Generation (RAG): Reducing Hallucinations in GenAI Applications ](https://www.pinecone.io/learn/retrieval-augmented-generation/)
    - [检索增强生成（RAG）：减少生成式AI应用的幻觉问题](https://tczjw7bsp1.feishu.cn/wiki/C7YcwmAp7iNa0TkTTUAcS6evn8e?from=from_copylink)
+ - [RAG for Everyone: A Beginner’s Guide to Embedding & Similarity Search](https://blog.gopenai.com/rag-for-everyone-a-beginners-guide-to-embedding-similarity-search-and-vector-db-423946475c90)
+   - [RAG适用于所有人：嵌入和相似性搜索初学者指南](https://tczjw7bsp1.feishu.cn/wiki/K4l1wWHMyiAqkskGBJwcs4W5n14?from=from_copylink) 
 ## 幻觉
 - [Let’s Talk About LLM Hallucinations](https://webcache.googleusercontent.com/search?q=cache:https://levelup.gitconnected.com/lets-talk-about-llm-hallucinations-9c8dab3e7ac3)
   - [谈一谈LLM幻觉](https://tczjw7bsp1.feishu.cn/docx/G7KJdjENqoMYyhxw05rc8vrgn1c?from=from_copylink) 
