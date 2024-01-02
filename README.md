@@ -19,6 +19,8 @@ the resources about the application based on LLM with RAG pattern
   - [Meta-检索增强生成：简化智能自然语言处理模型的创建](https://tczjw7bsp1.feishu.cn/wiki/TsL8wAsbtiLfDmk1wFJcQsiGnQb?from=from_copylink)
 - [Disadvantages of RAG ](https://medium.com/@kelvin.lu.au/disadvantages-of-rag-5024692f2c53)
   - [RAG的缺点](https://tczjw7bsp1.feishu.cn/docx/UZCCdKmLEo7VHQxWPdNcGzICnEd?from=from_copylink)
+- [Cohere-Introducing Chat with Retrieval-Augmented Generation (RAG)](https://txt.cohere.com/chat-with-rag/)
+- [Pinecone=Retrieval Augmented Generation](https://www.pinecone.io/learn/series/rag/)
 ## 比较
 - [Retrieval-Augmented Generation (RAG) or Fine-tuning  — Which Is the Best Tool to Boost Your LLM Application?](https://www.linkedin.com/pulse/retrieval-augmented-generation-rag-fine-tuning-which-best-victoria-s-)
   - [RAG还是微调，优化LLM应用的最佳工具是哪个？](https://tczjw7bsp1.feishu.cn/wiki/TEtHwkclWirBwqkWeddcY8HXnZf?chunked=false)
@@ -89,7 +91,10 @@ the resources about the application based on LLM with RAG pattern
  - [How Self-RAG Could Revolutionize Industrial LLMs](https://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/how-self-rag-could-revolutionize-industrial-llms-b33d9f810264)
    - [Self-RAG 如何彻底改变行业LLM ](https://tczjw7bsp1.feishu.cn/docx/KoZ6dCtG9oBG8KxtclgcSE4HnKu?from=from_copylink)
  - [Best practices for your ChatGPT ‘on your data’ solution](https://medium.com/@imicknl/how-to-improve-your-chatgpt-on-your-data-solution-d1e842d87404)
-   - [您的 ChatGPT "数据 "解决方案的最佳实践 ](https://tczjw7bsp1.feishu.cn/wiki/ZkrXwLfKui9VeskV6b7crHHwncJ?from=from_copylink)     
+   - [您的 ChatGPT "数据 "解决方案的最佳实践 ](https://tczjw7bsp1.feishu.cn/wiki/ZkrXwLfKui9VeskV6b7crHHwncJ?from=from_copylink)
+ - [How an LLM Chatbot Works: Exploring Chat with Retrieval-Augmented Generation (RAG)](https://tczjw7bsp1.feishu.cn/docx/FQGcda7PDo307Zx3BF0cdX2SnKe?from=from_copylink)
+ -[Pinecone-Retrieval Augmented Generation (RAG): Reducing Hallucinations in GenAI Applications ](https://www.pinecone.io/learn/retrieval-augmented-generation/)
+   - [检索增强生成（RAG）：减少生成式AI应用的幻觉问题](https://tczjw7bsp1.feishu.cn/wiki/C7YcwmAp7iNa0TkTTUAcS6evn8e?from=from_copylink)
 ## 幻觉
 - [Let’s Talk About LLM Hallucinations](https://webcache.googleusercontent.com/search?q=cache:https://levelup.gitconnected.com/lets-talk-about-llm-hallucinations-9c8dab3e7ac3)
   - [谈一谈LLM幻觉](https://tczjw7bsp1.feishu.cn/docx/G7KJdjENqoMYyhxw05rc8vrgn1c?from=from_copylink) 
