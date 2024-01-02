@@ -72,7 +72,10 @@ the resources about the application based on LLM with RAG pattern
   -[检索增强生成（RAG）完整指南](https://tczjw7bsp1.feishu.cn/wiki/WKawwO7lmir7BqkH39jcz4hdnAe)
 - [Crafting Knowledgeable AI with Retrieval Augmentation: A Guide to Best Practices](https://webcache.googleusercontent.com/search?q=cache:https://ai.plainenglish.io/crafting-knowledgeable-ai-with-retrieval-augmentation-a-guide-to-best-practices-33c84626be1e)
   - [使用检索增强打造知识渊博的 AI：最佳实践指南](https://tczjw7bsp1.feishu.cn/docx/TEXbdfcYToU4QFxSeJzcTDRTnMe?from=from_copylink)  
-       
+ - [Optimizing RAG for LLMs Apps ](https://medium.com/@bijit211987/optimizing-rag-for-llms-apps-53f6056d8118)
+   - [优化 RAG服务于为 LLM 应用](https://tczjw7bsp1.feishu.cn/docx/ES1PdAve3ocNb0x9pU3cNOtDngG)
+ - [Fueling the RAG Engine : The Data Flywheel](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/@alcarazanthony1/fueling-the-rag-engine-the-data-flywheel-fc958c6d68d8)
+   - [为 RAG 引擎提供动力：数据飞轮](https://tczjw7bsp1.feishu.cn/docx/S4bodAeEuovzHDxQHMccqEUinnb?from=from_copylink) 
  ## 开源工具
  - [LangChain](https://github.com/langchain-ai/langchain/)
  - [LlamaIndex](https://github.com/run-llama/llama_index/)
