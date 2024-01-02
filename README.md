@@ -126,6 +126,8 @@ the resources about the application based on LLM with RAG pattern
  - [LlamaIndex](https://github.com/run-llama/llama_index/)
  - [Unstructured](https://github.com/Unstructured-IO/unstructured)
    - 该库提供了用于摄取和预处理图像和文本文档（如 PDF、HTML、WORD 文档等）的开源组件。 unstructured的使用场景围绕着简化和优化LLM数据处理工作流程，   unstructured模块化功能和连接器形成了一个有内聚性的系统，简化了数据摄取和预处理，使其能够适应不同的平台，并有效地将非结构化数据转换为结构化输出。
+ - [GPT-RAG](https://github.com/Azure/GPT-RAG)
+   - GPT-RAG提供了一个强大的架构，专为RAG模式的企业级部署量身定制。它确保了扎实的回应，并建立在零信任安全和负责任的人工智能基础上，确保可用性、可扩展性和可审计性。非常适合正在从探索和PoC阶段过渡到全面生产和MVP的组织。
     
 ## 课程
 - [短课程 Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
