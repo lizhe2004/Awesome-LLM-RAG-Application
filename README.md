@@ -142,3 +142,4 @@ the resources about the application based on LLM with RAG pattern
 - [Gen AI: why does simple Retrieval Augmented Generation (RAG) not work for insurance?](https://www.zelros.com/2023/10/27/gen-ai-why-does-simple-retrieval-augmented-generation-rag-not-work-for-insurance/)
   - [什么是检索增强生成 （RAG） ？为什么我们需要RAG来投保？](https://tczjw7bsp1.feishu.cn/docx/KfbidIiZBoPfb3xrT0WcL70LnPd?from=from_copylink) 
 - [OpenAI 如何优化 LLM 的效果](https://www.breezedeus.com/article/make-llm-greater)
+- [End-to-End LLMOps Platform](https://medium.com/@bijit211987/end-to-end-llmops-platform-514044dc791d)
