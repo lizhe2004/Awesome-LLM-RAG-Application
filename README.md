@@ -116,7 +116,9 @@ the resources about the application based on LLM with RAG pattern
 - [Retrieval Augmented Generation (RAG) & LLM: Examples](https://vitalflux.com/retrieval-augmented-generation-rag-llm-examples/)
   - [检索增强生成（RAG）和LLM：示例](https://vitalflux.com/retrieval-augmented-generation-rag-llm-examples/)
 - [RAG Pipeline modeling](https://uxplanet.org/rag-pipeline-modeling-011e3e6cc803)
-  - [RAG流水线模型](https://tczjw7bsp1.feishu.cn/docx/A5JFd3vcGokY94xcNogcfuNSnJb?from=from_copylink)   
+  - [RAG流水线模型](https://tczjw7bsp1.feishu.cn/docx/A5JFd3vcGokY94xcNogcfuNSnJb?from=from_copylink)
+- [Optimizing RAG for LLMs Apps](https://medium.com/@bijit211987/optimizing-rag-for-llms-apps-53f6056d8118)
+
 ## 幻觉
 - [Let’s Talk About LLM Hallucinations](https://webcache.googleusercontent.com/search?q=cache:https://levelup.gitconnected.com/lets-talk-about-llm-hallucinations-9c8dab3e7ac3)
   - [谈一谈LLM幻觉](https://tczjw7bsp1.feishu.cn/docx/G7KJdjENqoMYyhxw05rc8vrgn1c?from=from_copylink)
