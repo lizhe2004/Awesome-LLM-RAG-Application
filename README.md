@@ -123,7 +123,7 @@ the resources about the application based on LLM with RAG pattern
 - [Let’s Talk About LLM Hallucinations](https://webcache.googleusercontent.com/search?q=cache:https://levelup.gitconnected.com/lets-talk-about-llm-hallucinations-9c8dab3e7ac3)
   - [谈一谈LLM幻觉](https://tczjw7bsp1.feishu.cn/docx/G7KJdjENqoMYyhxw05rc8vrgn1c?from=from_copylink)
   - 
-  - 
+
  ## 开源工具
  - [LangChain](https://github.com/langchain-ai/langchain/)
  - [LlamaIndex](https://github.com/run-llama/llama_index/)
@@ -131,6 +131,10 @@ the resources about the application based on LLM with RAG pattern
    - 该库提供了用于摄取和预处理图像和文本文档（如 PDF、HTML、WORD 文档等）的开源组件。 unstructured的使用场景围绕着简化和优化LLM数据处理工作流程，   unstructured模块化功能和连接器形成了一个有内聚性的系统，简化了数据摄取和预处理，使其能够适应不同的平台，并有效地将非结构化数据转换为结构化输出。
  - [GPT-RAG](https://github.com/Azure/GPT-RAG)
    - GPT-RAG提供了一个强大的架构，专为RAG模式的企业级部署量身定制。它确保了扎实的回应，并建立在零信任安全和负责任的人工智能基础上，确保可用性、可扩展性和可审计性。非常适合正在从探索和PoC阶段过渡到全面生产和MVP的组织。
+ - [ragas](https://github.com/explodinggradients/ragas?tab=readme-ov-file)
+   - Ragas是一个用于评估RAG应用的框架，包括忠诚度（Faithfulness）、答案相关度（Answer Relevance）、上下文精确度（Context Precision）、上下文相关度（Context Relevancy）、上下文召回（Context Recall）
+ - [langchain-evaluation](https://python.langchain.com/docs/guides/evaluation/)
+ - [Llamaindex-evaluation](https://docs.llamaindex.ai/en/stable/optimizing/evaluation/evaluation.html)
     
 ## 课程
 - [短课程 Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
