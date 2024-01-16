@@ -7,7 +7,7 @@ the resources about the application based on LLM with RAG pattern
   - [Github repo](https://github.com/Tongji-KGLLM/RAG-Survey/tree/main)
 - [Advanced RAG Techniques: an Illustrated Overview](https://pub.towardsai.net/advanced-rag-techniques-an-illustrated-overview-04d193d8fec6)
   - [中译版 高级 RAG 技术：图解概览](https://baoyu.io/translations/rag/advanced-rag-techniques-an-illustrated-overview)
-
+- [高级RAG应用构建指南和总结](https://blog.llamaindex.ai/a-cheat-sheet-and-some-recipes-for-building-advanced-rag-803a9d94c41b)
 - [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/)
   - [构建LLM系统和应用的模式](https://tczjw7bsp1.feishu.cn/docx/Z6vvdyAdXou7XmxuXt2cigZUnTb?from=from_copylink)
 ## 介绍 
@@ -24,7 +24,7 @@ the resources about the application based on LLM with RAG pattern
 - [Disadvantages of RAG ](https://medium.com/@kelvin.lu.au/disadvantages-of-rag-5024692f2c53)
   - [RAG的缺点](https://tczjw7bsp1.feishu.cn/docx/UZCCdKmLEo7VHQxWPdNcGzICnEd?from=from_copylink)
 - [Cohere-Introducing Chat with Retrieval-Augmented Generation (RAG)](https://txt.cohere.com/chat-with-rag/)
-- [Pinecone=Retrieval Augmented Generation](https://www.pinecone.io/learn/series/rag/)
+- [Pinecone-Retrieval Augmented Generation](https://www.pinecone.io/learn/series/rag/)
 - [Knowledge Retrieval Takes Center Stage](https://towardsdatascience.com/knowledge-retrieval-takes-center-stage-183be733c6e8)
   - [知识检索成为焦点](https://tczjw7bsp1.feishu.cn/docx/VELQdaizVoknrrxND3jcLkZZn8d?from=from_copylink)   
 ## 比较
@@ -33,10 +33,13 @@ the resources about the application based on LLM with RAG pattern
 - [提示工程、RAGs 与微调的对比](https://github.com/lizhe2004/Awesome-LLM-RAG-Application/blob/main/Prompting-RAGs-Fine-tuning.md)
 - [RAG vs Finetuning — Which Is the Best Tool to Boost Your LLM Application?](https://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7)
   - [RAG 与微调 — 哪个是提升优化 LLM 应用的最佳工具？](https://tczjw7bsp1.feishu.cn/wiki/Cs9ywwzJSiFrg9kX2r1ch4Nxnth)
-
+- [A Survey on In-context Learning](https://arxiv.org/abs/2301.00234)
 ## 预处理
 - [From Good to Great: How Pre-processing Documents Supercharges AI’s Output](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/mlearning-ai/from-good-to-great-how-pre-processing-documents-supercharges-ais-output-cf9ecf1bd18c)
-  - [从好到优秀：如何预处理文件来加速人工智能的输出](https://tczjw7bsp1.feishu.cn/docx/HpFOdBVlIo2nE5xHN8GcPqaSnxg?from=from_copylink)     
+  - [从好到优秀：如何预处理文件来加速人工智能的输出](https://tczjw7bsp1.feishu.cn/docx/HpFOdBVlIo2nE5xHN8GcPqaSnxg?from=from_copylink)   
+- [5 Levels Of Text Splitting](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/5_Levels_Of_Text_Splitting.ipynb) 
+  - [Semantic Chunker](https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/node_parser/semantic_chunking/semantic_chunking.ipynb)
+-  
 ## 检索
 - [Query Transformations](https://blog.langchain.dev/query-transformations/)
   - [基于LLM的RAG应用的问句转换的技巧（译）](https://tczjw7bsp1.feishu.cn/docx/UaOJdXdIzoUTBTxIuxscRAJLnfh?from=from_copylink)
@@ -69,80 +72,78 @@ the resources about the application based on LLM with RAG pattern
   - [RAG评估](https://tczjw7bsp1.feishu.cn/wiki/WzPnwFMgbisICCk9BFrc9XYanme?from=from_copylink)
 - [Evaluation - LlamaIndex](https://docs.llamaindex.ai/en/stable/module_guides/evaluating/root.html)
   - [评估-LlamaIndex](https://tczjw7bsp1.feishu.cn/wiki/KiSow8rXviiHDWki4kycULRWnqg?from=from_copylink)
-## 操作实践
-- [Retrieval-Augmented Generation (RAG): From Theory to LangChain Implementation](https://towardsdatascience.com/retrieval-augmented-generation-rag-from-theory-to-langchain-implementation-4e9bd5f6a4f2)
-  - [中译版 检索增强生成（RAG）：从理论到 LangChain 实践](https://baoyu.io/translations/rag/retrieval-augmented-generation-rag-from-theory-to-langchain-implementation)
-- [A Guide on 12 Tuning Strategies for Production-Ready RAG Applications](https://towardsdatascience.com/a-guide-on-12-tuning-strategies-for-production-ready-rag-applications-7ca646833439)
-  - [12 种调整策略指南：为生产环境打造高效的 RAG 应用](https://baoyu.io/translations/rag/a-guide-on-12-tuning-strategies-for-production-ready-rag-applications)
-- [Building Performant RAG Applications for Production](https://docs.llamaindex.ai/en/stable/optimizing/production_rag.html)
-  - [构建用于生产环境的高性能 RAG 应用程序](https://tczjw7bsp1.feishu.cn/wiki/VT5qwPOwQimGAqkzAVWc1PQmnfe?from=from_copylink)
-- [Practical Considerations in RAG Application Design](https://pub.towardsai.net/practical-considerations-in-rag-application-design-b5d5f0b2d19b)
-  - [RAG 应用程序设计中的实用注意事项](https://tczjw7bsp1.feishu.cn/docx/QODydp3wSo3QohxZwZucIbL8nHc?from=from_copylink)
-- [Building RAG-based LLM Applications for Production](https://www.anyscale.com/blog/a-comprehensive-guide-for-building-rag-based-llm-applications-part-1#reranking-experiments)
-  - [搭建基于RAG的用于生产环境的LLM应用](https://tczjw7bsp1.feishu.cn/docx/MJnPdkuTnoN5TYxqzHecNTUEnee?from=from_copylink)
-- [Why Your RAG is Not Reliable in a Production ](https://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/why-your-rag-is-not-reliable-in-a-production-environment-9e6a73b3eddb)
-  - [为什么你的RAG应用在生产环境中不可靠](https://tczjw7bsp1.feishu.cn/docx/RjsCdsDbro6JxExAeWPcgap1nTc?from=from_copylink)
-- [Why do RAG pipelines fail? Advanced RAG Patterns — Part1](https://cloudatlas.me/why-do-rag-pipelines-fail-advanced-rag-patterns-part1-841faad8b3c2)
-  - [为什么 RAG 流水线会失败？高级 RAG 模式 — 第 1 部分 ](https://tczjw7bsp1.feishu.cn/docx/KHkwdRrg9oAcd1xTNMDcsmBqnSp?from=from_copylink)
-- [How to improve RAG peformance — Advanced RAG Patterns — Part2](https://cloudatlas.me/how-to-improve-rag-peformance-advanced-rag-patterns-part2-0c84e2df66e6)
-  - [如何提高 RAG 性能 — 高级 RAG 模式](https://tczjw7bsp1.feishu.cn/docx/H5pDd8g8Lo2wanxuUaGcCkEjnYg?from=from_copylink)
-- [Multi-Modal RAG](https://blog.llamaindex.ai/multi-modal-rag-621de7525fea)
-  - [多模态RAG](https://tczjw7bsp1.feishu.cn/docx/OwXadpyWIopYc5xNvv9cErEZnLc?from=from_copylink)
-- [10 Ways to Improve the Performance of Retrieval Augmented Generation Systems](https://towardsdatascience.com/10-ways-to-improve-the-performance-of-retrieval-augmented-generation-systems-5fa2cee7cd5c)
-  - [提高检索增强生成（RAG）系统性能的 10 种方法](https://tczjw7bsp1.feishu.cn/docx/ChhJdoSH8oLIHix6Nr6cZE12nqg)
-- [The Complete Guide to Retrieval Augmented Generation (RAG)](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/@alcarazanthony1/the-complete-guide-to-retrieval-augmented-generation-rag-3ce54a57d8be)
-  - [检索增强生成（RAG）完整指南](https://tczjw7bsp1.feishu.cn/wiki/WKawwO7lmir7BqkH39jcz4hdnAe)
-- [Crafting Knowledgeable AI with Retrieval Augmentation: A Guide to Best Practices](https://webcache.googleusercontent.com/search?q=cache:https://ai.plainenglish.io/crafting-knowledgeable-ai-with-retrieval-augmentation-a-guide-to-best-practices-33c84626be1e)
-  - [使用检索增强打造知识渊博的 AI：最佳实践指南](https://tczjw7bsp1.feishu.cn/docx/TEXbdfcYToU4QFxSeJzcTDRTnMe?from=from_copylink)  
-- [Optimizing RAG for LLMs Apps ](https://medium.com/@bijit211987/optimizing-rag-for-llms-apps-53f6056d8118)
-  - [优化 RAG服务于为 LLM 应用](https://tczjw7bsp1.feishu.cn/docx/ES1PdAve3ocNb0x9pU3cNOtDngG)
-- [Fueling the RAG Engine : The Data Flywheel](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/@alcarazanthony1/fueling-the-rag-engine-the-data-flywheel-fc958c6d68d8)
-  - [为 RAG 引擎提供动力：数据飞轮](https://tczjw7bsp1.feishu.cn/docx/S4bodAeEuovzHDxQHMccqEUinnb?from=from_copylink)
-- [How Self-RAG Could Revolutionize Industrial LLMs](https://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/how-self-rag-could-revolutionize-industrial-llms-b33d9f810264)
-  - [Self-RAG 如何彻底改变行业LLM ](https://tczjw7bsp1.feishu.cn/docx/KoZ6dCtG9oBG8KxtclgcSE4HnKu?from=from_copylink)
-- [Best practices for your ChatGPT ‘on your data’ solution](https://medium.com/@imicknl/how-to-improve-your-chatgpt-on-your-data-solution-d1e842d87404)
-  - [您的 ChatGPT "数据 "解决方案的最佳实践 ](https://tczjw7bsp1.feishu.cn/wiki/ZkrXwLfKui9VeskV6b7crHHwncJ?from=from_copylink)
-- [How an LLM Chatbot Works: Exploring Chat with Retrieval-Augmented Generation (RAG)](https://tczjw7bsp1.feishu.cn/docx/FQGcda7PDo307Zx3BF0cdX2SnKe?from=from_copylink)
--[Pinecone-Retrieval Augmented Generation (RAG): Reducing Hallucinations in GenAI Applications ](https://www.pinecone.io/learn/retrieval-augmented-generation/)
-  - [检索增强生成（RAG）：减少生成式AI应用的幻觉问题](https://tczjw7bsp1.feishu.cn/wiki/C7YcwmAp7iNa0TkTTUAcS6evn8e?from=from_copylink)
-- [RAG for Everyone: A Beginner’s Guide to Embedding & Similarity Search](https://blog.gopenai.com/rag-for-everyone-a-beginners-guide-to-embedding-similarity-search-and-vector-db-423946475c90)
-  - [RAG适用于所有人：嵌入和相似性搜索初学者指南](https://tczjw7bsp1.feishu.cn/wiki/K4l1wWHMyiAqkskGBJwcs4W5n14?from=from_copylink)
-- [Retrieval Augmented Generation: Grounding AI Responses in Factual Data](https://medium.com/@minh.hoque/retrieval-augmented-generation-grounding-ai-responses-in-factual-data-b7855c059322)
-  - [检索增强生成：将 AI 响应建立在事实数据的基础上 ](https://tczjw7bsp1.feishu.cn/wiki/OJkFwPDhgilHD4k9RrdcE0QCnTh?from=from_copylink)
-- [Leveraging LLMs on your domain-specific knowledge base](https://www.ml6.eu/blogpost/leveraging-llms-on-your-domain-specific-knowledge-base)
-  - [在您的特定领域知识库上利用LLM](https://tczjw7bsp1.feishu.cn/wiki/SqfIwjdEGiHNEgk4o46ceuFJnOd?from=from_copylink)
-- [Build More Capable LLMs with Retrieval Augmented Generation](https://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/build-more-capable-llms-with-retrieval-augmented-generation-99d5f86e9779)
-  -[通过检索增强生成构建功能更强大的 LLM](https://tczjw7bsp1.feishu.cn/wiki/SOL0wWptTihTUQk3Eogc4NpHnmc?from=from_copylink) 
-- [LLM’s for Enterprises- Generative Q&A on Your Private Knowledge Base](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/towards-generative-ai/llms-for-enterprises-architecture-for-generative-q-a-on-your-private-knowledge-base-a7c2e07690e8)
-  - [LLM for Enterprise – 您的私人知识库上的生成问答](https://tczjw7bsp1.feishu.cn/wiki/RZIdwMpMti64PEkxzp1cdOewnze?from=from_copylink)
-- [Retrieval Augmented Generation (RAG) & LLM: Examples](https://vitalflux.com/retrieval-augmented-generation-rag-llm-examples/)
-  - [检索增强生成（RAG）和LLM：示例](https://vitalflux.com/retrieval-augmented-generation-rag-llm-examples/)
-- [RAG Pipeline modeling](https://uxplanet.org/rag-pipeline-modeling-011e3e6cc803)
-  - [RAG流水线模型](https://tczjw7bsp1.feishu.cn/docx/A5JFd3vcGokY94xcNogcfuNSnJb?from=from_copylink)
-- [Optimizing RAG for LLMs Apps](https://medium.com/@bijit211987/optimizing-rag-for-llms-apps-53f6056d8118)
+
+## 实践
+- [实践](./practice.md)
 
 ## 幻觉
 - [Let’s Talk About LLM Hallucinations](https://webcache.googleusercontent.com/search?q=cache:https://levelup.gitconnected.com/lets-talk-about-llm-hallucinations-9c8dab3e7ac3)
   - [谈一谈LLM幻觉](https://tczjw7bsp1.feishu.cn/docx/G7KJdjENqoMYyhxw05rc8vrgn1c?from=from_copylink)
   - 
 ## 应用参考
-- [Dify](https://github.com/langgenius/dify)
-  - 融合了 Backend as Service 和 LLMOps 的理念，涵盖了构建生成式 AI 原生应用所需的核心技术栈，包括一个内置 RAG 引擎。使用 Dify，你可以基于任何模型自部署类似 Assistants API 和 GPTs 的能力。
 - [Kimi Chat](https://kimi.moonshot.cn/)
   - 支持发送网页链接和上传文件进行回答
-
+- [GPTs](https://chat.openai.com/gpts/mine)
+  - 支持上传文档进行类似RAG应用
+- [百川知识库](https://platform.baichuan-ai.com/knowledge)
+  - 1.新建知识库后得到知识库 ID；
+  - 2.上传文件，获取文件 ID；
+  - 3.通过文件 ID 与知识库 ID 进行知识库文件关联，知识库中可以关联多个文档。
+  - 4.调用对话接口时通过 knowledge_base 字段传入知识库 ID 列表，大模型使用检索到的知识信息回答问题。
+- [COZE](https://www.coze.com/)
+  - 应用编辑平台，旨在开发下一代人工智能聊天机器人。无论您是否有编程经验，该平台都可以让您快速创建各种类型的聊天机器人并将其部署在不同的社交平台和消息应用程序上。
  ## 开源工具
- - [LangChain](https://github.com/langchain-ai/langchain/)
- - [LlamaIndex](https://github.com/run-llama/llama_index/)
- - [Unstructured](https://github.com/Unstructured-IO/unstructured)
-   - 该库提供了用于摄取和预处理图像和文本文档（如 PDF、HTML、WORD 文档等）的开源组件。 unstructured的使用场景围绕着简化和优化LLM数据处理工作流程，   unstructured模块化功能和连接器形成了一个有内聚性的系统，简化了数据摄取和预处理，使其能够适应不同的平台，并有效地将非结构化数据转换为结构化输出。
- - [GPT-RAG](https://github.com/Azure/GPT-RAG)
-   - GPT-RAG提供了一个强大的架构，专为RAG模式的企业级部署量身定制。它确保了扎实的回应，并建立在零信任安全和负责任的人工智能基础上，确保可用性、可扩展性和可审计性。非常适合正在从探索和PoC阶段过渡到全面生产和MVP的组织。
+
+ ### RAG框架
+- [LangChain](https://github.com/langchain-ai/langchain/)
+- [langchain4j](https://github.com/langchain4j/langchain4j)
+- [LlamaIndex](https://github.com/run-llama/llama_index/)
+- [Unstructured](https://github.com/Unstructured-IO/unstructured)
+  - 该库提供了用于摄取和预处理图像和文本文档（如 PDF、HTML、WORD 文档等）的开源组件。 unstructured的使用场景围绕着简化和优化LLM数据处理工作流程，   unstructured模块化功能和连接器形成了一个有内聚性的系统，简化了数据摄取和预处理，使其能够适应不同的平台，并有效地将非结构化数据转换为结构化输出。
+- [GPT-RAG](https://github.com/Azure/GPT-RAG)
+  - GPT-RAG提供了一个强大的架构，专为RAG模式的企业级部署量身定制。它确保了扎实的回应，并建立在零信任安全和负责任的人工智能基础上，确保可用性、可扩展性和可审计性。非常适合正在从探索和PoC阶段过渡到全面生产和MVP的组织。
+- [QAnything](https://github.com/netease-youdao/QAnything/tree/master)
+  - 致力于支持任意格式文件或数据库的本地知识库问答系统，可断网安装使用。任何格式的本地文件都可以往里扔，即可获得准确、快速、靠谱的问答体验。目前已支持格式: PDF，Word(doc/docx)，PPT，Markdown，Eml，TXT，图片（jpg，png等），网页链接
+- [Quivr](https://github.com/StanGirard/quivr)
+  - 您的第二大脑，利用 GenerativeAI 的力量成为您的私人助理！但增强了人工智能功能。
+  - [Quivr](https://www.quivr.app/chat)
+- [Dify](https://github.com/langgenius/dify)
+  - 融合了 Backend as Service 和 LLMOps 的理念，涵盖了构建生成式 AI 原生应用所需的核心技术栈，包括一个内置 RAG 引擎。使用 Dify，你可以基于任何模型自部署类似 Assistants API 和 GPTs 的能力。 
+- [Verba](https://github.com/weaviate/Verba)
+  - 这是向量数据库weaviate开源的一款RAG应用，旨在为开箱即用的检索增强生成 (RAG) 提供端到端、简化且用户友好的界面。只需几个简单的步骤，即可在本地或通过 OpenAI、Cohere 和 HuggingFace 等 LLM 提供商轻松探索数据集并提取见解。
+- [danswer](https://github.com/danswer-ai/danswer)
+  - 允许您针对内部文档提出自然语言问题，并获得由源材料中的引用和参考文献支持的可靠答案，以便您始终可以信任您得到的结果。您可以连接到许多常用工具，例如 Slack、GitHub、Confluence 等。
+### 路由
+- [semantic-router](https://github.com/aurelio-labs/semantic-router)
+### 评测框架 
  - [ragas](https://github.com/explodinggradients/ragas?tab=readme-ov-file)
    - Ragas是一个用于评估RAG应用的框架，包括忠诚度（Faithfulness）、答案相关度（Answer Relevance）、上下文精确度（Context Precision）、上下文相关度（Context Relevancy）、上下文召回（Context Recall）
+ - [tonic_validate](https://github.com/TonicAI/tonic_validate)
+   - 一个用于 RAG 开发和实验跟踪的平台,用于评估检索增强生成 (RAG) 应用程序响应质量的指标。
+ - [deepeval](https://github.com/confident-ai/deepeval)
+   - 一个简单易用的开源LLM评估框架，适用于LLM应用程序。它与 Pytest 类似，但专门用于单元测试 LLM 应用程序。 DeepEval 使用 LLMs 以及在您的计算机上本地运行的各种其他 NLP 模型，根据幻觉、答案相关性、RAGAS 等指标来评估性能。
+ - [trulens](https://github.com/truera/trulens)
+   - TruLens 提供了一套用于开发和监控神经网络的工具，包括大型语言模型。这包括使用 TruLens-Eval 评估基于 LLMs 和 LLM 的应用程序的工具以及使用 TruLens-Explain 进行深度学习可解释性的工具。 TruLens-Eval 和 TruLens-Explain 位于单独的软件包中，可以独立使用。
  - [langchain-evaluation](https://python.langchain.com/docs/guides/evaluation/)
  - [Llamaindex-evaluation](https://docs.llamaindex.ai/en/stable/optimizing/evaluation/evaluation.html)
-    
+### Embedding
+ - [BCEmbedding](https://github.com/netease-youdao/BCEmbedding/tree/master)
+   - 网易有道开发的双语和跨语种语义表征算法模型库，其中包含 EmbeddingModel和 RerankerModel两类基础模型。EmbeddingModel专门用于生成语义向量，在语义搜索和问答中起着关键作用，而 RerankerModel擅长优化语义搜索结果和语义相关顺序精排。
+ - [BGE-Embedding](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/baai_general_embedding)
+   - BGE Embedding是一个通用向量模型,使用retromae 对模型进行预训练，再用对比学习在大规模成对数据上训练模型。
+ - [bge-reranker-large](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/reranker)
+   - 交叉编码器将对查询和答案实时计算相关性分数，这比向量模型(即双编码器)更准确，但比向量模型更耗时。 因此，它可以用来对嵌入模型返回的前k个文档重新排序
+### Prompting
+- [YiVal](https://github.com/YiVal/YiVal)
+  - GenAI 应用程序的自动提示工程助手 YiVal 是一款最先进的工具，旨在简化 GenAI 应用程序提示和循环中任何配置的调整过程。有了 YiVal，手动调整已成为过去。这种以数据驱动和以评估为中心的方法可确保最佳提示、精确的 RAG 配置和微调的模型参数。使用 YiVal 使您的应用程序能够轻松实现增强的结果、减少延迟并最大限度地降低推理成本！
+
+## 可观测性
+- [llamaindex-可观测性](https://docs.llamaindex.ai/en/stable/module_guides/observability/observability.html)    
+  - [langfuse](https://github.com/langfuse/langfuse)
+  - [phoenix](https://github.com/Arize-ai/phoenix)
+  - [openllmetry](https://github.com/traceloop/openllmetry)
+- [lunary](https://lunary.ai/)
+- 
 ## 课程
 - [短课程 Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
 ## 视频
