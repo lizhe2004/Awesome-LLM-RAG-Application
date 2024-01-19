@@ -11,22 +11,23 @@ the resources about the application based on LLM with RAG pattern
 - [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/)
   - [构建LLM系统和应用的模式](https://tczjw7bsp1.feishu.cn/docx/Z6vvdyAdXou7XmxuXt2cigZUnTb?from=from_copylink)
 ## 介绍 
-- [Microsoft=Retrieval Augmented Generation (RAG) in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview)
-  - [Azure AI 搜索之检索增强生成（RAG）](https://tczjw7bsp1.feishu.cn/docx/JJ7ldrO4Zokjq7xZIJcc5IZjnFh?from=from_copylink)
-- [azure openai design patterns- RAG](https://github.com/microsoft/azure-openai-design-patterns/tree/main/patterns/03-retrieval-augmented-generation)
+- [Microsoft-Retrieval Augmented Generation (RAG) in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview)
+  - [**微软**-Azure AI 搜索之检索增强生成（RAG）](https://tczjw7bsp1.feishu.cn/docx/JJ7ldrO4Zokjq7xZIJcc5IZjnFh?from=from_copylink)
+- [**azure** openai design patterns- RAG](https://github.com/microsoft/azure-openai-design-patterns/tree/main/patterns/03-retrieval-augmented-generation)
 - [IBM-What is retrieval-augmented generation-IBM](https://research.ibm.com/blog/retrieval-augmented-generation-RAG)
-  - [IBM-什么是检索增强生成](https://tczjw7bsp1.feishu.cn/wiki/OMUVwsxlSiqjj4k4YkicUQbcnDg?from=from_copylink)
-- [Amazon-Retrieval Augmented Generation (RAG)](https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-foundation-models-customize-rag.html)
-- [Nvidia=What Is Retrieval-Augmented Generation?](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/?ncid=so-twit-174237&=&linkId=100000226744098)
-  - [英伟达-什么是检索增强生成](https://tczjw7bsp1.feishu.cn/docx/V6ysdAewzoflhmxJDwTcahZCnYI?from=from_copylink)
+  - [**IBM**-什么是检索增强生成](https://tczjw7bsp1.feishu.cn/wiki/OMUVwsxlSiqjj4k4YkicUQbcnDg?from=from_copylink)
+- [**Amazon**-Retrieval Augmented Generation (RAG)](https://docs.aws.amazon.com/sagemaker/latest/dg/jumpstart-foundation-models-customize-rag.html)
+- [Nvidia-What Is Retrieval-Augmented Generation?](https://blogs.nvidia.com/blog/what-is-retrieval-augmented-generation/?ncid=so-twit-174237&=&linkId=100000226744098)
+  - [**英伟达**-什么是检索增强生成](https://tczjw7bsp1.feishu.cn/docx/V6ysdAewzoflhmxJDwTcahZCnYI?from=from_copylink)
 - [Meta-Retrieval Augmented Generation: Streamlining the creation of intelligent natural language processing models](https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/)
-  - [Meta-检索增强生成：简化智能自然语言处理模型的创建](https://tczjw7bsp1.feishu.cn/wiki/TsL8wAsbtiLfDmk1wFJcQsiGnQb?from=from_copylink)
-- [Disadvantages of RAG ](https://medium.com/@kelvin.lu.au/disadvantages-of-rag-5024692f2c53)
-  - [RAG的缺点](https://tczjw7bsp1.feishu.cn/docx/UZCCdKmLEo7VHQxWPdNcGzICnEd?from=from_copylink)
-- [Cohere-Introducing Chat with Retrieval-Augmented Generation (RAG)](https://txt.cohere.com/chat-with-rag/)
-- [Pinecone-Retrieval Augmented Generation](https://www.pinecone.io/learn/series/rag/)
+  - [**Meta**-检索增强生成：简化智能自然语言处理模型的创建](https://tczjw7bsp1.feishu.cn/wiki/TsL8wAsbtiLfDmk1wFJcQsiGnQb?from=from_copylink)
+- [**Cohere**-Introducing Chat with Retrieval-Augmented Generation (RAG)](https://txt.cohere.com/chat-with-rag/)
+- [**Pinecone**-Retrieval Augmented Generation](https://www.pinecone.io/learn/series/rag/)
+- [**Milvus**-Build AI Apps with Retrieval Augmented Generation (RAG)](https://zilliz.com/learn/Retrieval-Augmented-Generation?utm_source=twitter&utm_medium=social&utm_term=zilliz)
 - [Knowledge Retrieval Takes Center Stage](https://towardsdatascience.com/knowledge-retrieval-takes-center-stage-183be733c6e8)
-  - [知识检索成为焦点](https://tczjw7bsp1.feishu.cn/docx/VELQdaizVoknrrxND3jcLkZZn8d?from=from_copylink)   
+  - [知识检索成为焦点](https://tczjw7bsp1.feishu.cn/docx/VELQdaizVoknrrxND3jcLkZZn8d?from=from_copylink)  
+- [Disadvantages of RAG ](https://medium.com/@kelvin.lu.au/disadvantages-of-rag-5024692f2c53)
+  - [RAG的缺点](https://tczjw7bsp1.feishu.cn/docx/UZCCdKmLEo7VHQxWPdNcGzICnEd?from=from_copylink) 
 ## 比较
 - [Retrieval-Augmented Generation (RAG) or Fine-tuning  — Which Is the Best Tool to Boost Your LLM Application?](https://www.linkedin.com/pulse/retrieval-augmented-generation-rag-fine-tuning-which-best-victoria-s-)
   - [RAG还是微调，优化LLM应用的最佳工具是哪个？](https://tczjw7bsp1.feishu.cn/wiki/TEtHwkclWirBwqkWeddcY8HXnZf?chunked=false)
@@ -39,8 +40,11 @@ the resources about the application based on LLM with RAG pattern
   - [从好到优秀：如何预处理文件来加速人工智能的输出](https://tczjw7bsp1.feishu.cn/docx/HpFOdBVlIo2nE5xHN8GcPqaSnxg?from=from_copylink)   
 - [5 Levels Of Text Splitting](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/5_Levels_Of_Text_Splitting.ipynb) 
   - [Semantic Chunker](https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/node_parser/semantic_chunking/semantic_chunking.ipynb)
--  
+
+
 ## 检索
+- [Foundations of Vector Retrieval](arxiv.org/abs/2401.09350) 
+  - 这本200多页的专题论文提供了向量检索文献中主要算法里程碑的总结，目的是作为新老研究者可以独立参考的资料。
 - [Query Transformations](https://blog.langchain.dev/query-transformations/)
   - [基于LLM的RAG应用的问句转换的技巧（译）](https://tczjw7bsp1.feishu.cn/docx/UaOJdXdIzoUTBTxIuxscRAJLnfh?from=from_copylink)
 - [Query Construction](https://blog.langchain.dev/query-construction/)
@@ -92,14 +96,16 @@ the resources about the application based on LLM with RAG pattern
   - 4.调用对话接口时通过 knowledge_base 字段传入知识库 ID 列表，大模型使用检索到的知识信息回答问题。
 - [COZE](https://www.coze.com/)
   - 应用编辑平台，旨在开发下一代人工智能聊天机器人。无论您是否有编程经验，该平台都可以让您快速创建各种类型的聊天机器人并将其部署在不同的社交平台和消息应用程序上。
+ - [Devv-ai](https://devv.ai/zh)
+   - 最懂程序员的新一代 AI 搜索引擎，底层采用了RAG的大模型应用模式，LLM模型为其微调的模型。
+
+ 
  ## 开源工具
 
  ### RAG框架
 - [LangChain](https://github.com/langchain-ai/langchain/)
 - [langchain4j](https://github.com/langchain4j/langchain4j)
 - [LlamaIndex](https://github.com/run-llama/llama_index/)
-- [Unstructured](https://github.com/Unstructured-IO/unstructured)
-  - 该库提供了用于摄取和预处理图像和文本文档（如 PDF、HTML、WORD 文档等）的开源组件。 unstructured的使用场景围绕着简化和优化LLM数据处理工作流程，   unstructured模块化功能和连接器形成了一个有内聚性的系统，简化了数据摄取和预处理，使其能够适应不同的平台，并有效地将非结构化数据转换为结构化输出。
 - [GPT-RAG](https://github.com/Azure/GPT-RAG)
   - GPT-RAG提供了一个强大的架构，专为RAG模式的企业级部署量身定制。它确保了扎实的回应，并建立在零信任安全和负责任的人工智能基础上，确保可用性、可扩展性和可审计性。非常适合正在从探索和PoC阶段过渡到全面生产和MVP的组织。
 - [QAnything](https://github.com/netease-youdao/QAnything/tree/master)
@@ -113,6 +119,12 @@ the resources about the application based on LLM with RAG pattern
   - 这是向量数据库weaviate开源的一款RAG应用，旨在为开箱即用的检索增强生成 (RAG) 提供端到端、简化且用户友好的界面。只需几个简单的步骤，即可在本地或通过 OpenAI、Cohere 和 HuggingFace 等 LLM 提供商轻松探索数据集并提取见解。
 - [danswer](https://github.com/danswer-ai/danswer)
   - 允许您针对内部文档提出自然语言问题，并获得由源材料中的引用和参考文献支持的可靠答案，以便您始终可以信任您得到的结果。您可以连接到许多常用工具，例如 Slack、GitHub、Confluence 等。
+
+### 预处理
+- [Unstructured](https://github.com/Unstructured-IO/unstructured)
+  - 该库提供了用于摄取和预处理图像和文本文档（如 PDF、HTML、WORD 文档等）的开源组件。 unstructured的使用场景围绕着简化和优化LLM数据处理工作流程，   unstructured模块化功能和连接器形成了一个有内聚性的系统，简化了数据摄取和预处理，使其能够适应不同的平台，并有效地将非结构化数据转换为结构化输出。
+
+
 ### 路由
 - [semantic-router](https://github.com/aurelio-labs/semantic-router)
 ### 评测框架 
@@ -128,11 +140,11 @@ the resources about the application based on LLM with RAG pattern
  - [Llamaindex-evaluation](https://docs.llamaindex.ai/en/stable/optimizing/evaluation/evaluation.html)
 ### Embedding
  - [BCEmbedding](https://github.com/netease-youdao/BCEmbedding/tree/master)
-   - 网易有道开发的双语和跨语种语义表征算法模型库，其中包含 EmbeddingModel和 RerankerModel两类基础模型。EmbeddingModel专门用于生成语义向量，在语义搜索和问答中起着关键作用，而 RerankerModel擅长优化语义搜索结果和语义相关顺序精排。
+   - **网易有道**开发的双语和跨语种语义表征算法模型库，其中包含 **Embedding**Model和 **Reranker**Model两类基础模型。EmbeddingModel专门用于生成语义向量，在语义搜索和问答中起着关键作用，而 RerankerModel擅长优化语义搜索结果和语义相关顺序精排。
  - [BGE-Embedding](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/baai_general_embedding)
-   - BGE Embedding是一个通用向量模型,使用retromae 对模型进行预训练，再用对比学习在大规模成对数据上训练模型。
+   - 北京智源人工智能研究院开源的embeeding通用向量模型,使用retromae 对模型进行预训练，再用对比学习在大规模成对数据上训练模型。
  - [bge-reranker-large](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/reranker)
-   - 交叉编码器将对查询和答案实时计算相关性分数，这比向量模型(即双编码器)更准确，但比向量模型更耗时。 因此，它可以用来对嵌入模型返回的前k个文档重新排序
+   - 北京智源人工智能研究院开源，交叉编码器将对查询和答案实时计算相关性分数，这比向量模型(即双编码器)更准确，但比向量模型更耗时。 因此，它可以用来对嵌入模型返回的前k个文档重新排序
 ### Prompting
 - [YiVal](https://github.com/YiVal/YiVal)
   - GenAI 应用程序的自动提示工程助手 YiVal 是一款最先进的工具，旨在简化 GenAI 应用程序提示和循环中任何配置的调整过程。有了 YiVal，手动调整已成为过去。这种以数据驱动和以评估为中心的方法可确保最佳提示、精确的 RAG 配置和微调的模型参数。使用 YiVal 使您的应用程序能够轻松实现增强的结果、减少延迟并最大限度地降低推理成本！
@@ -146,17 +158,22 @@ the resources about the application based on LLM with RAG pattern
 - 
 ## 课程
 - [短课程 Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
+- [Retrieval Augmented Generation for Production with LangChain & LlamaIndex](https://learn.activeloop.ai/courses/rag?utm_source=Twitter&utm_medium=social&utm_campaign=student-social-share)
 ## 视频
-  - [A Survey of Techniques for Maximizing LLM Performance](https://www.youtube.com/watch?v=ahnGLM-RC1Y&ab_channel=OpenAI)
-
+- [A Survey of Techniques for Maximizing LLM Performance](https://www.youtube.com/watch?v=ahnGLM-RC1Y&ab_channel=OpenAI)
+- [How do domain-specific chatbots work? An overview of retrieval augmented generation (RAG)](https://www.youtube.com/watch?v=1ifymr7SiH8&ab_channel=CoryZue)
+  - [文字版](https://scriv.ai/guides/retrieval-augmented-generation-overview/)
   ## 论文
   - [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)
+- [ 论文-设计检索增强生成系统时的七个故障点](https://arxiv.org/abs/2401.05856)
+  - Seven Failure Points When Engineering a Retrieval Augmented Generation System
+
 ## 其他
 - [构建企业级AI助手的经验教训](https://tczjw7bsp1.feishu.cn/docx/Hq4Hd7JXEoHdGZxomkecEDs3n6b?from=from_copylink)
   - [How to build an AI assistant for the enterprise](https://www.glean.com/blog/lessons-and-learnings-from-building-an-enterprise-ready-ai-assistant)
 - [Large Language Model (LLM) Disruption of Chatbots](https://cobusgreyling.medium.com/large-language-model-llm-disruption-of-chatbots-8115fffadc22)
-  - [大型语言模型 （LLM）对聊天机器人的颠覆 ](https://tczjw7bsp1.feishu.cn/docx/GbxKdkpwrodWRnxW4ffcBU0Gnur?from=from_copylink)
+  - [大型语言模型 （LLM）对聊天机器人的颠覆](https://tczjw7bsp1.feishu.cn/docx/GbxKdkpwrodWRnxW4ffcBU0Gnur?from=from_copylink)
 - [Gen AI: why does simple Retrieval Augmented Generation (RAG) not work for insurance?](https://www.zelros.com/2023/10/27/gen-ai-why-does-simple-retrieval-augmented-generation-rag-not-work-for-insurance/)
-  - [什么是检索增强生成 （RAG） ？为什么我们需要RAG来投保？](https://tczjw7bsp1.feishu.cn/docx/KfbidIiZBoPfb3xrT0WcL70LnPd?from=from_copylink) 
+  - [生成式AI:为什么RAG在保险领域起不了作用？](https://tczjw7bsp1.feishu.cn/docx/KfbidIiZBoPfb3xrT0WcL70LnPd?from=from_copylink) 
 - [OpenAI 如何优化 LLM 的效果](https://www.breezedeus.com/article/make-llm-greater)
 - [End-to-End LLMOps Platform](https://medium.com/@bijit211987/end-to-end-llmops-platform-514044dc791d)

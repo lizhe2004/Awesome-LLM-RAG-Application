@@ -3,6 +3,7 @@
   - [中译版 检索增强生成（RAG）：从理论到 LangChain 实践](https://baoyu.io/translations/rag/retrieval-augmented-generation-rag-from-theory-to-langchain-implementation)
 - [A Guide on 12 Tuning Strategies for Production-Ready RAG Applications](https://towardsdatascience.com/a-guide-on-12-tuning-strategies-for-production-ready-rag-applications-7ca646833439)
   - [12 种调整策略指南：为生产环境打造高效的 RAG 应用](https://baoyu.io/translations/rag/a-guide-on-12-tuning-strategies-for-production-ready-rag-applications)
+
 - [Building Performant RAG Applications for Production](https://docs.llamaindex.ai/en/stable/optimizing/production_rag.html)
   - [构建用于生产环境的高性能 RAG 应用程序](https://tczjw7bsp1.feishu.cn/wiki/VT5qwPOwQimGAqkzAVWc1PQmnfe?from=from_copylink)
 - [Practical Considerations in RAG Application Design](https://pub.towardsai.net/practical-considerations-in-rag-application-design-b5d5f0b2d19b)
