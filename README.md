@@ -35,55 +35,7 @@ the resources about the application based on LLM with RAG pattern
 - [RAG vs Finetuning — Which Is the Best Tool to Boost Your LLM Application?](https://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7)
   - [RAG 与微调 — 哪个是提升优化 LLM 应用的最佳工具？](https://tczjw7bsp1.feishu.cn/wiki/Cs9ywwzJSiFrg9kX2r1ch4Nxnth)
 - [A Survey on In-context Learning](https://arxiv.org/abs/2301.00234)
-## 预处理
-- [From Good to Great: How Pre-processing Documents Supercharges AI’s Output](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/mlearning-ai/from-good-to-great-how-pre-processing-documents-supercharges-ais-output-cf9ecf1bd18c)
-  - [从好到优秀：如何预处理文件来加速人工智能的输出](https://tczjw7bsp1.feishu.cn/docx/HpFOdBVlIo2nE5xHN8GcPqaSnxg?from=from_copylink)   
-- [5 Levels Of Text Splitting](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/5_Levels_Of_Text_Splitting.ipynb) 
-  - [Semantic Chunker](https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/node_parser/semantic_chunking/semantic_chunking.ipynb)
 
-
-## 检索
-- [Foundations of Vector Retrieval](arxiv.org/abs/2401.09350) 
-  - 这本200多页的专题论文提供了向量检索文献中主要算法里程碑的总结，目的是作为新老研究者可以独立参考的资料。
-- [Query Transformations](https://blog.langchain.dev/query-transformations/)
-  - [基于LLM的RAG应用的问句转换的技巧（译）](https://tczjw7bsp1.feishu.cn/docx/UaOJdXdIzoUTBTxIuxscRAJLnfh?from=from_copylink)
-- [Query Construction](https://blog.langchain.dev/query-construction/)
-  - [查询构造](https://tczjw7bsp1.feishu.cn/docx/Wo0Sdn23voh0Wqx245zcu1Kpnuf?from=from_copylink)
-- [Improving Retrieval Performance in RAG Pipelines with Hybrid Search](https://towardsdatascience.com/improving-retrieval-performance-in-rag-pipelines-with-hybrid-search-c75203c2f2f5)
-  - [在 RAG 流程中提高检索效果：融合传统关键词与现代向量搜索的混合式搜索技术](https://baoyu.io/translations/rag/improving-retrieval-performance-in-rag-pipelines-with-hybrid-search)
-- [Multi-Vector Retriever for RAG on tables, text, and images](https://blog.langchain.dev/semi-structured-multi-modal-rag/)
-  - [针对表格、文本和图片的RAG多向量检索器](https://tczjw7bsp1.feishu.cn/docx/Q8T8dZC0qoV2KRxPh8ScqoHanHg?from=from_copylink)
-- [Relevance and ranking in vector search](https://learn.microsoft.com/en-us/azure/search/vector-search-ranking#hybrid-search)
-  - [向量查询中的相关性和排序](https://tczjw7bsp1.feishu.cn/docx/VJIWd90fUohXLlxY243cQhKCnXf?from=from_copylink)
-- [Boosting RAG: Picking the Best Embedding & Reranker models](https://blog.llamaindex.ai/boosting-rag-picking-the-best-embedding-reranker-models-42d079022e83)  
-  -  [提升优化 RAG：挑选最好的嵌入和重排模型](https://tczjw7bsp1.feishu.cn/docx/CtLCdwon9oDIF4x49mOchmjxnud?from=from_copylink)
-- [Azure Cognitive Search: Outperforming vector search with hybrid retrieval and ranking capabilities](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/azure-cognitive-search-outperforming-vector-search-with-hybrid/ba-p/3929167)
-  - [Azure认知搜索:通过混合检索和排序功能优于向量搜索](https://tczjw7bsp1.feishu.cn/docx/CDtGdwQJXo0mYVxaLpecXWuRnLc?from=from_copylink)
-- [Optimizing Retrieval Augmentation with Dynamic Top-K Tuning for Efficient Question Answering](https://medium.com/@sauravjoshi23/optimizing-retrieval-augmentation-with-dynamic-top-k-tuning-for-efficient-question-answering-11961503d4ae)
-  - [动态 Top-K 调优优化检索增强功能实现高效的问答](https://tczjw7bsp1.feishu.cn/docx/HCzAdk2BmoBg3lxA7ZOcn3KlnJb?from=from_copylink)
-- [Building Production-Ready LLM Apps with LlamaIndex: Document Metadata for Higher Accuracy Retrieval ](https://webcache.googleusercontent.com/search?q=cache:https://betterprogramming.pub/building-production-ready-llm-apps-with-llamaindex-document-metadata-for-higher-accuracy-retrieval-a8ceca641fb5)
-  - [使用 LlamaIndex 构建生产就绪型 LLM 应用程序：用于更高精度检索的文档元数据](https://tczjw7bsp1.feishu.cn/wiki/St29wfD5QiMcThk8ElncSe90nZe?from=from_copylink)   
-## 评估
-- [Evaluating RAG Applications with RAGAs](https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a)
-  - [用 RAGAs（检索增强生成评估）评估 RAG（检索增强型生成）应用](https://baoyu.io/translations/rag/evaluating-rag-applications-with-ragas)
-- [Best Practices for LLM Evaluation of RAG Applications](https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG)
-  - [RAG应用的LLM评估最佳实践（译）](https://tczjw7bsp1.feishu.cn/docx/TQJcdzfcfomL4QxqgkfchvbOnog?from=from_copylink)
-- [Exploring End-to-End Evaluation of RAG Pipelines](https://webcache.googleusercontent.com/search?q=cache:https://betterprogramming.pub/exploring-end-to-end-evaluation-of-rag-pipelines-e4c03221429)
-  - [探索 RAG 管道的端到端评估](https://tczjw7bsp1.feishu.cn/wiki/XL8WwjYU9i1sltkawl1cYOounOg?from=from_copylink)
-- [Evaluating Multi-Modal Retrieval-Augmented Generation](https://blog.llamaindex.ai/evaluating-multi-modal-retrieval-augmented-generation-db3ca824d428)
-  - [评估多模态检索增强生成](https://tczjw7bsp1.feishu.cn/docx/DrDQdj29DoDhahx9439cjb30nrd?from=from_copylink)
-- [RAG Evaluation](https://cobusgreyling.medium.com/rag-evaluation-9813a931b3d4)   
-  - [RAG评估](https://tczjw7bsp1.feishu.cn/wiki/WzPnwFMgbisICCk9BFrc9XYanme?from=from_copylink)
-- [Evaluation - LlamaIndex](https://docs.llamaindex.ai/en/stable/module_guides/evaluating/root.html)
-  - [评估-LlamaIndex](https://tczjw7bsp1.feishu.cn/wiki/KiSow8rXviiHDWki4kycULRWnqg?from=from_copylink)
-
-## 实践
-- [实践](./practice.md)
-
-## 幻觉
-- [Let’s Talk About LLM Hallucinations](https://webcache.googleusercontent.com/search?q=cache:https://levelup.gitconnected.com/lets-talk-about-llm-hallucinations-9c8dab3e7ac3)
-  - [谈一谈LLM幻觉](https://tczjw7bsp1.feishu.cn/docx/G7KJdjENqoMYyhxw05rc8vrgn1c?from=from_copylink)
-  - 
 ## 应用参考
 - [Kimi Chat](https://kimi.moonshot.cn/)
   - 支持发送网页链接和上传文件进行回答
@@ -145,17 +97,103 @@ the resources about the application based on LLM with RAG pattern
    - 北京智源人工智能研究院开源的embeeding通用向量模型,使用retromae 对模型进行预训练，再用对比学习在大规模成对数据上训练模型。
  - [bge-reranker-large](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/reranker)
    - 北京智源人工智能研究院开源，交叉编码器将对查询和答案实时计算相关性分数，这比向量模型(即双编码器)更准确，但比向量模型更耗时。 因此，它可以用来对嵌入模型返回的前k个文档重新排序
+ - [gte-base-zh](https://modelscope.cn/models/iic/nlp_gte_sentence-embedding_chinese-base/summary)
+   - GTE text embedding GTE中文通用文本表示模型 通义实验室提供
 ### Prompting
 - [YiVal](https://github.com/YiVal/YiVal)
   - GenAI 应用程序的自动提示工程助手 YiVal 是一款最先进的工具，旨在简化 GenAI 应用程序提示和循环中任何配置的调整过程。有了 YiVal，手动调整已成为过去。这种以数据驱动和以评估为中心的方法可确保最佳提示、精确的 RAG 配置和微调的模型参数。使用 YiVal 使您的应用程序能够轻松实现增强的结果、减少延迟并最大限度地降低推理成本！
 
-## 可观测性
+### LLM部署和serving
+- [vllm](vllm)
+- [OpenLLM]()
+- 
+### 可观测性
 - [llamaindex-可观测性](https://docs.llamaindex.ai/en/stable/module_guides/observability/observability.html)    
   - [langfuse](https://github.com/langfuse/langfuse)
   - [phoenix](https://github.com/Arize-ai/phoenix)
   - [openllmetry](https://github.com/traceloop/openllmetry)
 - [lunary](https://lunary.ai/)
-- 
+### 其他
+- [RAGxplorer](https://github.com/gabrielchua/RAGxplorer) 
+  - RAGxplorer 是一种交互式 Streamlit 工具，通过将文档块和的查询问句展示为embedding向量空间中可的视化内容来支持检索增强生成 (RAG) 应用程序的构建。
+
+## 论文
+  - [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)
+- [ 论文-设计检索增强生成系统时的七个故障点](https://arxiv.org/abs/2401.05856)
+  - Seven Failure Points When Engineering a Retrieval Augmented Generation System
+- [Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents](https://arxiv.org/abs/2304.09542)
+- [Bridging the Preference Gap between Retrievers and LLMs
+](https://arxiv.org/abs/2401.06954)
+- [Tuning Language Models by Proxy](https://arxiv.org/abs/2401.08565)
+
+## RAG构建策略
+### 预处理
+- [From Good to Great: How Pre-processing Documents Supercharges AI’s Output](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/mlearning-ai/from-good-to-great-how-pre-processing-documents-supercharges-ais-output-cf9ecf1bd18c)
+  - [从好到优秀：如何预处理文件来加速人工智能的输出](https://tczjw7bsp1.feishu.cn/docx/HpFOdBVlIo2nE5xHN8GcPqaSnxg?from=from_copylink)   
+- [5 Levels Of Text Splitting](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/5_Levels_Of_Text_Splitting.ipynb) 
+  - [Semantic Chunker](https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/node_parser/semantic_chunking/semantic_chunking.ipynb)
+
+
+### 检索
+- [Foundations of Vector Retrieval](arxiv.org/abs/2401.09350) 
+  - 这本200多页的专题论文提供了向量检索文献中主要算法里程碑的总结，目的是作为新老研究者可以独立参考的资料。
+- [Query Transformations](https://blog.langchain.dev/query-transformations/)
+  - [基于LLM的RAG应用的问句转换的技巧（译）](https://tczjw7bsp1.feishu.cn/docx/UaOJdXdIzoUTBTxIuxscRAJLnfh?from=from_copylink)
+- [Query Construction](https://blog.langchain.dev/query-construction/)
+  - [查询构造](https://tczjw7bsp1.feishu.cn/docx/Wo0Sdn23voh0Wqx245zcu1Kpnuf?from=from_copylink)
+- [Improving Retrieval Performance in RAG Pipelines with Hybrid Search](https://towardsdatascience.com/improving-retrieval-performance-in-rag-pipelines-with-hybrid-search-c75203c2f2f5)
+  - [在 RAG 流程中提高检索效果：融合传统关键词与现代向量搜索的混合式搜索技术](https://baoyu.io/translations/rag/improving-retrieval-performance-in-rag-pipelines-with-hybrid-search)
+- [Multi-Vector Retriever for RAG on tables, text, and images](https://blog.langchain.dev/semi-structured-multi-modal-rag/)
+  - [针对表格、文本和图片的RAG多向量检索器](https://tczjw7bsp1.feishu.cn/docx/Q8T8dZC0qoV2KRxPh8ScqoHanHg?from=from_copylink)
+- [Relevance and ranking in vector search](https://learn.microsoft.com/en-us/azure/search/vector-search-ranking#hybrid-search)
+  - [向量查询中的相关性和排序](https://tczjw7bsp1.feishu.cn/docx/VJIWd90fUohXLlxY243cQhKCnXf?from=from_copylink)
+- [Boosting RAG: Picking the Best Embedding & Reranker models](https://blog.llamaindex.ai/boosting-rag-picking-the-best-embedding-reranker-models-42d079022e83)  
+  -  [提升优化 RAG：挑选最好的嵌入和重排模型](https://tczjw7bsp1.feishu.cn/docx/CtLCdwon9oDIF4x49mOchmjxnud?from=from_copylink)
+- [Azure Cognitive Search: Outperforming vector search with hybrid retrieval and ranking capabilities](https://techcommunity.microsoft.com/t5/ai-azure-ai-services-blog/azure-cognitive-search-outperforming-vector-search-with-hybrid/ba-p/3929167)
+  - [Azure认知搜索:通过混合检索和排序功能优于向量搜索](https://tczjw7bsp1.feishu.cn/docx/CDtGdwQJXo0mYVxaLpecXWuRnLc?from=from_copylink)
+- [Optimizing Retrieval Augmentation with Dynamic Top-K Tuning for Efficient Question Answering](https://medium.com/@sauravjoshi23/optimizing-retrieval-augmentation-with-dynamic-top-k-tuning-for-efficient-question-answering-11961503d4ae)
+  - [动态 Top-K 调优优化检索增强功能实现高效的问答](https://tczjw7bsp1.feishu.cn/docx/HCzAdk2BmoBg3lxA7ZOcn3KlnJb?from=from_copylink)
+- [Building Production-Ready LLM Apps with LlamaIndex: Document Metadata for Higher Accuracy Retrieval ](https://webcache.googleusercontent.com/search?q=cache:https://betterprogramming.pub/building-production-ready-llm-apps-with-llamaindex-document-metadata-for-higher-accuracy-retrieval-a8ceca641fb5)
+  - [使用 LlamaIndex 构建生产就绪型 LLM 应用程序：用于更高精度检索的文档元数据](https://tczjw7bsp1.feishu.cn/wiki/St29wfD5QiMcThk8ElncSe90nZe?from=from_copylink) 
+ 
+
+### 检索后处理
+#### 重排序
+-  [RankGPT Reranker Demonstration](https://github.com/run-llama/llama_index/blob/main/docs/examples/node_postprocessor/rankGPT.ipynb) 
+#### Contextual（Prompt） Compression
+- [How to Cut RAG Costs by 80% Using Prompt Compression](https://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/how-to-cut-rag-costs-by-80-using-prompt-compression-877a07c6bedb)  
+  - 第一种压缩方法是 AutoCompressors。它的工作原理是将长文本汇总为短向量表示，称为汇总向量。然后，这些压缩的摘要向量充当模型的软提示。
+- [LangChain Contextual Compression](https://python.langchain.com/docs/modules/data_connection/retrievers/contextual_compression/?ref=blog.langchain.dev)
+#### 其他
+- [Bridging the rift in Retrieval Augmented Generation](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/@alcarazanthony1/bridging-the-rift-in-retrieval-augmented-generation-3e12f379f66c)
+  - 不是直接微调检索器和语言模型等效果不佳的基础模块，而是引入了第三个参与者——位于现有组件之间的中间桥接模块。涉及技术包括**排序**、**压缩**、**上下文框架**、**条件推理脚手架**、**互动询问**等 （可参考后续论文）
+### 评估
+- [Evaluating RAG Applications with RAGAs](https://towardsdatascience.com/evaluating-rag-applications-with-ragas-81d67b0ee31a)
+  - [用 RAGAs（检索增强生成评估）评估 RAG（检索增强型生成）应用](https://baoyu.io/translations/rag/evaluating-rag-applications-with-ragas)
+- [Best Practices for LLM Evaluation of RAG Applications](https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG)
+  - [RAG应用的LLM评估最佳实践（译）](https://tczjw7bsp1.feishu.cn/docx/TQJcdzfcfomL4QxqgkfchvbOnog?from=from_copylink)
+- [Exploring End-to-End Evaluation of RAG Pipelines](https://webcache.googleusercontent.com/search?q=cache:https://betterprogramming.pub/exploring-end-to-end-evaluation-of-rag-pipelines-e4c03221429)
+  - [探索 RAG 管道的端到端评估](https://tczjw7bsp1.feishu.cn/wiki/XL8WwjYU9i1sltkawl1cYOounOg?from=from_copylink)
+- [Evaluating Multi-Modal Retrieval-Augmented Generation](https://blog.llamaindex.ai/evaluating-multi-modal-retrieval-augmented-generation-db3ca824d428)
+  - [评估多模态检索增强生成](https://tczjw7bsp1.feishu.cn/docx/DrDQdj29DoDhahx9439cjb30nrd?from=from_copylink)
+- [RAG Evaluation](https://cobusgreyling.medium.com/rag-evaluation-9813a931b3d4)   
+  - [RAG评估](https://tczjw7bsp1.feishu.cn/wiki/WzPnwFMgbisICCk9BFrc9XYanme?from=from_copylink)
+- [Evaluation - LlamaIndex](https://docs.llamaindex.ai/en/stable/module_guides/evaluating/root.html)
+  - [评估-LlamaIndex](https://tczjw7bsp1.feishu.cn/wiki/KiSow8rXviiHDWki4kycULRWnqg?from=from_copylink)
+  - [Pinecone的RAG评测](https://www.pinecone.io/blog/rag-study/)
+    - 不同数据规模下不同模型的RAG忠实度效果
+    - 不同模型下使用RAG与不是用RAG(仅依靠内部知识）的忠实度效果
+    - 不同模型下结合内部和外部知识后的RAG忠实度效果
+    - 不同模型下的RAG的答案相关度效果
+
+## 实践
+- [实践](./practice.md)
+
+## 幻觉
+- [Let’s Talk About LLM Hallucinations](https://webcache.googleusercontent.com/search?q=cache:https://levelup.gitconnected.com/lets-talk-about-llm-hallucinations-9c8dab3e7ac3)
+  - [谈一谈LLM幻觉](https://tczjw7bsp1.feishu.cn/docx/G7KJdjENqoMYyhxw05rc8vrgn1c?from=from_copylink)
+  - 
+
 ## 课程
 - [短课程 Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
 - [Retrieval Augmented Generation for Production with LangChain & LlamaIndex](https://learn.activeloop.ai/courses/rag?utm_source=Twitter&utm_medium=social&utm_campaign=student-social-share)
@@ -163,10 +201,7 @@ the resources about the application based on LLM with RAG pattern
 - [A Survey of Techniques for Maximizing LLM Performance](https://www.youtube.com/watch?v=ahnGLM-RC1Y&ab_channel=OpenAI)
 - [How do domain-specific chatbots work? An overview of retrieval augmented generation (RAG)](https://www.youtube.com/watch?v=1ifymr7SiH8&ab_channel=CoryZue)
   - [文字版](https://scriv.ai/guides/retrieval-augmented-generation-overview/)
-  ## 论文
-  - [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)
-- [ 论文-设计检索增强生成系统时的七个故障点](https://arxiv.org/abs/2401.05856)
-  - Seven Failure Points When Engineering a Retrieval Augmented Generation System
+  
 
 ## 其他
 - [构建企业级AI助手的经验教训](https://tczjw7bsp1.feishu.cn/docx/Hq4Hd7JXEoHdGZxomkecEDs3n6b?from=from_copylink)
