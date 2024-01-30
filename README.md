@@ -10,6 +10,8 @@ the resources about the application based on LLM with RAG pattern
 - [高级RAG应用构建指南和总结](https://blog.llamaindex.ai/a-cheat-sheet-and-some-recipes-for-building-advanced-rag-803a9d94c41b)
 - [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/)
   - [构建LLM系统和应用的模式](https://tczjw7bsp1.feishu.cn/docx/Z6vvdyAdXou7XmxuXt2cigZUnTb?from=from_copylink)
+- [RAG大全](https://aman.ai/primers/ai/RAG/)
+  - [中译版](https://tczjw7bsp1.feishu.cn/docx/GfwOd3rASo6lI4xoFsycUiz8nhg)
 ## 介绍 
 - [Microsoft-Retrieval Augmented Generation (RAG) in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview)
   - [**微软**-Azure AI 搜索之检索增强生成（RAG）](https://tczjw7bsp1.feishu.cn/docx/JJ7ldrO4Zokjq7xZIJcc5IZjnFh?from=from_copylink)
@@ -103,6 +105,13 @@ the resources about the application based on LLM with RAG pattern
 - [YiVal](https://github.com/YiVal/YiVal)
   - GenAI 应用程序的自动提示工程助手 YiVal 是一款最先进的工具，旨在简化 GenAI 应用程序提示和循环中任何配置的调整过程。有了 YiVal，手动调整已成为过去。这种以数据驱动和以评估为中心的方法可确保最佳提示、精确的 RAG 配置和微调的模型参数。使用 YiVal 使您的应用程序能够轻松实现增强的结果、减少延迟并最大限度地降低推理成本！
 
+### SQL增强
+- [vanna](https://github.com/vanna-ai/vanna)
+  - Vanna 是一个MIT许可的开源Python RAG（检索增强生成）框架，用于SQL生成和相关功能。
+  - Vanna 的工作过程分为两个简单步骤 - 在您的数据上训练 RAG“模型”，然后提出问题，这些问题将返回 SQL 查询。训练的数据主要是一些 DDL schema、业务说明文档以及示例sql等，所谓训练主要是将这些数据embedding化，用于向量检索。 
+
+
+
 ### LLM部署和serving
 - [vllm](vllm)
 - [OpenLLM]()
@@ -118,13 +127,19 @@ the resources about the application based on LLM with RAG pattern
   - RAGxplorer 是一种交互式 Streamlit 工具，通过将文档块和的查询问句展示为embedding向量空间中可的视化内容来支持检索增强生成 (RAG) 应用程序的构建。
 
 ## 论文
-  - [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)
+- [Retrieval Augmented Generation: Streamlining the creation of intelligent natural language processing models](https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/)
+- [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)
 - [ 论文-设计检索增强生成系统时的七个故障点](https://arxiv.org/abs/2401.05856)
   - Seven Failure Points When Engineering a Retrieval Augmented Generation System
 - [Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents](https://arxiv.org/abs/2304.09542)
-- [Bridging the Preference Gap between Retrievers and LLMs
-](https://arxiv.org/abs/2401.06954)
+  - [RankGPT Reranker Demonstration (Van Gogh Wiki)](https://github.com/run-llama/llama_index/blob/main/docs/examples/node_postprocessor/rankGPT.ipynb)
+- [Bridging the Preference Gap between Retrievers and LLMs](https://arxiv.org/abs/2401.06954)
 - [Tuning Language Models by Proxy](https://arxiv.org/abs/2401.08565)
+- [Zero-Shot Listwise Document Reranking with a Large Language Model](https://arxiv.org/pdf/2305.02156.pdf)
+  - 这篇论文提到两种重新排序方法：逐点重新排名、列表重新排名。
+  - 逐点重新排名是给定文档列表，我们将查询+每个文档单独提供给 LLM 并要求它产生相关性分数。
+  - 列表重新排名是给定文档列表，我们同时向 LLM 提供查询 + 文档列表，并要求它按相关性对文档进行重新排序。
+  - 建议对 RAG 检索到的文档按列表重新排序，列表重排优于逐点重排。
 
 ## RAG构建策略
 ### 预处理
@@ -159,7 +174,7 @@ the resources about the application based on LLM with RAG pattern
 
 ### 检索后处理
 #### 重排序
--  [RankGPT Reranker Demonstration](https://github.com/run-llama/llama_index/blob/main/docs/examples/node_postprocessor/rankGPT.ipynb) 
+-  [RankGPT Reranker Demonstration](https://github.com/run-llama/llama_index/blob/main/docs/examples/node_postprocessor/rankGPT.ipynb)
 #### Contextual（Prompt） Compression
 - [How to Cut RAG Costs by 80% Using Prompt Compression](https://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/how-to-cut-rag-costs-by-80-using-prompt-compression-877a07c6bedb)  
   - 第一种压缩方法是 AutoCompressors。它的工作原理是将长文本汇总为短向量表示，称为汇总向量。然后，这些压缩的摘要向量充当模型的软提示。
@@ -185,7 +200,7 @@ the resources about the application based on LLM with RAG pattern
     - 不同模型下使用RAG与不是用RAG(仅依靠内部知识）的忠实度效果
     - 不同模型下结合内部和外部知识后的RAG忠实度效果
     - 不同模型下的RAG的答案相关度效果
-
+- [zilliz:Optimizing RAG Applications: A Guide to Methodologies, Metrics, and Evaluation Tools for Enhanced Reliability](https://zilliz.com/blog/how-to-evaluate-retrieval-augmented-generation-rag-applications?utm_source=twitter&utm_medium=social&utm_term=zilliz)
 ## 实践
 - [实践](./practice.md)
 
@@ -201,8 +216,8 @@ the resources about the application based on LLM with RAG pattern
 - [A Survey of Techniques for Maximizing LLM Performance](https://www.youtube.com/watch?v=ahnGLM-RC1Y&ab_channel=OpenAI)
 - [How do domain-specific chatbots work? An overview of retrieval augmented generation (RAG)](https://www.youtube.com/watch?v=1ifymr7SiH8&ab_channel=CoryZue)
   - [文字版](https://scriv.ai/guides/retrieval-augmented-generation-overview/)
-  
-
+ - [nvidia:Augmenting LLMs Using Retrieval Augmented Generation](https://courses.nvidia.com/courses/course-v1:NVIDIA+S-FX-16+v1/course/) 
+- [How to Choose a Vector Database](https://www.youtube.com/watch?v=Yo-AzVpWrRg&ab_channel=Pinecone)
 ## 其他
 - [构建企业级AI助手的经验教训](https://tczjw7bsp1.feishu.cn/docx/Hq4Hd7JXEoHdGZxomkecEDs3n6b?from=from_copylink)
   - [How to build an AI assistant for the enterprise](https://www.glean.com/blog/lessons-and-learnings-from-building-an-enterprise-ready-ai-assistant)
