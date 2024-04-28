@@ -79,6 +79,9 @@ the resources about the application based on LLM with RAG pattern
 
 - [Unstructured](https://github.com/Unstructured-IO/unstructured)
   - 该库提供了用于摄取和预处理图像和文本文档（如 PDF、HTML、WORD 文档等）的开源组件。 unstructured的使用场景围绕着简化和优化LLM数据处理工作流程，   unstructured模块化功能和连接器形成了一个有内聚性的系统，简化了数据摄取和预处理，使其能够适应不同的平台，并有效地将非结构化数据转换为结构化输出。
+- [Open Parse](https://github.com/Filimoa/open-parse)
+  - 对文档进行分块是一项具有挑战性的任务，它支撑着任何 RAG 系统。高质量的结果对于人工智能应用的成功至关重要，但大多数开源库处理复杂文档的能力都受到限制。
+  - Open Parse 旨在通过提供灵活、易于使用的库来填补这一空白，该库能够直观地识别文档布局并有效地对其进行分块。
 
 ### 路由
 
@@ -115,12 +118,23 @@ the resources about the application based on LLM with RAG pattern
 - [Guardrails](https://github.com/guardrails-ai/guardrails)
   - Guardrails 是一个 Python 框架，通过执行两个关键功能来帮助构建可靠的人工智能应用程序：
     - Guardrails 在应用程序中运行输入/输出防护装置，以检测、量化和减轻特定类型风险的存在。要查看全套风险，请访问 [Guardrails Hub](https://hub.guardrailsai.com/)。
-    - Guardrails 可帮助您从 LLMs 生成结构化数据。
+    - Guardrails 可帮助您从 LLMs 生成结构化数据。对输入和输出进行检测
+
+- [LLM-Guard](https://github.com/protectai/llm-guard)
+  - LLM Guard 是一款旨在增强大型语言模型 (LLMs) 安全性的综合工具。
+  - 输入（Anonymize  匿名化、BanCode 禁止代码、BanCompetitors  禁止竞争对手、BanSubstrings  禁止子串、BanTopics  禁止话题、PromptInjection 提示词注射
+、Toxicity  毒性等）
+  - 输出（代码、anCompetitors  禁止竞争对手、Deanonymize 去匿名化、JSON、LanguageSame  语言相同、MaliciousURLs  恶意URL、NoRefusal  不可拒绝、FactualConsistency  事实一致性、URLReachability  URL可达性等）
+  - 各个检测功能是利用了huggingface上的各种开源模型
+
 - [Llama-Guard](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard)
   - Llama Guard 是一个新的实验模型，可为 LLM 部署提供输入和输出防护栏。Llama Guard 是经过微调的 Llama-7B 模型。
 <div align="center">
 <img src="https://raw.githubusercontent.com/guardrails-ai/guardrails/main/docs/img/with_and_without_guardrails.svg" alt="Guardrails in your application" width="1500px">
 </div>
+- [RefChecker](https://github.com/amazon-science/RefChecker)
+  - RefChecker 提供了一个标准化的评估框架来识别大型语言模型输出中存在的微妙幻觉。
+
 
 
 ### Prompting
@@ -152,6 +166,8 @@ the resources about the application based on LLM with RAG pattern
 
 - [RAGxplorer](https://github.com/gabrielchua/RAGxplorer)
   - RAGxplorer 是一种交互式 Streamlit 工具，通过将文档块和的查询问句展示为embedding向量空间中可的视化内容来支持检索增强生成 (RAG) 应用程序的构建。
+- [Rule-Based-Retrieval](https://github.com/whyhow-ai/rule-based-retrieval)
+  - rule-based-retrieval是一个 Python 包，使您能够创建和管理具有高级筛选功能的检索增强生成 (RAG) 应用程序。它与用于文本生成的 OpenAI 和用于高效矢量数据库管理的 Pinecone 无缝集成。
 
 ## 应用参考
 
@@ -180,10 +196,44 @@ the resources about the application based on LLM with RAG pattern
 - [Bridging the Preference Gap between Retrievers and LLMs](https://arxiv.org/abs/2401.06954)
 - [Tuning Language Models by Proxy](https://arxiv.org/abs/2401.08565)
 - [Zero-Shot Listwise Document Reranking with a Large Language Model](https://arxiv.org/pdf/2305.02156.pdf)
-  - 这篇论文提到两种重新排序方法：逐点重新排名、列表重新排名。
+  - 两种重新排序方法：逐点重新排名、列表重新排名。
   - 逐点重新排名是给定文档列表，我们将查询+每个文档单独提供给 LLM 并要求它产生相关性分数。
   - 列表重新排名是给定文档列表，我们同时向 LLM 提供查询 + 文档列表，并要求它按相关性对文档进行重新排序。
   - 建议对 RAG 检索到的文档按列表重新排序，列表重排优于逐点重排。
+- [Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](https://arxiv.org/abs/2310.11511)
+  - 按需检索（On-Demand Retrieval）：
+    - SELF-RAG首先确定是否需要通过检索来增强持续生成的内容。这是通过在模型的输出中插入特殊的检索标记（Retrieve tokens）来实现的，这些标记指示是否需要检索。如果模型确定需要检索，它会输出一个检索标记，调用检索器模型（Retriever model）根据当前的输入和之前的生成内容来检索相关的文段。
+  - 并行处理检索文段（Parallel Processing of Retrieved Passages）：
+    - SELF-RAG会并行处理检索到的多个文段，评估它们的相关性，并基于这些文段生成相应的任务输出。对于每个检索到的文段，模型会预测一个相关性标记（ISREL tokens），以判断文段是否与输入相关。如果文段相关，模型进一步评估文段是否支持模型生成的内容，并预测支持度标记（ISSUP tokens）。
+  - 自我反思和批判（Self-Reflection and Critique）：
+    - 在生成每个段落后，SELF-RAG会生成批判标记（Critique tokens），以批判自己的输出并选择最佳段落。这些批判标记包括对生成内容的事实性（ISSUP）和整体质量（ISUSE）的评价。模型使用这些批判标记来评估自己生成的每个段落，并根据这些评价来调整后续的生成过程。
+  - 训练过程（Training Process）：
+    - SELF-RAG通过一个批评模型（Critic model）来训练生成器模型（Generator model）。批评模型用于生成反思标记，以评估检索到的文段和生成任务输出的质量。训练数据是通过将反思标记插入到原始语料库中来创建的，这些标记是由批评模型预测的。生成器模型被训练为能够自己生成反思标记，而不是在推理时依赖于批评模型。
+  - 推理时的可定制解码（Customizable Decoding at Inference）：
+    - SELF-RAG允许在推理时根据反思标记的预测来调整检索频率和模型行为，以满足不同的下游应用需求。通过使用加权线性组合的反思标记概率作为段落得分，可以实现对生成内容的软约束和硬控制。
+- [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/abs/2403.14403)
+  - Adaptive-RAG是一个动态选择最合适策略的框架，用于处理不同复杂度的查询。它从最简单的到最复杂的策略中选择最适合给定查询复杂度的策略。
+  - 查询复杂度评估（Query Complexity Assessment）：
+    - Adaptive-RAG首先使用一个预训练的较小语言模型（Classifier），该模型被训练用来预测输入查询（query）的复杂度。查询被分为三个复杂度等级：简单（A）、中等（B）和复杂（C），分别对应不同的处理策略。
+  - 选择适当的策略：
+    - 根据查询复杂度的预测结果，Adaptive-RAG动态选择最合适的策略来处理查询。简单查询（A）可能只需要LLM自身的知识即可回答，不需要外部检索。中等复杂度查询（B）可能需要单步检索来提供额外的信息。复杂查询（C）可能需要多步检索和推理来整合多个文档中的信息。
+  - 检索（Retrieval）：
+    - 对于需要检索的查询，Adaptive-RAG使用检索器（Retriever）从知识库中检索与查询相关的文档。
+  - 生成答案（Answer Generation）：
+    - 利用检索到的文档，LLM生成答案。对于单步检索，这可能涉及将检索到的信息整合到LLM的输入中；而对于多步检索，则可能需要迭代地访问检索器和LLM，直到形成最终答案。
+- [Corrective Retrieval Augmented Generation](https://arxiv.org/abs/2401.15884)
+  - 检索文档：使用检索器（R）从知识库（C）中检索与输入查询（x）相关的文档集合（D），其中D包含k个文档（{dr1, ..., drk}）。
+  - 检索评估器：构建一个轻量级的检索评估器（E），用于评估检索到的文档（D）对输入查询（x）的相关性，并为每个检索到的文档分配一个相关性分数。
+  - 计算置信度：基于检索评估器给出的相关性分数，计算一个置信度，该置信度将决定后续采取的动作。
+  - 动作触发：根据置信度的阈值，触发三种可能的动作之一：
+    - 正确（Correct）：如果至少一个文档的相关性分数高于上限阈值，认为检索是正确的。
+    - 错误（Incorrect）：如果所有文档的相关性分数都低于下限阈值，认为检索是错误的。
+    - 模糊（Ambiguous）：如果文档的相关性分数介于上下阈值之间，采取模糊动作。
+  - 知识精炼：对于触发“正确”动作的文档，通过分解、过滤和重构算法进一步提取文档中的关键知识片段，形成内部知识。
+  - 网络搜索：对于触发“错误”动作的情况，放弃检索到的文档，转而使用网络搜索来寻找补充知识，形成外部知识。
+  - 知识融合：在“模糊”动作下，将内部知识和外部知识结合起来，以增强系统的鲁棒性。
+  - 生成模型预测：最后，使用任意生成模型（G）基于优化后的检索结果（k）和输入查询（x）生成响应（y）。
+  - 输出响应：生成的响应（y）作为系统对用户查询的最终回答。
 
 ## RAG构建策略
 
