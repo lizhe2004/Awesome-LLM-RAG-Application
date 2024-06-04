@@ -87,7 +87,20 @@ the resources about the application based on LLM with RAG pattern
 - [Open Parse](https://github.com/Filimoa/open-parse)
   - 对文档进行分块是一项具有挑战性的任务，它支撑着任何 RAG 系统。高质量的结果对于人工智能应用的成功至关重要，但大多数开源库处理复杂文档的能力都受到限制。
   - Open Parse 旨在通过提供灵活、易于使用的库来填补这一空白，该库能够直观地识别文档布局并有效地对其进行分块。
-
+- [ExtractThinker](https://github.com/enoch3712/ExtractThinker)
+  - 使用 LLMs 从文件和文档中提取数据的库。 extract_thinker 在文件和 LLMs 之间提供 ORM 风格的交互，从而实现灵活且强大的文档提取工作流程。
+- [OmniParser](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/OCR/OmniParser)
+  - OmniParser 是一个统一的框架，无缝地结合了三个基本的 OCR 任务：文本识别、关键信息提取和表格识别。
+- [python-readability](https://github.com/buriy/python-readability)
+  - 给定一个 HTML 文档，提取并清理主体文本和标题。
+- [firecrawl](https://github.com/mendableai/firecrawl)
+  - 将整个网站转变为 LLM 可用的 Markdown 或结构化数据。使用单个 API 进行抓取、爬行和提取。
+- [jina-reader](https://github.com/jina-ai/reader)
+  - 它将任何 URL 转换为LLM 友好的输入
+- [nougat](https://github.com/facebookresearch/nougat)
+  - Neural Optical Understanding for Academic Documents.这是学术文档 PDF 解析器，它能理解 LaTeX 数学和表格。但对中文支持不好,需要单独微调。
+- [Pix2Struct](https://github.com/google-research/pix2struct)
+  - Pix2Struct 是一种预训练的图像到文本模型，专为纯视觉语言理解而设计。
 ### 路由
 
 - [semantic-router](https://github.com/aurelio-labs/semantic-router)
@@ -175,6 +188,8 @@ the resources about the application based on LLM with RAG pattern
   - RAGxplorer 是一种交互式 Streamlit 工具，通过将文档块和的查询问句展示为embedding向量空间中可的视化内容来支持检索增强生成 (RAG) 应用程序的构建。
 - [Rule-Based-Retrieval](https://github.com/whyhow-ai/rule-based-retrieval)
   - rule-based-retrieval是一个 Python 包，使您能够创建和管理具有高级筛选功能的检索增强生成 (RAG) 应用程序。它与用于文本生成的 OpenAI 和用于高效矢量数据库管理的 Pinecone 无缝集成。
+- [instructor](https://github.com/jxnl/instructor)
+  - 借助大模型从一段文本中提取为结构化数据的库
 
 ## 应用参考
 
