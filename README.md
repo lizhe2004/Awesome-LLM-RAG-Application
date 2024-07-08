@@ -79,6 +79,8 @@ the resources about the application based on LLM with RAG pattern
   - RAGFlow：基于OCR和文档解析的下一代 RAG 引擎。在文档解析上做了增强，2024年4月1日开源，在数据处理上支持文档结构、图片、表格的深度解析，支持可控分片，可对查询进行深入分析识别关键信息，在检索上提供多路找回/重排能力，界面提供友好的引用参考查看功能。
 - [Cognita](https://github.com/truefoundry/cognita)
   - Cognita 在底层使用了Langchain/Llamaindex，并对代码进行了结构化组织，其中每个 RAG 组件都是模块化的、API 驱动的、易于扩展的。Cognita 可在本地设置中轻松使用，同时还能为您提供无代码用户界面支持的生产就绪环境。Cognita 默认还支持增量索引。
+- [LazyLLM](https://github.com/LazyAGI/LazyLLM)
+  - 一款低代码构建多Agent大模型应用的开发工具，协助开发者用极低的成本构建复杂的AI应用，并可以持续的迭代优化效果。使用LazyLLM搭建RAG应用非常便捷和灵活，可以任意字定义多路检索和召回策略。除此之外，LazyLLM的AI应用构建流程是原型搭建 -> 数据回流 -> 迭代优化，用户可以先基于LazyLLM快速搭建RAG应用的，再结合场景任务数据进行bad-case分析，然后对应用中的关键环节进行算法迭代和模型微调，进而逐步提升整个RAG应用的效果。
 
 ### 预处理
 
