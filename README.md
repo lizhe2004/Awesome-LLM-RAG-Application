@@ -1,6 +1,9 @@
-# Awesome-LLM-RAG-Application
+<div align="center">
+    <h1>Awesome LLM RAG Application</h1>
+    <a href="https://awesome.re"><img src="https://awesome.re/badge.svg"/></a>
+</div>
 
-the resources about the application based on LLM with RAG pattern
+Awesome LLM RAG Application is a curated list of application resources based on LLM with RAG pattern.
 
 ## 综述
 
