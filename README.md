@@ -8,40 +8,41 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 
 --- 
 
-- [Awesome-LLM-RAG-Application](#awesome-llm-rag-application)
-  - [综述](#综述)
-  - [介绍](#介绍)
-    - [比较](#比较)
-  - [开源工具](#开源工具)
-    - [RAG框架](#rag框架)
-    - [预处理](#预处理)
-    - [路由](#路由)
-    - [评测框架](#评测框架)
-    - [Embedding](#embedding)
-    - [安全护栏](#安全护栏)
-    - [Prompting](#prompting)
-    - [SQL增强](#sql增强)
-    - [LLM部署和serving](#llm部署和serving)
-    - [可观测性](#可观测性)
-    - [其他](#其他)
-  - [应用参考](#应用参考)
-  - [论文](#论文)
-  - [RAG构建策略](#rag构建策略)
-    - [预处理](#预处理-1)
-    - [查询问句分类和微调](#查询问句分类和微调)
-    - [检索](#检索)
-      - [查询语句改写](#查询语句改写)
-      - [检索策略](#检索策略)
-    - [检索后处理](#检索后处理)
-      - [重排序](#重排序)
-      - [Contextual（Prompt） Compression](#contextualprompt-compression)
-      - [其他](#其他-1)
-    - [评估](#评估)
-  - [实践](#实践)
-  - [幻觉](#幻觉)
-  - [课程](#课程)
-  - [视频](#视频)
-  - [其他](#其他-2)
+- [综述](#综述)
+- [介绍](#介绍)
+  - [比较](#比较)
+- [开源工具](#开源工具)
+  - [RAG框架](#rag框架)
+  - [预处理](#预处理)
+  - [路由](#路由)
+  - [评测框架](#评测框架)
+  - [Embedding](#embedding)
+  - [安全护栏](#安全护栏)
+  - [Prompting](#prompting)
+  - [SQL增强](#sql增强)
+  - [LLM部署和serving](#llm部署和serving)
+  - [可观测性](#可观测性)
+  - [其他](#其他)
+  - [AI搜索类项目](#ai搜索类项目)
+- [应用参考](#应用参考)
+- [企业级实践](#企业级实践)
+- [论文](#论文)
+- [RAG构建策略](#rag构建策略)
+  - [预处理](#预处理-1)
+  - [查询问句分类和微调](#查询问句分类和微调)
+  - [检索](#检索)
+    - [查询语句改写](#查询语句改写)
+    - [检索策略](#检索策略)
+  - [检索后处理](#检索后处理)
+    - [重排序](#重排序)
+    - [Contextual（Prompt） Compression](#contextualprompt-compression)
+    - [其他](#其他-1)
+  - [评估](#评估)
+- [幻觉](#幻觉)
+- [课程](#课程)
+- [视频](#视频)
+- [编码实践](#编码实践)
+- [其他](#其他-2)
 --- 
 
 ## 综述
@@ -146,6 +147,9 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - Neural Optical Understanding for Academic Documents.这是学术文档 PDF 解析器，它能理解 LaTeX 数学和表格。但对中文支持不好,需要单独微调。
 - [Pix2Struct](https://github.com/google-research/pix2struct)
   - Pix2Struct 是一种预训练的图像到文本模型，专为纯视觉语言理解而设计。
+- [Indexify](https://github.com/tensorlakeai/indexify)
+  - Indexify 是一个开源引擎，用于使用可重复使用的提取器进行嵌入、转换和特征提取，为非结构化数据（视频、音频、图像和文档）快速构建数据流水线。当；流水线生成嵌入或结构化数据时，Indexify 会自动更新向量数据库、结构化数据库 (Postgres)。
+
 ### 路由
 
 - [semantic-router](https://github.com/aurelio-labs/semantic-router)
@@ -203,6 +207,8 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - RefChecker 提供了一个标准化的评估框架来识别大型语言模型输出中存在的微妙幻觉。
 
 ### Prompting
+- [ DSPy](https://github.com/stanfordnlp/dspy)
+  -  DSPy 是一款功能强大的框架。它可以用来自动优化大型语言模型（LLM）的提示词和响应。还能让我们的 LLM 应用即使在 OpenAI/Gemini/Claude版本升级也能正常使用。无论你有多少数据，它都能帮助你优化模型，获得更高的准确度和性能。通过选择合适的优化器，并根据具体需求进行调优，你可以在各种任务中获得出色的结果。
 
 - [YiVal](https://github.com/YiVal/YiVal)
   - GenAI 应用程序的自动提示工程助手 YiVal 是一款最先进的工具，旨在简化 GenAI 应用程序提示和循环中任何配置的调整过程。有了 YiVal，手动调整已成为过去。这种以数据驱动和以评估为中心的方法可确保最佳提示、精确的 RAG 配置和微调的模型参数。使用 YiVal 使您的应用程序能够轻松实现增强的结果、减少延迟并最大限度地降低推理成本！
@@ -250,6 +256,27 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 - [instructor](https://github.com/jxnl/instructor)
   - 借助大模型从一段文本中提取为结构化数据的库
 
+### AI搜索类项目
+  1 https://github.com/leptonai/search_with_lepton
+  2 https://github.com/khoj-ai/khoj
+  3 https://github.com/YassKhazzan/openperplex_front
+  4 https://github.com/supermemoryai/opensearch-ai
+  5 https://github.com/InternLM/MindSearch
+  6 https://github.com/luyu0279/BrainyAI
+  7、https://github.com/memfreeme/memfree
+  8 https://github.com/shadowfax92/Fyin
+  9 https://github.com/Nutlope/turboseek
+  10 https://github.com/ItzCrazyKns/Perplexica
+  11 https://github.com/rashadphz/farfalle
+  12 https://github.com/yokingma/search_with_ai
+  13 https://github.com/nashsu/FreeAskInternet
+  14 https://github.com/jjleng/sensei
+  15 https://github.com/miurla/morphic
+  16 https://github.com/nilsherzig/LLocalSearch
+  17 https://github.com/OcularEngineering/ocular
+  18 https://github.com/QmiAI/Qmedia?tab=readme-ov-file
+
+
 ## 应用参考
 
 - [Kimi Chat](https://kimi.moonshot.cn/)
@@ -265,6 +292,27 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - 应用编辑平台，旨在开发下一代人工智能聊天机器人。无论您是否有编程经验，该平台都可以让您快速创建各种类型的聊天机器人并将其部署在不同的社交平台和消息应用程序上。
 - [Devv-ai](https://devv.ai/zh)
   - 最懂程序员的新一代 AI 搜索引擎，底层采用了RAG的大模型应用模式，LLM模型为其微调的模型。
+
+
+## 企业级实践
+- [B站大模型×领域RAG：打造高效、智能化的用户服务体验](https://www.alipan.com/s/KQBhhZvaUVK)
+- [哈啰出行从Copilot到Agent模式的探索-贾立](https://www.alipan.com/s/U58jxu9vrKd)
+- [51Talk-AI+Agent+-+在业务增长中的落地实践](https://www.alipan.com/s/ztfCspjsvDG)
+- [万科物业科技](https://www.alipan.com/s/95dev73WiRM)
+- [京东商家助手](https://www.alipan.com/s/xCFX3Sf9zjn)
+- [58同城-灵犀大模型- ppt待提供]()
+- [阿⾥云AI搜索RAG⼤模型优化实践- ppt待提供]()
+- [向量化与文档解析技术加速大模型RAG应用落地 - ppt待提供]()
+- [用户案例｜向量引擎在携程酒店搜索中的应用场景和探索](https://zilliz.com.cn/blog/usercase-milvus-trip)
+- [OpenAI 如何优化 LLM 的效果](https://www.breezedeus.com/article/make-llm-greater)
+- [What We Learned from a Year of Building with LLMs 系列](#)
+  - [(Part I)](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/)
+  - [ (Part II)](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-ii/)
+  - [(Part III): Strategy](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-iii-strategy/)
+- [构建企业级AI助手的经验教训](https://tczjw7bsp1.feishu.cn/docx/Hq4Hd7JXEoHdGZxomkecEDs3n6b?from=from_copylink)
+  - [How to build an AI assistant for the enterprise](https://www.glean.com/blog/lessons-and-learnings-from-building-an-enterprise-ready-ai-assistant)
+
+
 
 ## 论文
 
@@ -440,39 +488,35 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 - [zilliz:Optimizing RAG Applications: A Guide to Methodologies, Metrics, and Evaluation Tools for Enhanced Reliability](https://zilliz.com/blog/how-to-evaluate-retrieval-augmented-generation-rag-applications?utm_source=twitter&utm_medium=social&utm_term=zilliz)
 - [Advanced RAG Series: Generation and Evaluation](https://div.beehiiv.com/p/advanced-rag-series-generation-evaluation)
 
-## 实践
-
-- [实践](./practice.md)
 
 ## 幻觉
-
+- [大模型评测幻觉检测+-+AICon ppt未提供]()
 - [Let’s Talk About LLM Hallucinations](https://webcache.googleusercontent.com/search?q=cache:https://levelup.gitconnected.com/lets-talk-about-llm-hallucinations-9c8dab3e7ac3)
   - [谈一谈LLM幻觉](https://tczjw7bsp1.feishu.cn/docx/G7KJdjENqoMYyhxw05rc8vrgn1c?from=from_copylink)
-  -
 
 ## 课程
-
 - [短课程 Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
 - [Retrieval Augmented Generation for Production with LangChain & LlamaIndex](https://learn.activeloop.ai/courses/rag?utm_source=Twitter&utm_medium=social&utm_campaign=student-social-share)
 
 ## 视频
-
 - [A Survey of Techniques for Maximizing LLM Performance](https://www.youtube.com/watch?v=ahnGLM-RC1Y&ab_channel=OpenAI)
 - [How do domain-specific chatbots work? An overview of retrieval augmented generation (RAG)](https://www.youtube.com/watch?v=1ifymr7SiH8&ab_channel=CoryZue)
   - [文字版](https://scriv.ai/guides/retrieval-augmented-generation-overview/)
 - [nvidia:Augmenting LLMs Using Retrieval Augmented Generation](https://courses.nvidia.com/courses/course-v1:NVIDIA+S-FX-16+v1/course/)
 - [How to Choose a Vector Database](https://www.youtube.com/watch?v=Yo-AzVpWrRg&ab_channel=Pinecone)
 
+
+## 编码实践
+
+- [编码实践](./practice.md)
+
 ## 其他
 - [中文大模型相关汇总](https://github.com/WangRongsheng/Awesome-LLM-Resourses)
   - 包括数据、微调、推理、评估、体验、RAG、Agent、搜索、书籍和课程等方面的资源:
-- [构建企业级AI助手的经验教训](https://tczjw7bsp1.feishu.cn/docx/Hq4Hd7JXEoHdGZxomkecEDs3n6b?from=from_copylink)
-  - [How to build an AI assistant for the enterprise](https://www.glean.com/blog/lessons-and-learnings-from-building-an-enterprise-ready-ai-assistant)
 - [Large Language Model (LLM) Disruption of Chatbots](https://cobusgreyling.medium.com/large-language-model-llm-disruption-of-chatbots-8115fffadc22)
   - [大型语言模型 （LLM）对聊天机器人的颠覆](https://tczjw7bsp1.feishu.cn/docx/GbxKdkpwrodWRnxW4ffcBU0Gnur?from=from_copylink)
 - [Gen AI: why does simple Retrieval Augmented Generation (RAG) not work for insurance?](https://www.zelros.com/2023/10/27/gen-ai-why-does-simple-retrieval-augmented-generation-rag-not-work-for-insurance/)
   - [生成式AI:为什么RAG在保险领域起不了作用？](https://tczjw7bsp1.feishu.cn/docx/KfbidIiZBoPfb3xrT0WcL70LnPd?from=from_copylink)
-- [OpenAI 如何优化 LLM 的效果](https://www.breezedeus.com/article/make-llm-greater)
 - [End-to-End LLMOps Platform](https://medium.com/@bijit211987/end-to-end-llmops-platform-514044dc791d)
 
 [![Star History Chart](https://api.star-history.com/svg?repos=lizhe2004/Awesome-LLM-RAG-Application&type=Date)](https://star-history.com/#lizhe2004/Awesome-LLM-RAG-Application&Date)
