@@ -2,6 +2,45 @@
 
 the resources about the application based on LLM with RAG pattern
 
+
+--- 
+
+- [Awesome-LLM-RAG-Application](#awesome-llm-rag-application)
+  - [综述](#综述)
+  - [介绍](#介绍)
+    - [比较](#比较)
+  - [开源工具](#开源工具)
+    - [RAG框架](#rag框架)
+    - [预处理](#预处理)
+    - [路由](#路由)
+    - [评测框架](#评测框架)
+    - [Embedding](#embedding)
+    - [安全护栏](#安全护栏)
+    - [Prompting](#prompting)
+    - [SQL增强](#sql增强)
+    - [LLM部署和serving](#llm部署和serving)
+    - [可观测性](#可观测性)
+    - [其他](#其他)
+  - [应用参考](#应用参考)
+  - [论文](#论文)
+  - [RAG构建策略](#rag构建策略)
+    - [预处理](#预处理-1)
+    - [查询问句分类和微调](#查询问句分类和微调)
+    - [检索](#检索)
+      - [查询语句改写](#查询语句改写)
+      - [检索策略](#检索策略)
+    - [检索后处理](#检索后处理)
+      - [重排序](#重排序)
+      - [Contextual（Prompt） Compression](#contextualprompt-compression)
+      - [其他](#其他-1)
+    - [评估](#评估)
+  - [实践](#实践)
+  - [幻觉](#幻觉)
+  - [课程](#课程)
+  - [视频](#视频)
+  - [其他](#其他-2)
+--- 
+
 ## 综述
 
 - [论文：Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)
@@ -25,6 +64,7 @@ the resources about the application based on LLM with RAG pattern
     - 研究学者和机构
     - ……更多内容即将上线 (e.g. ,专题研讨、示例代码、基线测试)
 - [一个繁体的RAG资料集](https://ihower.tw/notes/AI-Engineer/RAG/Adaptive+RAG)
+- [关于RAG技术的综合合集RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)
 
 ## 介绍
 
@@ -46,7 +86,7 @@ the resources about the application based on LLM with RAG pattern
 - [Disadvantages of RAG](https://medium.com/@kelvin.lu.au/disadvantages-of-rag-5024692f2c53)
   - [RAG的缺点](https://tczjw7bsp1.feishu.cn/docx/UZCCdKmLEo7VHQxWPdNcGzICnEd?from=from_copylink)
 
-## 比较
+### 比较
 
 - [Retrieval-Augmented Generation (RAG) or Fine-tuning  — Which Is the Best Tool to Boost Your LLM Application?](https://www.linkedin.com/pulse/retrieval-augmented-generation-rag-fine-tuning-which-best-victoria-s-)
   - [RAG还是微调，优化LLM应用的最佳工具是哪个？](https://tczjw7bsp1.feishu.cn/wiki/TEtHwkclWirBwqkWeddcY8HXnZf?chunked=false)
@@ -79,6 +119,8 @@ the resources about the application based on LLM with RAG pattern
   - RAGFlow：基于OCR和文档解析的下一代 RAG 引擎。在文档解析上做了增强，2024年4月1日开源，在数据处理上支持文档结构、图片、表格的深度解析，支持可控分片，可对查询进行深入分析识别关键信息，在检索上提供多路找回/重排能力，界面提供友好的引用参考查看功能。
 - [Cognita](https://github.com/truefoundry/cognita)
   - Cognita 在底层使用了Langchain/Llamaindex，并对代码进行了结构化组织，其中每个 RAG 组件都是模块化的、API 驱动的、易于扩展的。Cognita 可在本地设置中轻松使用，同时还能为您提供无代码用户界面支持的生产就绪环境。Cognita 默认还支持增量索引。
+- [GraphRAG](https://github.com/microsoft/GraphRAG)
+  - GraphRAG 是一种基于图的检索增强方法，由微软开发并开源。 它通过结合LLM和图机器学习的技术，从非结构化的文本中提取结构化的数据，构建知识图谱，以支持问答、摘要等多种应用场景。
 
 ### 预处理
 
@@ -167,12 +209,26 @@ the resources about the application based on LLM with RAG pattern
 - [vanna](https://github.com/vanna-ai/vanna)
   - Vanna 是一个MIT许可的开源Python RAG（检索增强生成）框架，用于SQL生成和相关功能。
   - Vanna 的工作过程分为两个简单步骤 - 在您的数据上训练 RAG“模型”，然后提出问题，这些问题将返回 SQL 查询。训练的数据主要是一些 DDL schema、业务说明文档以及示例sql等，所谓训练主要是将这些数据embedding化，用于向量检索。
+- [Chat2DB](https://github.com/chat2db/Chat2DB)
+  - 由前阿里巴巴成员创建并开源，一个智能和多功能的通用SQL客户端和报表工具，集成了ChatGPT功能，，14.3k
+
+- [SQLChat](https://github.com/sqlchat/sqlchat) 
+  - 一个可以将自然语言转换为SQL查询的工具，4.1k
+
+- [Dataherald](https://github.com/dataherald/dataherald) 
+  - 使用AI驱动的数据管理平台，帮助用户将自然语言查询转换为SQL。，3.2k
+
+- [WrenAI](https://github.com/Canner/WrenAI) 
+  - 一个高效的自然语言到SQL转换工具，支持多种数据库。，1.4k
+
+- [SuperSonic](https://github.com/tencentmusic/supersonic) 
+  - 由腾讯音乐开源，高性能的SQL生成工具，支持复杂查询的自动生成。1.6k
+
 
 ### LLM部署和serving
 
 - [vllm]([vllm](https://github.com/vllm-project/vllm))
 - [OpenLLM](https://github.com/bentoml/OpenLLM)
--
 
 ### 可观测性
 
@@ -223,39 +279,12 @@ the resources about the application based on LLM with RAG pattern
   - 列表重新排名是给定文档列表，我们同时向 LLM 提供查询 + 文档列表，并要求它按相关性对文档进行重新排序。
   - 建议对 RAG 检索到的文档按列表重新排序，列表重排优于逐点重排。
 - [Self-RAG: Learning to Retrieve, Generate, and Critique through Self-Reflection](https://arxiv.org/abs/2310.11511)
-  - 按需检索（On-Demand Retrieval）：
-    - SELF-RAG首先确定是否需要通过检索来增强持续生成的内容。这是通过在模型的输出中插入特殊的检索标记（Retrieve tokens）来实现的，这些标记指示是否需要检索。如果模型确定需要检索，它会输出一个检索标记，调用检索器模型（Retriever model）根据当前的输入和之前的生成内容来检索相关的文段。
-  - 并行处理检索文段（Parallel Processing of Retrieved Passages）：
-    - SELF-RAG会并行处理检索到的多个文段，评估它们的相关性，并基于这些文段生成相应的任务输出。对于每个检索到的文段，模型会预测一个相关性标记（ISREL tokens），以判断文段是否与输入相关。如果文段相关，模型进一步评估文段是否支持模型生成的内容，并预测支持度标记（ISSUP tokens）。
-  - 自我反思和批判（Self-Reflection and Critique）：
-    - 在生成每个段落后，SELF-RAG会生成批判标记（Critique tokens），以批判自己的输出并选择最佳段落。这些批判标记包括对生成内容的事实性（ISSUP）和整体质量（ISUSE）的评价。模型使用这些批判标记来评估自己生成的每个段落，并根据这些评价来调整后续的生成过程。
-  - 训练过程（Training Process）：
-    - SELF-RAG通过一个批评模型（Critic model）来训练生成器模型（Generator model）。批评模型用于生成反思标记，以评估检索到的文段和生成任务输出的质量。训练数据是通过将反思标记插入到原始语料库中来创建的，这些标记是由批评模型预测的。生成器模型被训练为能够自己生成反思标记，而不是在推理时依赖于批评模型。
-  - 推理时的可定制解码（Customizable Decoding at Inference）：
-    - SELF-RAG允许在推理时根据反思标记的预测来调整检索频率和模型行为，以满足不同的下游应用需求。通过使用加权线性组合的反思标记概率作为段落得分，可以实现对生成内容的软约束和硬控制。
+- [高级RAG之Self-RAG框架的原理和内部实现](https://blog.lidaxia.io/2024/05/10/self-rag-introduction/)
 - [Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity](https://arxiv.org/abs/2403.14403)
-  - Adaptive-RAG是一个动态选择最合适策略的框架，用于处理不同复杂度的查询。它从最简单的到最复杂的策略中选择最适合给定查询复杂度的策略。
-  - 查询复杂度评估（Query Complexity Assessment）：
-    - Adaptive-RAG首先使用一个预训练的较小语言模型（Classifier），该模型被训练用来预测输入查询（query）的复杂度。查询被分为三个复杂度等级：简单（A）、中等（B）和复杂（C），分别对应不同的处理策略。
-  - 选择适当的策略：
-    - 根据查询复杂度的预测结果，Adaptive-RAG动态选择最合适的策略来处理查询。简单查询（A）可能只需要LLM自身的知识即可回答，不需要外部检索。中等复杂度查询（B）可能需要单步检索来提供额外的信息。复杂查询（C）可能需要多步检索和推理来整合多个文档中的信息。
-  - 检索（Retrieval）：
-    - 对于需要检索的查询，Adaptive-RAG使用检索器（Retriever）从知识库中检索与查询相关的文档。
-  - 生成答案（Answer Generation）：
-    - 利用检索到的文档，LLM生成答案。对于单步检索，这可能涉及将检索到的信息整合到LLM的输入中；而对于多步检索，则可能需要迭代地访问检索器和LLM，直到形成最终答案。
+  - [高级RAG之Adaptive-RAG框架的原理和内部实现](https://blog.lidaxia.io/2024/05/16/adaptive-rag/)
 - [Corrective Retrieval Augmented Generation](https://arxiv.org/abs/2401.15884)
-  - 检索文档：使用检索器（R）从知识库（C）中检索与输入查询（x）相关的文档集合（D），其中D包含k个文档（{dr1, ..., drk}）。
-  - 检索评估器：构建一个轻量级的检索评估器（E），用于评估检索到的文档（D）对输入查询（x）的相关性，并为每个检索到的文档分配一个相关性分数。
-  - 计算置信度：基于检索评估器给出的相关性分数，计算一个置信度，该置信度将决定后续采取的动作。
-  - 动作触发：根据置信度的阈值，触发三种可能的动作之一：
-    - 正确（Correct）：如果至少一个文档的相关性分数高于上限阈值，认为检索是正确的。
-    - 错误（Incorrect）：如果所有文档的相关性分数都低于下限阈值，认为检索是错误的。
-    - 模糊（Ambiguous）：如果文档的相关性分数介于上下阈值之间，采取模糊动作。
-  - 知识精炼：对于触发“正确”动作的文档，通过分解、过滤和重构算法进一步提取文档中的关键知识片段，形成内部知识。
-  - 网络搜索：对于触发“错误”动作的情况，放弃检索到的文档，转而使用网络搜索来寻找补充知识，形成外部知识。
-  - 知识融合：在“模糊”动作下，将内部知识和外部知识结合起来，以增强系统的鲁棒性。
-  - 生成模型预测：最后，使用任意生成模型（G）基于优化后的检索结果（k）和输入查询（x）生成响应（y）。
-  - 输出响应：生成的响应（y）作为系统对用户查询的最终回答。
+  - [高级RAG之Corrective-RAG框架的原理和内部实现
+](https://blog.lidaxia.io/2024/05/14/crag/)
 
 这里列出了一些重要的研究论文，它们揭示了 RAG 领域的关键洞察和最新进展。
 
@@ -432,7 +461,8 @@ the resources about the application based on LLM with RAG pattern
 - [How to Choose a Vector Database](https://www.youtube.com/watch?v=Yo-AzVpWrRg&ab_channel=Pinecone)
 
 ## 其他
-
+- [中文大模型相关汇总](https://github.com/WangRongsheng/Awesome-LLM-Resourses)
+  - 包括数据、微调、推理、评估、体验、RAG、Agent、搜索、书籍和课程等方面的资源:
 - [构建企业级AI助手的经验教训](https://tczjw7bsp1.feishu.cn/docx/Hq4Hd7JXEoHdGZxomkecEDs3n6b?from=from_copylink)
   - [How to build an AI assistant for the enterprise](https://www.glean.com/blog/lessons-and-learnings-from-building-an-enterprise-ready-ai-assistant)
 - [Large Language Model (LLM) Disruption of Chatbots](https://cobusgreyling.medium.com/large-language-model-llm-disruption-of-chatbots-8115fffadc22)
