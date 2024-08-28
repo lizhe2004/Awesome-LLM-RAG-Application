@@ -4,7 +4,7 @@
 </div>
 
 Awesome LLM RAG Application is a curated list of application resources based on LLM with RAG pattern.
-
+(Update: 2024-08-28)
 
 --- 
 
@@ -51,6 +51,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - [面向大语言模型的检索增强生成技术：调查](https://baoyu.io/translations/ai-paper/2312.10997-retrieval-augmented-generation-for-large-language-models-a-survey)
   - [Github repo](https://github.com/Tongji-KGLLM/RAG-Survey/tree/main)
   - [大语言模型的检索增强生成 (RAG) 方法](https://www.promptingguide.ai/zh/research/rag#rag%E7%AE%80%E4%BB%8B)
+- [论文：Graph Retrieval-Augmented Generation: A Survey](https://arxiv.org/pdf/2408.08921)
 - [Advanced RAG Techniques: an Illustrated Overview](https://pub.towardsai.net/advanced-rag-techniques-an-illustrated-overview-04d193d8fec6)
   - [中译版 高级 RAG 技术：图解概览](https://baoyu.io/translations/rag/advanced-rag-techniques-an-illustrated-overview)
 - [高级RAG应用构建指南和总结](https://blog.llamaindex.ai/a-cheat-sheet-and-some-recipes-for-building-advanced-rag-803a9d94c41b)
@@ -59,19 +60,11 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 - [RAG大全](https://aman.ai/primers/ai/RAG/)
   - [中译版](https://tczjw7bsp1.feishu.cn/docx/GfwOd3rASo6lI4xoFsycUiz8nhg)
 - [Open RAG Base](https://openrag.notion.site/Open-RAG-c41b2a4dcdea4527a7c1cd998e763595)
-  - Open RAG Base 是一个基于公开资料收集整理汇总的RAG知识库。它基于Notion构建，是目前最全面RAG的资料汇总仓库。目的是为读者提提供前沿和全面的RAG知识，提供多维度的分析汇总，涵盖RAG的方方面，包括：
-    - 学术论文
-    - 前沿阅读资料
-    - RAG评估与基准
-    - 下游任务与数据集
-    - 工具与技术栈
-    - 研究学者和机构
-    - ……更多内容即将上线 (e.g. ,专题研讨、示例代码、基线测试)
+  - Open RAG Base 是一个基于公开资料收集整理汇总的RAG知识库。它基于Notion构建，是目前最全面RAG的资料汇总仓库。目的是为读者提提供前沿和全面的RAG知识，提供多维度的分析汇总，涵盖RAG的方方面，包括：学术论文、前沿阅读资料、RAG评估与基准、下游任务与数据集、工具与技术栈
 - [一个繁体的RAG资料集](https://ihower.tw/notes/AI-Engineer/RAG/Adaptive+RAG)
 - [关于RAG技术的综合合集RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)
 
 ## 介绍
-
 - [Microsoft-Retrieval Augmented Generation (RAG) in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview)
   - [**微软**-Azure AI 搜索之检索增强生成（RAG）](https://tczjw7bsp1.feishu.cn/docx/JJ7ldrO4Zokjq7xZIJcc5IZjnFh?from=from_copylink)
 - [**azure** openai design patterns- RAG](https://github.com/microsoft/azure-openai-design-patterns/tree/main/patterns/03-retrieval-augmented-generation)
@@ -125,6 +118,8 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - Cognita 在底层使用了Langchain/Llamaindex，并对代码进行了结构化组织，其中每个 RAG 组件都是模块化的、API 驱动的、易于扩展的。Cognita 可在本地设置中轻松使用，同时还能为您提供无代码用户界面支持的生产就绪环境。Cognita 默认还支持增量索引。
 - [GraphRAG](https://github.com/microsoft/GraphRAG)
   - GraphRAG 是一种基于图的检索增强方法，由微软开发并开源。 它通过结合LLM和图机器学习的技术，从非结构化的文本中提取结构化的数据，构建知识图谱，以支持问答、摘要等多种应用场景。
+- [kotaemon](https://github.com/Cinnamon/kotaemon)
+  - 一个开源的、基于 RAG (Retrieval-Augmented Generation) 的文档问答工具,支持多用户登录、本地和云端 LLM 及 Embedding 模型、图表多模态文档解析和问答、混合检索带文档预览的高级引用功能、持复杂推理方法,如问题分解、基于 agent 的推理(如 ReAct、ReWOO)等。
 
 ### 预处理
 
@@ -255,6 +250,8 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - rule-based-retrieval是一个 Python 包，使您能够创建和管理具有高级筛选功能的检索增强生成 (RAG) 应用程序。它与用于文本生成的 OpenAI 和用于高效矢量数据库管理的 Pinecone 无缝集成。
 - [instructor](https://github.com/jxnl/instructor)
   - 借助大模型从一段文本中提取为结构化数据的库
+- [RAGLAB](https://github.com/fate-ubw/raglab)
+  - RAGLAB是一个模块化、面向研究的开源框架,用于检索增强型生成(Retrieval-Augmented Generation, RAG)算法。它提供了6种现有RAG算法的复制,以及一个全面的评估系统,包括10个基准数据集,使得RAG算法之间的公平比较和新算法、数据集和评估指标的高效开发成为可能。
 
 ### AI搜索类项目
   1 https://github.com/leptonai/search_with_lepton
@@ -493,6 +490,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 - [大模型评测幻觉检测+-+AICon ppt未提供]()
 - [Let’s Talk About LLM Hallucinations](https://webcache.googleusercontent.com/search?q=cache:https://levelup.gitconnected.com/lets-talk-about-llm-hallucinations-9c8dab3e7ac3)
   - [谈一谈LLM幻觉](https://tczjw7bsp1.feishu.cn/docx/G7KJdjENqoMYyhxw05rc8vrgn1c?from=from_copylink)
+- [大型语言模型中的幻觉前沿](https://readmedium.com/zh/the-frontiers-of-hallucination-in-large-language-models-b4e5d666737a)
 
 ## 课程
 - [短课程 Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
