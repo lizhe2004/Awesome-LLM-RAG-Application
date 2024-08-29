@@ -254,24 +254,24 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - RAGLAB是一个模块化、面向研究的开源框架,用于检索增强型生成(Retrieval-Augmented Generation, RAG)算法。它提供了6种现有RAG算法的复制,以及一个全面的评估系统,包括10个基准数据集,使得RAG算法之间的公平比较和新算法、数据集和评估指标的高效开发成为可能。
 
 ### AI搜索类项目
-  1 https://github.com/leptonai/search_with_lepton
-  2 https://github.com/khoj-ai/khoj
-  3 https://github.com/YassKhazzan/openperplex_front
-  4 https://github.com/supermemoryai/opensearch-ai
-  5 https://github.com/InternLM/MindSearch
-  6 https://github.com/luyu0279/BrainyAI
-  7、https://github.com/memfreeme/memfree
-  8 https://github.com/shadowfax92/Fyin
-  9 https://github.com/Nutlope/turboseek
-  10 https://github.com/ItzCrazyKns/Perplexica
-  11 https://github.com/rashadphz/farfalle
-  12 https://github.com/yokingma/search_with_ai
-  13 https://github.com/nashsu/FreeAskInternet
-  14 https://github.com/jjleng/sensei
-  15 https://github.com/miurla/morphic
-  16 https://github.com/nilsherzig/LLocalSearch
-  17 https://github.com/OcularEngineering/ocular
-  18 https://github.com/QmiAI/Qmedia?tab=readme-ov-file
+1 https://github.com/leptonai/search_with_lepton
+2 https://github.com/khoj-ai/khoj
+3 https://github.com/YassKhazzan/openperplex_front
+4 https://github.com/supermemoryai/opensearch-ai
+5 https://github.com/InternLM/MindSearch
+6 https://github.com/luyu0279/BrainyAI
+7 https://github.com/memfreeme/memfree
+8 https://github.com/shadowfax92/Fyin
+9 https://github.com/Nutlope/turboseek
+10 https://github.com/ItzCrazyKns/Perplexica
+11 https://github.com/rashadphz/farfalle
+12 https://github.com/yokingma/search_with_ai
+13 https://github.com/nashsu/FreeAskInternet
+14 https://github.com/jjleng/sensei
+15 https://github.com/miurla/morphic
+16 https://github.com/nilsherzig/LLocalSearch
+17 https://github.com/OcularEngineering/ocular
+18 https://github.com/QmiAI/Qmedia?tab=readme-ov-file
 
 
 ## 应用参考
@@ -292,15 +292,15 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 
 
 ## 企业级实践
-- [B站大模型×领域RAG：打造高效、智能化的用户服务体验](https://www.alipan.com/s/KQBhhZvaUVK)
-- [哈啰出行从Copilot到Agent模式的探索-贾立](https://www.alipan.com/s/U58jxu9vrKd)
-- [51Talk-AI+Agent+-+在业务增长中的落地实践](https://www.alipan.com/s/ztfCspjsvDG)
-- [万科物业科技](https://www.alipan.com/s/95dev73WiRM)
-- [京东商家助手](https://www.alipan.com/s/xCFX3Sf9zjn)
-- [58同城-灵犀大模型- ppt待提供]()
-- [阿⾥云AI搜索RAG⼤模型优化实践- ppt待提供]()
-- [向量化与文档解析技术加速大模型RAG应用落地 - ppt待提供]()
-- [用户案例｜向量引擎在携程酒店搜索中的应用场景和探索](https://zilliz.com.cn/blog/usercase-milvus-trip)
+- [B站大模型×领域RAG：打造高效、智能化的用户服务体验 PPT](https://www.alipan.com/s/KQBhhZvaUVK)
+- [哈啰出行从Copilot到Agent模式的探索-贾立 PPT](https://www.alipan.com/s/U58jxu9vrKd)
+- [51Talk-AI+Agent+-+在业务增长中的落地实践 PPT](https://www.alipan.com/s/ztfCspjsvDG)
+- [万科物业科技 PPT](https://www.alipan.com/s/95dev73WiRM)
+- [京东商家助手 PPT](https://www.alipan.com/s/xCFX3Sf9zjn)
+- [58同城-灵犀大模型PPT ](https://www.alipan.com/s/TevoFZfweHH)
+- [阿⾥云AI搜索RAG⼤模型优化实践PPT](https://www.alipan.com/s/SWMYmRwtB7t)
+- [向量化与文档解析技术加速大模型RAG应用落地PPT](https://www.alipan.com/s/xio6aX4zeCF)
+- [用户案例｜Milvus向量引擎在携程酒店搜索中的应用场景和探索](https://zilliz.com.cn/blog/usercase-milvus-trip)
 - [OpenAI 如何优化 LLM 的效果](https://www.breezedeus.com/article/make-llm-greater)
 - [What We Learned from a Year of Building with LLMs 系列](#)
   - [(Part I)](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/)
@@ -487,7 +487,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 
 
 ## 幻觉
-- [大模型评测幻觉检测+-+AICon ppt未提供]()
+- [大模型评测幻觉检测+-+AICon PPT](https://www.alipan.com/s/rCUkfz21vR9)
 - [Let’s Talk About LLM Hallucinations](https://webcache.googleusercontent.com/search?q=cache:https://levelup.gitconnected.com/lets-talk-about-llm-hallucinations-9c8dab3e7ac3)
   - [谈一谈LLM幻觉](https://tczjw7bsp1.feishu.cn/docx/G7KJdjENqoMYyhxw05rc8vrgn1c?from=from_copylink)
 - [大型语言模型中的幻觉前沿](https://readmedium.com/zh/the-frontiers-of-hallucination-in-large-language-models-b4e5d666737a)
