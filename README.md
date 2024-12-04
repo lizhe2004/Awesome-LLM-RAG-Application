@@ -4,7 +4,7 @@
 </div>
 
 Awesome LLM RAG Application is a curated list of application resources based on LLM with RAG pattern.
-(Update: 2024-08-28)
+(Update: 2024-12-04)
 
 --- 
 
@@ -144,9 +144,11 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - Pix2Struct 是一种预训练的图像到文本模型，专为纯视觉语言理解而设计。
 - [Indexify](https://github.com/tensorlakeai/indexify)
   - Indexify 是一个开源引擎，用于使用可重复使用的提取器进行嵌入、转换和特征提取，为非结构化数据（视频、音频、图像和文档）快速构建数据流水线。当；流水线生成嵌入或结构化数据时，Indexify 会自动更新向量数据库、结构化数据库 (Postgres)。
+- [MegaParse](https://github.com/QuivrHQ/MegaParse)
+  - MegaParse 是一个强大且通用的解析器,可以轻松处理各种类型的文档,包括文本、PDF、PowerPoint 演示文稿、Word 文档等。它旨在在解析过程中尽可能减少信息丢失。
+  - 解析内容包括: ✅ Tables ✅ TOC ✅ Headers ✅ Footers ✅ Images
 
 ### 路由
-
 - [semantic-router](https://github.com/aurelio-labs/semantic-router)
 
 ### 评测框架
@@ -194,13 +196,16 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 
 - [Llama-Guard](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard)
   - Llama Guard 是一个新的实验模型，可为 LLM 部署提供输入和输出防护栏。Llama Guard 是经过微调的 Llama-7B 模型。
-
 <div align="center">
 <img src="https://raw.githubusercontent.com/guardrails-ai/guardrails/main/docs/img/with_and_without_guardrails.svg" alt="Guardrails in your application" width="1500px">
 </div>
+
 - [RefChecker](https://github.com/amazon-science/RefChecker)
   - RefChecker 提供了一个标准化的评估框架来识别大型语言模型输出中存在的微妙幻觉。
+- [vigil-llm](https://github.com/deadbits/vigil-llm/)
+  - Vigil是一个Python库和REST API，可以根据一组扫描器评估大型语言模型提示和响应，以检测提示注入、越狱和其他潜在威胁。该存储库还提供了必要的检测特征（签名）和数据集，支持用户自行部署和使用。
 
+该应用程序目前处于 alpha 状态，应被视为实验/用于研究目的。
 ### Prompting
 - [ DSPy](https://github.com/stanfordnlp/dspy)
   -  DSPy 是一款功能强大的框架。它可以用来自动优化大型语言模型（LLM）的提示词和响应。还能让我们的 LLM 应用即使在 OpenAI/Gemini/Claude版本升级也能正常使用。无论你有多少数据，它都能帮助你优化模型，获得更高的准确度和性能。通过选择合适的优化器，并根据具体需求进行调优，你可以在各种任务中获得出色的结果。
