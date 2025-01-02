@@ -4,11 +4,13 @@
 </div>
 
 Awesome LLM RAG Application is a curated list of application resources based on LLM with RAG pattern.
-(Update: 2024-12-04)
+(latest update: 2025-01-02)
 
 --- 
 
 - [综述](#综述)
+  - [论文](#论文)
+  - [其他资料](#其他资料)
 - [介绍](#介绍)
   - [比较](#比较)
 - [开源工具](#开源工具)
@@ -17,6 +19,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - [路由](#路由)
   - [评测框架](#评测框架)
   - [Embedding](#embedding)
+  - [爬虫](#爬虫)
   - [安全护栏](#安全护栏)
   - [Prompting](#prompting)
   - [SQL增强](#sql增强)
@@ -26,13 +29,14 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - [AI搜索类项目](#ai搜索类项目)
 - [应用参考](#应用参考)
 - [企业级实践](#企业级实践)
-- [论文](#论文)
+- [论文](#论文-1)
 - [RAG构建策略](#rag构建策略)
   - [预处理](#预处理-1)
   - [查询问句分类和微调](#查询问句分类和微调)
   - [检索](#检索)
     - [查询语句改写](#查询语句改写)
     - [检索策略](#检索策略)
+  - [GraphRAG](#graphrag)
   - [检索后处理](#检索后处理)
     - [重排序](#重排序)
     - [Contextual（Prompt） Compression](#contextualprompt-compression)
@@ -46,13 +50,60 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 --- 
 
 ## 综述
+### 论文 
 
-- [论文：Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)
-  - [面向大语言模型的检索增强生成技术：调查](https://baoyu.io/translations/ai-paper/2312.10997-retrieval-augmented-generation-for-large-language-models-a-survey)
+  论文顺序由近及远
+- 2024.12.23 RAG中的查询优化技术总结
+  - [《A Survey of Query Optimization in Large Language Models》](https://arxiv.org/abs/2412.17558)
+  - https://arxiv.org/abs/2412.17558
+  - 对查询优化技术进行了梳理和分类，涵盖了扩展、消歧、分解和抽象四种主要方法。
+- 2024.10.23 RAG技术演进的回顾总结
+  - [《A Comprehensive Survey of Retrieval-Augmented Generation (RAG: Evolution, Current Landscape and Future Directions》](https://arxiv.org/abs/2410.12837)
+  - https://arxiv.org/abs/2410.12837
+  - 全面研究检索增强生成（RAG）技术，追溯其从基础概念到当前状态的演变过程
+
+- 2024.09.23 综述RAG数据利用方案
+  - [《Retrieval Augmented Generation (RAG and Beyond: A Comprehensive Survey on How to Make your LLMs use External Data More Wisely》](https://arxiv.org/abs/2409.14924)
+  - https://arxiv.org/abs/2409.14924
+  - 探讨了如何通过外部数据增强大模型（LLMs）的能力。
+- 2024.08.15 综述GraphRAG方案
+  - [《Graph Retrieval-Augmented Generation: A Survey》](https://arxiv.org/abs/2408.08921)
+  - https://arxiv.org/abs/2408.08921
+  - 系统性地回顾了Graph Retrieval-Augmented Generation (GraphRAG) 的现状和发展方向。
+- 2024.07.18 综述RAG用于NLP自然语言处理
+  - [《Retrieval-Augmented Generation for Natural Language Processing: A Survey》](https://arxiv.org/abs/2407.13193)
+  - https://arxiv.org/abs/2407.13193
+- 2024.05.13 综述RAG的评估
+  - [《Evaluation of Retrieval-Augmented Generation: A Survey》](https://arxiv.org/abs/2405.07437)
+  - https://arxiv.org/abs/2405.07437
+- 2024.05.10 综述RAG与LLM的结合范式
+  - [《A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models》](https://arxiv.org/abs/2405.06211)
+  - 地址：https://arxiv.org/abs/2405.06211
+- 2024.04.30 综述检索增强语言模型（RALMs）
+  - [《RAG and RAU: A Survey on Retrieval-Augmented Language Model in Natural Language Processing》](https://arxiv.org/abs/2404.19543)
+  - 地址：https://arxiv.org/abs/2404.19543
+- 2024.04.17 综述面向检索的核心技术
+  - [《A Survey on Retrieval-Augmented Text Generation for Large Language Models》](https://arxiv.org/abs/2404.10981)
+  - 地址：https://arxiv.org/abs/2404.10981
+- 2024.02.29 面向AIGC生成做全面综述
+  - [《Retrieval-Augmented Generation for AI-Generated Content: A Survey》](https://arxiv.org/abs/2402.19473)
+  - 地址：https://arxiv.org/abs/2402.19473
+- 2023.11.18 首个全面RAG综述
+  - [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)  
+  - 地址：https://arxiv.org/abs/2312.10997
+  - [翻译：面向大语言模型的检索增强生成技术：调查](https://baoyu.io/translations/ai-paper/2312.10997-retrieval-augmented-generation-for-large-language-models-a-survey)
   - [Github repo](https://github.com/Tongji-KGLLM/RAG-Survey/tree/main)
-  - [大语言模型的检索增强生成 (RAG) 方法](https://www.promptingguide.ai/zh/research/rag#rag%E7%AE%80%E4%BB%8B)
-- [论文：Graph Retrieval-Augmented Generation: A Survey](https://arxiv.org/pdf/2408.08921)
-- [Advanced RAG Techniques: an Illustrated Overview](https://pub.towardsai.net/advanced-rag-techniques-an-illustrated-overview-04d193d8fec6)
+- 2023.03.20 多模态RAG综述
+  - [2023.03.20 《Retrieving Multimodal Information for Augmented Generation: A Survey》](https://arxiv.org/abs/2303.10868)  多模态RAG综述
+  - https://arxiv.org/abs/2303.10868
+- 2022.02.02近三年首个综述
+  - [《A Survey on Retrieval-Augmented Text Generation》](https://arxiv.org/abs/2202.01110)
+  - https://arxiv.org/abs/2202.01110
+- [Graph Retrieval-Augmented Generation: A Survey](https://arxiv.org/pdf/2408.08921)
+
+### 其他资料
+- [大语言模型的检索增强生成 (RAG) 方法](https://www.promptingguide.ai/zh/research/rag#rag%E7%AE%80%E4%BB%8B)
+- [Advaned RAG Techniques: an Illustrated Overview](https://pub.towardsai.net/advanced-rag-techniques-an-illustrated-overview-04d193d8fec6)
   - [中译版 高级 RAG 技术：图解概览](https://baoyu.io/translations/rag/advanced-rag-techniques-an-illustrated-overview)
 - [高级RAG应用构建指南和总结](https://blog.llamaindex.ai/a-cheat-sheet-and-some-recipes-for-building-advanced-rag-803a9d94c41b)
 - [Patterns for Building LLM-based Systems & Products](https://eugeneyan.com/writing/llm-patterns/)
@@ -120,6 +171,9 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - 一款低代码构建多Agent大模型应用的开发工具，协助开发者用极低的成本构建复杂的AI应用，并可以持续的迭代优化效果。使用LazyLLM搭建RAG应用非常便捷和灵活，可以任意字定义多路检索和召回策略。除此之外，LazyLLM的AI应用构建流程是原型搭建 -> 数据回流 -> 迭代优化，用户可以先基于LazyLLM快速搭建RAG应用的，再结合场景任务数据进行bad-case分析，然后对应用中的关键环节进行算法迭代和模型微调，进而逐步提升整个RAG应用的效果。
 - [GraphRAG](https://github.com/microsoft/GraphRAG)
   - GraphRAG 是一种基于图的检索增强方法，由微软开发并开源。 它通过结合LLM和图机器学习的技术，从非结构化的文本中提取结构化的数据，构建知识图谱，以支持问答、摘要等多种应用场景。
+  - [微软GraphRAG框架演进之路及带来的一些思考](https://mp.weixin.qq.com/s/3P7QZLaa4_d9fn9uHRA0JA)
+- [LightRAG](https://github.com/HKUDS/LightRAG)
+  - 微软Graph的简化版本，将社区、社区宅摘要这些环节做了去除，这种去除是好的，不会太重，对于知识更新也更快；
 - [kotaemon](https://github.com/Cinnamon/kotaemon)
   - 一个开源的、基于 RAG (Retrieval-Augmented Generation) 的文档问答工具,支持多用户登录、本地和云端 LLM 及 Embedding 模型、图表多模态文档解析和问答、混合检索带文档预览的高级引用功能、持复杂推理方法,如问题分解、基于 agent 的推理(如 ReAct、ReWOO)等。
 
@@ -179,6 +233,15 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - 北京智源人工智能研究院开源，交叉编码器将对查询和答案实时计算相关性分数，这比向量模型(即双编码器)更准确，但比向量模型更耗时。 因此，它可以用来对嵌入模型返回的前k个文档重新排序
 - [gte-base-zh](https://modelscope.cn/models/iic/nlp_gte_sentence-embedding_chinese-base/summary)
   - GTE text embedding GTE中文通用文本表示模型 通义实验室提供
+
+### 爬虫
+- [Crawl4AI](https://github.com/unclecode/crawl4ai)
+  - Crawl4AI是一个开源的、用于为AI而生的智能、快速且灵活的网络爬虫工具。它针对大语言模型(LLM)、AI Agent和数据流水线提供了优秀的爬取性能,通过高速、精确和易部署的特点来赋能开发者。
+  - 为LLM量身打造的Markdown生成功能。
+  - 提供6倍于常规爬虫的超快速爬取能力。
+  - 支持会话管理、代理和自定义钩子,实现灵活的浏览器控制。
+  - 采用高级算法进行高效抽取,减少对昂贵模型的依赖。
+  - 完全开源无API密钥,支持Docker和云端集成。
 
 ### 安全护栏
 
@@ -279,7 +342,11 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 16 https://github.com/nilsherzig/LLocalSearch
 17 https://github.com/OcularEngineering/ocular
 18 https://github.com/QmiAI/Qmedia?tab=readme-ov-file
-
+19 Zure-search-openai-demo：https://github.com/Azure-Samples/azure-search-openai-demo
+21 Gerev：https://github.com/GerevAI/gerev
+22 OpenPerPlex：https://github.com/YassKhazzan/openperplex_backend_os
+23 llm-answer-engine：https://github.com/developersdigest/llm-answer-engine
+24 search4all：https://github.com/fatwang2/search4all
 
 ## 应用参考
 
@@ -450,6 +517,9 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - [使用 LlamaIndex 构建生产就绪型 LLM 应用程序：用于更高精度检索的文档元数据](https://tczjw7bsp1.feishu.cn/wiki/St29wfD5QiMcThk8ElncSe90nZe?from=from_copylink)
 - [dvanced RAG Series: Retrieval](https://div.beehiiv.com/p/advanced-rag-series-retrieval)
 
+### GraphRAG
+- [微软GraphRAG框架演进之路及带来的一些思考](https://mp.weixin.qq.com/s/3P7QZLaa4_d9fn9uHRA0JA)
+  - [LazyGraphRAG](https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost)
 ### 检索后处理
 
 #### 重排序
