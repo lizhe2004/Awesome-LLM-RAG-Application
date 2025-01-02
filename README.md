@@ -55,51 +55,134 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   论文顺序由近及远
 - 2024.12.23 RAG中的查询优化技术总结
   - [《A Survey of Query Optimization in Large Language Models》](https://arxiv.org/abs/2412.17558)
-  - https://arxiv.org/abs/2412.17558
-  - 对查询优化技术进行了梳理和分类，涵盖了扩展、消歧、分解和抽象四种主要方法。
+    <details>
+      <summary>详情</summary>
+      
+
+    https://arxiv.org/abs/2412.17558
+    - 对查询优化技术进行了梳理和分类，涵盖了扩展、消歧、分解和抽象四种主要方法。
+ ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102143719.png)
+  ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102144007.png)
+  ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102144352.png)
+    </details>
+
 - 2024.10.23 RAG技术演进的回顾总结
   - [《A Comprehensive Survey of Retrieval-Augmented Generation (RAG: Evolution, Current Landscape and Future Directions》](https://arxiv.org/abs/2410.12837)
-  - https://arxiv.org/abs/2410.12837
+    <details>
+        <summary>详情</summary>
+
+      
+      </details>  - https://arxiv.org/abs/2410.12837
   - 全面研究检索增强生成（RAG）技术，追溯其从基础概念到当前状态的演变过程
 
 - 2024.09.23 综述RAG数据利用方案
   - [《Retrieval Augmented Generation (RAG and Beyond: A Comprehensive Survey on How to Make your LLMs use External Data More Wisely》](https://arxiv.org/abs/2409.14924)
-  - https://arxiv.org/abs/2409.14924
+    <details>
+        <summary>详情</summary>
+
+      
+      </details>  - https://arxiv.org/abs/2409.14924
   - 探讨了如何通过外部数据增强大模型（LLMs）的能力。
 - 2024.08.15 综述GraphRAG方案
   - [《Graph Retrieval-Augmented Generation: A Survey》](https://arxiv.org/abs/2408.08921)
-  - https://arxiv.org/abs/2408.08921
+    <details>
+        <summary>详情</summary>
+
+      
+      </details>  - https://arxiv.org/abs/2408.08921
   - 系统性地回顾了Graph Retrieval-Augmented Generation (GraphRAG) 的现状和发展方向。
 - 2024.07.18 综述RAG用于NLP自然语言处理
   - [《Retrieval-Augmented Generation for Natural Language Processing: A Survey》](https://arxiv.org/abs/2407.13193)
-  - https://arxiv.org/abs/2407.13193
+    <details>
+        <summary>详情</summary>
+
+      
+      </details>  - https://arxiv.org/abs/2407.13193
 - 2024.05.13 综述RAG的评估
   - [《Evaluation of Retrieval-Augmented Generation: A Survey》](https://arxiv.org/abs/2405.07437)
-  - https://arxiv.org/abs/2405.07437
+    <details>
+        <summary>详情</summary>
+
+      
+      </details>  - https://arxiv.org/abs/2405.07437
 - 2024.05.10 综述RAG与LLM的结合范式
   - [《A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models》](https://arxiv.org/abs/2405.06211)
-  - 地址：https://arxiv.org/abs/2405.06211
+    <details>
+        <summary>详情</summary>
+
+      
+      </details>  - 地址：https://arxiv.org/abs/2405.06211
+
 - 2024.04.30 综述检索增强语言模型（RALMs）
   - [《RAG and RAU: A Survey on Retrieval-Augmented Language Model in Natural Language Processing》](https://arxiv.org/abs/2404.19543)
-  - 地址：https://arxiv.org/abs/2404.19543
+    <details>
+        <summary>详情</summary>
+
+      全面综述检索增强语言模型（RALMs），包括检索增强生成（RAG）和检索增强理解（RAU），并探讨其在自然语言处理（NLP）中的应用和发展，不仅关注RAG，还涵盖了RAU，详细描述了检索器和语言模型的不同交互模式，并提供了RALMs的工作时间表和应用总结。
+      - 地址：https://arxiv.org/abs/2404.19543
+      </details>  
+
 - 2024.04.17 综述面向检索的核心技术
   - [《A Survey on Retrieval-Augmented Text Generation for Large Language Models》](https://arxiv.org/abs/2404.10981)
-  - 地址：https://arxiv.org/abs/2404.10981
+    <details>
+        <summary>详情</summary>
+
+      地址：https://arxiv.org/abs/2404.10981
+    主要回顾当前RAG在各个阶段的核心技术。例如，对于检索，分成了基本检索策略：线性工作流程，适用于简单任务；迭代检索策略：多次检索，逐步优化结果；递归检索策略：处理层次化或分层信息，适用于复杂查询；条件检索策略：根据特定条件或规则进行检索；以及自适应检索策略：动态调整检索策略以优化结果。
+    ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102152054.png)
+    ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102151954.png)
+      </details>  
+
 - 2024.02.29 面向AIGC生成做全面综述
   - [《Retrieval-Augmented Generation for AI-Generated Content: A Survey》](https://arxiv.org/abs/2402.19473)
-  - 地址：https://arxiv.org/abs/2402.19473
+  <details>
+      <summary>详情</summary>
+
+  地址：https://arxiv.org/abs/2402.19473
+    ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102151051.png)
+    ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102151154.png)
+    ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102151334.png)
+    ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102151632.png)
+    </details>
+
 - 2023.11.18 首个全面RAG综述
-  - [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997)  
-  - 地址：https://arxiv.org/abs/2312.10997
-  - [翻译：面向大语言模型的检索增强生成技术：调查](https://baoyu.io/translations/ai-paper/2312.10997-retrieval-augmented-generation-for-large-language-models-a-survey)
-  - [Github repo](https://github.com/Tongji-KGLLM/RAG-Survey/tree/main)
+  - [Retrieval-Augmented Generation for Large Language Models: A Survey](https://arxiv.org/abs/2312.10997) 
+  <details>
+      <summary>详情</summary>
+      
+    全面回顾了RAG的发展历程，提供了对RAG系统各个关键组件的深入理解，并介绍了最新的评估框架和基准。
+    
+    地址：https://arxiv.org/abs/2312.10997
+    
+    [翻译：面向大语言模型的检索增强生成技术：调查](https://baoyu.io/translations/ai-paper/2312.10997-retrieval-augmented-generation-for-large-language-models-a-survey)
+
+    [Github repo](https://github.com/Tongji-KGLLM/RAG-Survey/tree/main)
+
+  ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102150341.png)
+    ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102150551.png)
+
+    </details> 
+
 - 2023.03.20 多模态RAG综述
-  - [2023.03.20 《Retrieving Multimodal Information for Augmented Generation: A Survey》](https://arxiv.org/abs/2303.10868)  多模态RAG综述
-  - https://arxiv.org/abs/2303.10868
+  - [2023.03.20 《Retrieving Multimodal Information for Augmented Generation: A Survey》](https://arxiv.org/abs/2303.10868) 
+  <details>
+      <summary>详情</summary>
+
+    https://arxiv.org/abs/2303.10868
+  探讨了通过检索多模态知识来增强生成模型的方法，特别是如何利用图像、代码、结构化知识、音频和视频等多模态信息来提升大型语言模型（LLMs）的生成能力。
+    </details>
+
 - 2022.02.02近三年首个综述
   - [《A Survey on Retrieval-Augmented Text Generation》](https://arxiv.org/abs/2202.01110)
-  - https://arxiv.org/abs/2202.01110
-- [Graph Retrieval-Augmented Generation: A Survey](https://arxiv.org/pdf/2408.08921)
+  <details>
+      <summary>详情</summary>
+
+    https://arxiv.org/abs/2202.01110
+    
+    首先突出了检索增强生成的通用范式，然后根据不同的任务，包括对话响应生成、机器翻译和其他生成任务，回顾了值得关注的方案。
+
+  ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102144855.png)
+    </details>
 
 ### 其他资料
 - [大语言模型的检索增强生成 (RAG) 方法](https://www.promptingguide.ai/zh/research/rag#rag%E7%AE%80%E4%BB%8B)
@@ -168,19 +251,47 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 - [Cognita](https://github.com/truefoundry/cognita)
   - Cognita 在底层使用了Langchain/Llamaindex，并对代码进行了结构化组织，其中每个 RAG 组件都是模块化的、API 驱动的、易于扩展的。Cognita 可在本地设置中轻松使用，同时还能为您提供无代码用户界面支持的生产就绪环境。Cognita 默认还支持增量索引。
 - [LazyLLM](https://github.com/LazyAGI/LazyLLM)
-  - 一款低代码构建多Agent大模型应用的开发工具，协助开发者用极低的成本构建复杂的AI应用，并可以持续的迭代优化效果。使用LazyLLM搭建RAG应用非常便捷和灵活，可以任意字定义多路检索和召回策略。除此之外，LazyLLM的AI应用构建流程是原型搭建 -> 数据回流 -> 迭代优化，用户可以先基于LazyLLM快速搭建RAG应用的，再结合场景任务数据进行bad-case分析，然后对应用中的关键环节进行算法迭代和模型微调，进而逐步提升整个RAG应用的效果。
+    <details>
+      <summary>详情</summary>
+
+  一款低代码构建多Agent大模型应用的开发工具，协助开发者用极低的成本构建复杂的AI应用，并可以持续的迭代优化效果。使用LazyLLM搭建RAG应用非常便捷和灵活，可以任意字定义多路检索和召回策略。除此之外，LazyLLM的AI应用构建流程是原型搭建 -> 数据回流 -> 迭代优化，用户可以先基于LazyLLM快速搭建RAG应用的，再结合场景任务数据进行bad-case分析，然后对应用中的关键环节进行算法迭代和模型微调，进而逐步提升整个RAG应用的效果。
+  
+    </details>
+
 - [GraphRAG](https://github.com/microsoft/GraphRAG)
-  - GraphRAG 是一种基于图的检索增强方法，由微软开发并开源。 它通过结合LLM和图机器学习的技术，从非结构化的文本中提取结构化的数据，构建知识图谱，以支持问答、摘要等多种应用场景。
-  - [微软GraphRAG框架演进之路及带来的一些思考](https://mp.weixin.qq.com/s/3P7QZLaa4_d9fn9uHRA0JA)
+    <details>
+      <summary>详情</summary>
+
+    - GraphRAG 是一种基于图的检索增强方法，由微软开发并开源。 它通过结合LLM和图机器学习的技术，从非结构化的文本中提取结构化的数据，构建知识图谱，以支持问答、摘要等多种应用场景。
+    - [微软GraphRAG框架演进之路及带来的一些思考](https://mp.weixin.qq.com/s/3P7QZLaa4_d9fn9uHRA0JA)
+  
+    </details>
+
 - [LightRAG](https://github.com/HKUDS/LightRAG)
-  - 微软Graph的简化版本，将社区、社区宅摘要这些环节做了去除，这种去除是好的，不会太重，对于知识更新也更快；
+    <details>
+      <summary>详情</summary>
+      
+    - 微软Graph的简化版本，将社区、社区宅摘要这些环节做了去除，这种去除是好的，不会太重，对于知识更新也更快；
+  
+    </details>
 - [kotaemon](https://github.com/Cinnamon/kotaemon)
-  - 一个开源的、基于 RAG (Retrieval-Augmented Generation) 的文档问答工具,支持多用户登录、本地和云端 LLM 及 Embedding 模型、图表多模态文档解析和问答、混合检索带文档预览的高级引用功能、持复杂推理方法,如问题分解、基于 agent 的推理(如 ReAct、ReWOO)等。
+    <details>
+      <summary>详情</summary>
+
+  一个开源的、基于 RAG (Retrieval-Augmented Generation) 的文档问答工具,支持多用户登录、本地和云端 LLM 及 Embedding 模型、图表多模态文档解析和问答、混合检索带文档预览的高级引用功能、持复杂推理方法,如问题分解、基于 agent 的推理(如 ReAct、ReWOO)等。
+  
+    </details>
+      
 
 ### 预处理
 
 - [Unstructured](https://github.com/Unstructured-IO/unstructured)
-  - 该库提供了用于摄取和预处理图像和文本文档（如 PDF、HTML、WORD 文档等）的开源组件。 unstructured的使用场景围绕着简化和优化LLM数据处理工作流程，   unstructured模块化功能和连接器形成了一个有内聚性的系统，简化了数据摄取和预处理，使其能够适应不同的平台，并有效地将非结构化数据转换为结构化输出。
+    <details>
+      <summary>详情</summary>
+
+    该库提供了用于摄取和预处理图像和文本文档（如 PDF、HTML、WORD 文档等）的开源组件。 unstructured的使用场景围绕着简化和优化LLM数据处理工作流程，   unstructured模块化功能和连接器形成了一个有内聚性的系统，简化了数据摄取和预处理，使其能够适应不同的平台，并有效地将非结构化数据转换为结构化输出。
+    </details>
+
 - [Open Parse](https://github.com/Filimoa/open-parse)
   - 对文档进行分块是一项具有挑战性的任务，它支撑着任何 RAG 系统。高质量的结果对于人工智能应用的成功至关重要，但大多数开源库处理复杂文档的能力都受到限制。
   - Open Parse 旨在通过提供灵活、易于使用的库来填补这一空白，该库能够直观地识别文档布局并有效地对其进行分块。
@@ -236,41 +347,77 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 
 ### 爬虫
 - [Crawl4AI](https://github.com/unclecode/crawl4ai)
-  - Crawl4AI是一个开源的、用于为AI而生的智能、快速且灵活的网络爬虫工具。它针对大语言模型(LLM)、AI Agent和数据流水线提供了优秀的爬取性能,通过高速、精确和易部署的特点来赋能开发者。
-  - 为LLM量身打造的Markdown生成功能。
-  - 提供6倍于常规爬虫的超快速爬取能力。
-  - 支持会话管理、代理和自定义钩子,实现灵活的浏览器控制。
-  - 采用高级算法进行高效抽取,减少对昂贵模型的依赖。
-  - 完全开源无API密钥,支持Docker和云端集成。
+    <details>
+      <summary>详情</summary>
+
+    - Crawl4AI是一个开源的、用于为AI而生的智能、快速且灵活的网络爬虫工具。它针对大语言模型(LLM)、AI Agent和数据流水线提供了优秀的爬取性能,通过高速、精确和易部署的特点来赋能开发者。
+    - 为LLM量身打造的Markdown生成功能。
+    - 提供6倍于常规爬虫的超快速爬取能力。
+    - 支持会话管理、代理和自定义钩子,实现灵活的浏览器控制。
+    - 采用高级算法进行高效抽取,减少对昂贵模型的依赖。
+    - 完全开源无API密钥,支持Docker和云端集成。
+    </details>
+- [firecrawl](https://github.com/mendableai/firecrawl)
+    <details>
+      <summary>详情</summary>
+
+    Firecrawl 是一个强大的 API 服务,可以从任何网站抓取数据并转换为干净的 Markdown 或结构化数据。它具有高级的抓取、爬取和数据提取功能,可以帮助您的 AI 应用程序获取干净的数据。
+
+    主要功能点
+    - 抓取: 抓取网页内容并以 LLM 就绪格式(Markdown、结构化数据、截图、HTML)返回
+    - 爬取: 抓取网页上的所有 URL 并以 LLM 就绪格式返回内容
+    - 映射: 输入一个网站,获取该网站的所有 URL - 速度极快
+    强大的功能: 支持 LLM 就绪格式、代理、反机器人机制、动态内容(JS 渲染)、输出解析、编排等
+    - 可定制性: 排除标签、在身份验证墙后爬取、最大爬取深度等
+    </details>
+
+
 
 ### 安全护栏
 
 - [NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)
-  - NeMo Guardrails 是一个开源工具包，用于为基于 LLM 的对话应用程序轻松添加可编程的保护轨。Guardrails（简称 "轨"）是控制大型语言模型输出的特定方式，例如不谈论政治、以特定方式响应特定用户请求、遵循预定义对话路径、使用特定语言风格、提取结构化数据等。
+    <details>
+      <summary>详情</summary>
+
+    NeMo Guardrails 是一个开源工具包，用于为基于 LLM 的对话应用程序轻松添加可编程的保护轨。Guardrails（简称 "轨"）是控制大型语言模型输出的特定方式，例如不谈论政治、以特定方式响应特定用户请求、遵循预定义对话路径、使用特定语言风格、提取结构化数据等。
+    </details>
+
 - [Guardrails](https://github.com/guardrails-ai/guardrails)
-  - Guardrails 是一个 Python 框架，通过执行两个关键功能来帮助构建可靠的人工智能应用程序：
+    <details>
+      <summary>详情</summary>
+
+    - Guardrails 是一个 Python 框架，通过执行两个关键功能来帮助构建可靠的人工智能应用程序：
     - Guardrails 在应用程序中运行输入/输出防护装置，以检测、量化和减轻特定类型风险的存在。要查看全套风险，请访问 [Guardrails Hub](https://hub.guardrailsai.com/)。
     - Guardrails 可帮助您从 LLMs 生成结构化数据。对输入和输出进行检测
+    </details>
 
 - [LLM-Guard](https://github.com/protectai/llm-guard)
-  - LLM Guard 是一款旨在增强大型语言模型 (LLMs) 安全性的综合工具。
-  - 输入（Anonymize  匿名化、BanCode 禁止代码、BanCompetitors  禁止竞争对手、BanSubstrings  禁止子串、BanTopics  禁止话题、PromptInjection 提示词注射
-、Toxicity  毒性等）
-  - 输出（代码、anCompetitors  禁止竞争对手、Deanonymize 去匿名化、JSON、LanguageSame  语言相同、MaliciousURLs  恶意URL、NoRefusal  不可拒绝、FactualConsistency  事实一致性、URLReachability  URL可达性等）
-  - 各个检测功能是利用了huggingface上的各种开源模型
+    <details>
+      <summary>详情</summary>
+
+    - LLM Guard 是一款旨在增强大型语言模型 (LLMs) 安全性的综合工具。
+    - 输入（Anonymize  匿名化、BanCode 禁止代码、BanCompetitors  禁止竞争对手、BanSubstrings  禁止子串、BanTopics  禁止话题、PromptInjection 提示词注射
+  、Toxicity  毒性等）
+    - 输出（代码、anCompetitors  禁止竞争对手、Deanonymize 去匿名化、JSON、LanguageSame  语言相同、MaliciousURLs  恶意URL、NoRefusal  不可拒绝、FactualConsistency  事实一致性、URLReachability  URL可达性等）
+    - 各个检测功能是利用了huggingface上的各种开源模型
+    </details>
 
 - [Llama-Guard](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard)
-  - Llama Guard 是一个新的实验模型，可为 LLM 部署提供输入和输出防护栏。Llama Guard 是经过微调的 Llama-7B 模型。
-<div align="center">
-<img src="https://raw.githubusercontent.com/guardrails-ai/guardrails/main/docs/img/with_and_without_guardrails.svg" alt="Guardrails in your application" width="1500px">
+    <details>
+      <summary>详情</summary>
+
+    - Llama Guard 是一个新的实验模型，可为 LLM 部署提供输入和输出防护栏。Llama Guard 是经过微调的 Llama-7B 模型。
+  <div align="center">
+  <img src="https://raw.githubusercontent.com/guardrails-ai/guardrails/main/docs/img/with_and_without_guardrails.svg" alt="Guardrails in your application" width="1500px">
 </div>
+    </details>
 
 - [RefChecker](https://github.com/amazon-science/RefChecker)
   - RefChecker 提供了一个标准化的评估框架来识别大型语言模型输出中存在的微妙幻觉。
 - [vigil-llm](https://github.com/deadbits/vigil-llm/)
   - Vigil是一个Python库和REST API，可以根据一组扫描器评估大型语言模型提示和响应，以检测提示注入、越狱和其他潜在威胁。该存储库还提供了必要的检测特征（签名）和数据集，支持用户自行部署和使用。
+  该应用程序目前处于 alpha 状态，应被视为实验/用于研究目的。
 
-该应用程序目前处于 alpha 状态，应被视为实验/用于研究目的。
 ### Prompting
 - [ DSPy](https://github.com/stanfordnlp/dspy)
   -  DSPy 是一款功能强大的框架。它可以用来自动优化大型语言模型（LLM）的提示词和响应。还能让我们的 LLM 应用即使在 OpenAI/Gemini/Claude版本升级也能正常使用。无论你有多少数据，它都能帮助你优化模型，获得更高的准确度和性能。通过选择合适的优化器，并根据具体需求进行调优，你可以在各种任务中获得出色的结果。
@@ -387,6 +534,14 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 
 ## 论文
 
+- [RAG最佳实践《Searching for Best Practices in Retrieval-Augmented Generation》](https://arxiv.org/pdf/2407.01219)
+  <details>
+    <summary>图片</summary>
+    
+    ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102135350.png)
+
+  </details>
+
 - [Retrieval Augmented Generation: Streamlining the creation of intelligent natural language processing models](https://ai.meta.com/blog/retrieval-augmented-generation-streamlining-the-creation-of-intelligent-natural-language-processing-models/)
 - [Lost in the Middle: How Language Models Use Long Contexts](https://arxiv.org/abs/2307.03172)
 - [论文-设计检索增强生成系统时的七个故障点](https://arxiv.org/abs/2401.05856)
@@ -465,6 +620,15 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 展示了一种仅通过密集表示实现信息检索的方法，该方法通过简单的双编码框架从少量问题和文本段落中学习嵌入。这种方法为开放域问答提供了一种高效的密集段落检索方案。 | [用于开放域问答的密集段落检索](https://arxiv.org/abs/2004.04906)| 2020 年 4 月 |
 
 ## RAG构建策略
+
+<details>
+  <summary>架构图片参考</summary>
+  
+![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102135138.png)
+
+![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102135250.png)
+
+</details>
 
 ### 预处理
 
@@ -547,7 +711,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - [RAG应用的LLM评估最佳实践（译）](https://tczjw7bsp1.feishu.cn/docx/TQJcdzfcfomL4QxqgkfchvbOnog?from=from_copylink)
 - [Advanced RAG 03: Using RAGAs + LlamaIndex for RAG evaluation ](https://webcache.googleusercontent.com/search?q=cache:https%3A%2F%2Fai.plainenglish.io%2Fadvanced-rag-03-using-ragas-llamaindex-for-rag-evaluation-84756b82dca7)
 - [Exploring End-to-End Evaluation of RAG Pipelines](https://webcache.googleusercontent.com/search?q=cache:https://betterprogramming.pub/exploring-end-to-end-evaluation-of-rag-pipelines-e4c03221429)
-  - [探索 RAG 管道的端到端评估](https://tczjw7bsp1.feishu.cn/wiki/XL8WwjYU9i1sltkawl1cYOounOg?from=from_copylink)
+  - [探索 RAG 流水线的端到端评估](https://tczjw7bsp1.feishu.cn/wiki/XL8WwjYU9i1sltkawl1cYOounOg?from=from_copylink)
 - [Evaluating Multi-Modal Retrieval-Augmented Generation](https://blog.llamaindex.ai/evaluating-multi-modal-retrieval-augmented-generation-db3ca824d428)
   - [评估多模态检索增强生成](https://tczjw7bsp1.feishu.cn/docx/DrDQdj29DoDhahx9439cjb30nrd?from=from_copylink)
 - [RAG Evaluation](https://cobusgreyling.medium.com/rag-evaluation-9813a931b3d4)
