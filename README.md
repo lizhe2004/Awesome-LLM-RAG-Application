@@ -45,6 +45,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 - [幻觉](#幻觉)
 - [课程](#课程)
 - [视频](#视频)
+- [图书](#图书)
 - [编码实践](#编码实践)
 - [其他](#其他-2)
 --- 
@@ -70,27 +71,26 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - [《A Comprehensive Survey of Retrieval-Augmented Generation (RAG: Evolution, Current Landscape and Future Directions》](https://arxiv.org/abs/2410.12837)
     <details>
         <summary>详情</summary>
-
+       https://arxiv.org/abs/2410.12837
       
-      </details>  - https://arxiv.org/abs/2410.12837
-  - 全面研究检索增强生成（RAG）技术，追溯其从基础概念到当前状态的演变过程
+      全面研究检索增强生成（RAG）技术，追溯其从基础概念到当前状态的演变过程
+</details> 
 
 - 2024.09.23 综述RAG数据利用方案
-  - [《Retrieval Augmented Generation (RAG and Beyond: A Comprehensive Survey on How to Make your LLMs use External Data More Wisely》](https://arxiv.org/abs/2409.14924)
+  - [《Retrieval Augmented Generation (RAG and Beyond: A Comprehensive Survey on How to Make your LLMs use External Data More Wisely)》](https://arxiv.org/abs/2409.14924)
     <details>
         <summary>详情</summary>
-
-      
-      </details>  - https://arxiv.org/abs/2409.14924
-  - 探讨了如何通过外部数据增强大模型（LLMs）的能力。
+      https://arxiv.org/abs/2409.14924
+      探讨了如何通过外部数据增强大模型（LLMs）的能力。
+      </details>  
 - 2024.08.15 综述GraphRAG方案
   - [《Graph Retrieval-Augmented Generation: A Survey》](https://arxiv.org/abs/2408.08921)
     <details>
         <summary>详情</summary>
 
-      
-      </details>  - https://arxiv.org/abs/2408.08921
-  - 系统性地回顾了Graph Retrieval-Augmented Generation (GraphRAG) 的现状和发展方向。
+      - https://arxiv.org/abs/2408.08921
+      - 系统性地回顾了Graph Retrieval-Augmented Generation (GraphRAG) 的现状和发展方向。
+      </details> 
 - 2024.07.18 综述RAG用于NLP自然语言处理
   - [《Retrieval-Augmented Generation for Natural Language Processing: A Survey》](https://arxiv.org/abs/2407.13193)
     <details>
@@ -103,16 +103,16 @@ Awesome LLM RAG Application is a curated list of application resources based on 
     <details>
         <summary>详情</summary>
 
+      - https://arxiv.org/abs/2405.07437
       
-      </details>  - https://arxiv.org/abs/2405.07437
+      </details>  
 - 2024.05.10 综述RAG与LLM的结合范式
   - [《A Survey on RAG Meeting LLMs: Towards Retrieval-Augmented Large Language Models》](https://arxiv.org/abs/2405.06211)
     <details>
         <summary>详情</summary>
+     - 地址：https://arxiv.org/abs/2405.06211
 
-      
-      </details>  - 地址：https://arxiv.org/abs/2405.06211
-
+      </details> 
 - 2024.04.30 综述检索增强语言模型（RALMs）
   - [《RAG and RAU: A Survey on Retrieval-Augmented Language Model in Natural Language Processing》](https://arxiv.org/abs/2404.19543)
     <details>
@@ -743,7 +743,14 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - [文字版](https://scriv.ai/guides/retrieval-augmented-generation-overview/)
 - [nvidia:Augmenting LLMs Using Retrieval Augmented Generation](https://courses.nvidia.com/courses/course-v1:NVIDIA+S-FX-16+v1/course/)
 - [How to Choose a Vector Database](https://www.youtube.com/watch?v=Yo-AzVpWrRg&ab_channel=Pinecone)
-
+## 图书
+- [大语言模型](https://llmbook-zh.github.io/)
+  - ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250107115756.png)
+  - 大模型技术的中文参考资料，由中国人民大学师生联手打造，由赵鑫教授和文继荣教授领衔。书籍注重为大模型技术的入门读者提供讲解，力图展现一个整体的大模型技术框架和路线图。本书适用于具有深度学习基础的高年级本科生以及低年级研究生使用，可以作为一本入门级的技术书籍。
+  - **下载地址**: [http://aibox.ruc.edu.cn/docs//2024-04/da308db79a5d4c5697da99e012d46c76.pdf](http://aibox.ruc.edu.cn/docs//2024-04/da308db79a5d4c5697da99e012d46c76.pdf)
+- [大模型基础](https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main)
+  - 浙江大学DAILY实验室毛玉仁研究员、高云君教授领衔撰写的《大模型基础》教材！本书包括传统语言模型、大语言模型架构、提示工程、高效参数、模型编辑、搜索增强增加生成等六章内容。为增加本书的易读性，每章分别以一种动物为背景，对具体技术进行举例说明，故此本书以六种动物作为封面
+  - ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250107134449.png)
 
 ## 编码实践
 
