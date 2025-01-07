@@ -222,7 +222,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 - [Retrieval-Augmented Generation (RAG) or Fine-tuning  — Which Is the Best Tool to Boost Your LLM Application?](https://www.linkedin.com/pulse/retrieval-augmented-generation-rag-fine-tuning-which-best-victoria-s-)
   - [RAG还是微调，优化LLM应用的最佳工具是哪个？](https://tczjw7bsp1.feishu.cn/wiki/TEtHwkclWirBwqkWeddcY8HXnZf?chunked=false)
 - [提示工程、RAGs 与微调的对比](https://github.com/lizhe2004/Awesome-LLM-RAG-Application/blob/main/Prompting-RAGs-Fine-tuning.md)
-- [RAG vs Finetuning — Which Is the Best Tool to Boost Your LLM Application?](https://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7)
+- [RAG vs Finetuning — Which Is the Best Tool to Boost Your LLM Application?](https://readmedium.com/https://towardsdatascience.com/rag-vs-finetuning-which-is-the-best-tool-to-boost-your-llm-application-94654b1eaba7)
   - [RAG 与微调 — 哪个是提升优化 LLM 应用的最佳工具？](https://tczjw7bsp1.feishu.cn/wiki/Cs9ywwzJSiFrg9kX2r1ch4Nxnth)
 - [A Survey on In-context Learning](https://arxiv.org/abs/2301.00234)
 
@@ -521,6 +521,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 - [58同城-灵犀大模型PPT ](https://www.alipan.com/s/TevoFZfweHH)
 - [阿⾥云AI搜索RAG⼤模型优化实践PPT](https://www.alipan.com/s/SWMYmRwtB7t)
 - [向量化与文档解析技术加速大模型RAG应用落地PPT](https://www.alipan.com/s/xio6aX4zeCF)
+- [RAG应用在得物开放平台的智能答疑的探索](https://mp.weixin.qq.com/s/6yhYLKfNrumSMs7ELvktjg)
 - [用户案例｜Milvus向量引擎在携程酒店搜索中的应用场景和探索](https://zilliz.com.cn/blog/usercase-milvus-trip)
 - [OpenAI 如何优化 LLM 的效果](https://www.breezedeus.com/article/make-llm-greater)
 - [What We Learned from a Year of Building with LLMs 系列](#)
@@ -632,13 +633,13 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 
 ### 预处理
 
-- [From Good to Great: How Pre-processing Documents Supercharges AI’s Output](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/mlearning-ai/from-good-to-great-how-pre-processing-documents-supercharges-ais-output-cf9ecf1bd18c)
+- [From Good to Great: How Pre-processing Documents Supercharges AI’s Output](https://readmedium.com/https://medium.com/mlearning-ai/from-good-to-great-how-pre-processing-documents-supercharges-ais-output-cf9ecf1bd18c)
   - [从好到优秀：如何预处理文件来加速人工智能的输出](https://tczjw7bsp1.feishu.cn/docx/HpFOdBVlIo2nE5xHN8GcPqaSnxg?from=from_copylink)
-- [Advanced RAG 02: Unveiling PDF Parsing](https://webcache.googleusercontent.com/search?q=cache:https%3A%2F%2Fpub.towardsai.net%2Fadvanced-rag-02-unveiling-pdf-parsing-b84ae866344e)
-- [Advanced RAG 07: Exploring RAG for Tables](https://webcache.googleusercontent.com/search?q=cache:https%3A%2F%2Fai.plainenglish.io%2Fadvanced-rag-07-exploring-rag-for-tables-5c3fc0de7af6)
+- [Advanced RAG 02: Unveiling PDF Parsing](https://readmedium.com/https://Fpub.towardsai.net/advanced-rag-02-unveiling-pdf-parsing-b84ae866344e)
+- [Advanced RAG 07: Exploring RAG for Tables](https://readmedium.com/https://ai.plainenglish.io/advanced-rag-07-exploring-rag-for-tables-5c3fc0de7af6)
 - [5 Levels Of Text Splitting](https://github.com/FullStackRetrieval-com/RetrievalTutorials/blob/main/5_Levels_Of_Text_Splitting.ipynb)
   - [Semantic Chunker](https://github.com/run-llama/llama-hub/blob/main/llama_hub/llama_packs/node_parser/semantic_chunking/semantic_chunking.ipynb)
-  - [Advanced RAG 05: Exploring Semantic Chunking](https://webcache.googleusercontent.com/search?q=cache:https%3A%2F%2Fpub.towardsai.net%2Fadvanced-rag-05-exploring-semantic-chunking-97c12af20a4d)
+  - [Advanced RAG 05: Exploring Semantic Chunking](https://readmedium.com/https://Fpub.towardsai.net/advanced-rag-05-exploring-semantic-chunking-97c12af20a4d)
 - [Advanced RAG series: Indexing](https://div.beehiiv.com/p/advanced-rag-series-indexing)
 
  
@@ -652,8 +653,8 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 
 #### 查询语句改写
 
-- [Advanced RAG 06: Exploring Query Rewriting](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/@florian_algo/advanced-rag-06-exploring-query-rewriting-23997297f2d1)
-- [Advanced RAG 11: Query Classification and Refinement](https://webcache.googleusercontent.com/search?q=cache:https%3A%2F%2Fai.gopubby.com%2Fadvanced-rag-11-query-classification-and-refinement-2aec79f4140b)
+- [Advanced RAG 06: Exploring Query Rewriting](https://readmedium.com/https://medium.com/@florian_algo/advanced-rag-06-exploring-query-rewriting-23997297f2d1)
+- [Advanced RAG 11: Query Classification and Refinement](https://readmedium.com/https://ai.gopubby.com/dvanced-rag-11-query-classification-and-refinement-2aec79f4140b)
 - [Advanced RAG Series:Routing and Query Construction](https://div.beehiiv.com/p/routing-query-construction)
 - [Query Transformations](https://blog.langchain.dev/query-transformations/)
   - [基于LLM的RAG应用的问句转换的技巧（译）](https://tczjw7bsp1.feishu.cn/docx/UaOJdXdIzoUTBTxIuxscRAJLnfh?from=from_copylink)
@@ -677,7 +678,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - [Azure认知搜索:通过混合检索和排序功能优于向量搜索](https://tczjw7bsp1.feishu.cn/docx/CDtGdwQJXo0mYVxaLpecXWuRnLc?from=from_copylink)
 - [Optimizing Retrieval Augmentation with Dynamic Top-K Tuning for Efficient Question Answering](https://medium.com/@sauravjoshi23/optimizing-retrieval-augmentation-with-dynamic-top-k-tuning-for-efficient-question-answering-11961503d4ae)
   - [动态 Top-K 调优优化检索增强功能实现高效的问答](https://tczjw7bsp1.feishu.cn/docx/HCzAdk2BmoBg3lxA7ZOcn3KlnJb?from=from_copylink)
-- [Building Production-Ready LLM Apps with LlamaIndex: Document Metadata for Higher Accuracy Retrieval](https://webcache.googleusercontent.com/search?q=cache:https://betterprogramming.pub/building-production-ready-llm-apps-with-llamaindex-document-metadata-for-higher-accuracy-retrieval-a8ceca641fb5)
+- [Building Production-Ready LLM Apps with LlamaIndex: Document Metadata for Higher Accuracy Retrieval](https://readmedium.com/https://betterprogramming.pub/building-production-ready-llm-apps-with-llamaindex-document-metadata-for-higher-accuracy-retrieval-a8ceca641fb5)
   - [使用 LlamaIndex 构建生产就绪型 LLM 应用程序：用于更高精度检索的文档元数据](https://tczjw7bsp1.feishu.cn/wiki/St29wfD5QiMcThk8ElncSe90nZe?from=from_copylink)
 - [dvanced RAG Series: Retrieval](https://div.beehiiv.com/p/advanced-rag-series-retrieval)
 
@@ -688,19 +689,19 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 
 #### 重排序
 
-- [Advanced RAG 04: Re-ranking](https://webcache.googleusercontent.com/search?q=cache:https%3A%2F%2Fpub.towardsai.net%2Fadvanced-rag-04-re-ranking-85f6ae8170b1)
+- [Advanced RAG 04: Re-ranking](https://readmedium.com/https://pub.towardsai.net%2Fadvanced-rag-04-re-ranking-85f6ae8170b1)
 - [RankGPT Reranker Demonstration](https://github.com/run-llama/llama_index/blob/main/docs/examples/node_postprocessor/rankGPT.ipynb)
 
 #### Contextual（Prompt） Compression
 
-- [How to Cut RAG Costs by 80% Using Prompt Compression](https://webcache.googleusercontent.com/search?q=cache:https://towardsdatascience.com/how-to-cut-rag-costs-by-80-using-prompt-compression-877a07c6bedb)  
+- [How to Cut RAG Costs by 80% Using Prompt Compression](https://readmedium.com/https://towardsdatascience.com/how-to-cut-rag-costs-by-80-using-prompt-compression-877a07c6bedb)  
   - 第一种压缩方法是 AutoCompressors。它的工作原理是将长文本汇总为短向量表示，称为汇总向量。然后，这些压缩的摘要向量充当模型的软提示。
 - [LangChain Contextual Compression](https://python.langchain.com/docs/modules/data_connection/retrievers/contextual_compression/?ref=blog.langchain.dev)
-  - [Advanced RAG 09: Prompt Compression](https://webcache.googleusercontent.com/search?q=cache:https%3A%2F%2Fai.gopubby.com%2Fadvanced-rag-09-prompt-compression-95a589f7b554)
+  - [Advanced RAG 09: Prompt Compression](https://readmedium.com/https://ai.gopubby.com/advanced-rag-09-prompt-compression-95a589f7b554)
 
 #### 其他
 
-- [Bridging the rift in Retrieval Augmented Generation](https://webcache.googleusercontent.com/search?q=cache:https://medium.com/@alcarazanthony1/bridging-the-rift-in-retrieval-augmented-generation-3e12f379f66c)
+- [Bridging the rift in Retrieval Augmented Generation](https://readmedium.com/https://medium.com/@alcarazanthony1/bridging-the-rift-in-retrieval-augmented-generation-3e12f379f66c)
   - 不是直接微调检索器和语言模型等效果不佳的基础模块，而是引入了第三个参与者——位于现有组件之间的中间桥接模块。涉及技术包括**排序**、**压缩**、**上下文框架**、**条件推理脚手架**、**互动询问**等 （可参考后续论文）
 
 ### 评估
@@ -709,8 +710,8 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - [用 RAGAs（检索增强生成评估）评估 RAG（检索增强型生成）应用](https://baoyu.io/translations/rag/evaluating-rag-applications-with-ragas)
 - [Best Practices for LLM Evaluation of RAG Applications](https://www.databricks.com/blog/LLM-auto-eval-best-practices-RAG)
   - [RAG应用的LLM评估最佳实践（译）](https://tczjw7bsp1.feishu.cn/docx/TQJcdzfcfomL4QxqgkfchvbOnog?from=from_copylink)
-- [Advanced RAG 03: Using RAGAs + LlamaIndex for RAG evaluation ](https://webcache.googleusercontent.com/search?q=cache:https%3A%2F%2Fai.plainenglish.io%2Fadvanced-rag-03-using-ragas-llamaindex-for-rag-evaluation-84756b82dca7)
-- [Exploring End-to-End Evaluation of RAG Pipelines](https://webcache.googleusercontent.com/search?q=cache:https://betterprogramming.pub/exploring-end-to-end-evaluation-of-rag-pipelines-e4c03221429)
+- [Advanced RAG 03: Using RAGAs + LlamaIndex for RAG evaluation ](https://readmedium.com/https://ai.plainenglish.io/advanced-rag-03-using-ragas-llamaindex-for-rag-evaluation-84756b82dca7)
+- [Exploring End-to-End Evaluation of RAG Pipelines](https://readmedium.com/https://betterprogramming.pub/exploring-end-to-end-evaluation-of-rag-pipelines-e4c03221429)
   - [探索 RAG 流水线的端到端评估](https://tczjw7bsp1.feishu.cn/wiki/XL8WwjYU9i1sltkawl1cYOounOg?from=from_copylink)
 - [Evaluating Multi-Modal Retrieval-Augmented Generation](https://blog.llamaindex.ai/evaluating-multi-modal-retrieval-augmented-generation-db3ca824d428)
   - [评估多模态检索增强生成](https://tczjw7bsp1.feishu.cn/docx/DrDQdj29DoDhahx9439cjb30nrd?from=from_copylink)
@@ -729,7 +730,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 
 ## 幻觉
 - [大模型评测幻觉检测+-+AICon PPT](https://www.alipan.com/s/rCUkfz21vR9)
-- [Let’s Talk About LLM Hallucinations](https://webcache.googleusercontent.com/search?q=cache:https://levelup.gitconnected.com/lets-talk-about-llm-hallucinations-9c8dab3e7ac3)
+- [Let’s Talk About LLM Hallucinations](https://readmedium.com/https://levelup.gitconnected.com/lets-talk-about-llm-hallucinations-9c8dab3e7ac3)
   - [谈一谈LLM幻觉](https://tczjw7bsp1.feishu.cn/docx/G7KJdjENqoMYyhxw05rc8vrgn1c?from=from_copylink)
 - [大型语言模型中的幻觉前沿](https://readmedium.com/zh/the-frontiers-of-hallucination-in-large-language-models-b4e5d666737a)
 
