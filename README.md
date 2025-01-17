@@ -29,6 +29,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - [AI搜索类项目](#ai搜索类项目)
 - [应用参考](#应用参考)
 - [企业级实践](#企业级实践)
+  - [知识库建设](#知识库建设)
 - [论文](#论文-1)
 - [RAG构建策略](#rag构建策略)
   - [预处理](#预处理-1)
@@ -471,6 +472,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - RAGLAB是一个模块化、面向研究的开源框架,用于检索增强型生成(Retrieval-Augmented Generation, RAG)算法。它提供了6种现有RAG算法的复制,以及一个全面的评估系统,包括10个基准数据集,使得RAG算法之间的公平比较和新算法、数据集和评估指标的高效开发成为可能。
 
 ### AI搜索类项目
+
 1 https://github.com/leptonai/search_with_lepton
 2 https://github.com/khoj-ai/khoj
 3 https://github.com/YassKhazzan/openperplex_front
@@ -494,6 +496,23 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 22 OpenPerPlex：https://github.com/YassKhazzan/openperplex_backend_os
 23 llm-answer-engine：https://github.com/developersdigest/llm-answer-engine
 24 search4all：https://github.com/fatwang2/search4all
+25 scira： https://github.com/zaidmukaddam/scira
+  - <details>
+      <summary>详情</summary>
+    网页搜索:使用 Tavily 的 API 搜索网页。
+    特定 URL 搜索:从特定 URL 获取信息。
+    天气:使用 OpenWeather 的 API 获取任何位置的当前天气。
+    编程:使用 E2B 的 API 运行多种语言的代码片段。
+    地图:使用 Google Maps API、Mapbox API 和 TripAdvisor API 获取任何地点的位置。
+    YouTube 搜索:搜索 YouTube 视频并获取时间戳和字幕。
+    学术搜索:搜索学术论文。
+    X 帖子搜索:搜索 X.com 上的帖子。
+    航班跟踪:使用 AviationStack 的 API 跟踪航班。
+    热门电影和电视节目:获取热门电影和电视节目的信息。
+    电影或电视节目搜索:获取任何电影或电视节目的信息。
+    </details>
+26 Gemini-Search：https://github.com/ammaarreshi/Gemini-Search
+  - 一个基于 Google 的 Gemini 2.0 Flash 模型和 Google 搜索的 Perplexity 风格的搜索引擎。它提供 AI 驱动的问答功能,可以实时获取网络资源并提供引用。
 
 ## 应用参考
 
@@ -530,6 +549,9 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - [(Part III): Strategy](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-iii-strategy/)
 - [构建企业级AI助手的经验教训](https://tczjw7bsp1.feishu.cn/docx/Hq4Hd7JXEoHdGZxomkecEDs3n6b?from=from_copylink)
   - [How to build an AI assistant for the enterprise](https://www.glean.com/blog/lessons-and-learnings-from-building-an-enterprise-ready-ai-assistant)
+### 知识库建设
+- [Aily知识问答中的友好文档格式](https://bytedance.larkoffice.com/docx/WA7hdkjYHo9xiDxUiTqcxO7Dnod)
+- [蔚来知识平台的建设与应用](https://mp.weixin.qq.com/s/yUhIBCHWO-fM08qMeikoDQ)
 
 
 
@@ -750,9 +772,13 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - 大模型技术的中文参考资料，由中国人民大学师生联手打造，由赵鑫教授和文继荣教授领衔。书籍注重为大模型技术的入门读者提供讲解，力图展现一个整体的大模型技术框架和路线图。本书适用于具有深度学习基础的高年级本科生以及低年级研究生使用，可以作为一本入门级的技术书籍。
   - **下载地址**: [http://aibox.ruc.edu.cn/docs//2024-04/da308db79a5d4c5697da99e012d46c76.pdf](http://aibox.ruc.edu.cn/docs//2024-04/da308db79a5d4c5697da99e012d46c76.pdf)
 - [大模型基础](https://github.com/ZJU-LLMs/Foundations-of-LLMs/tree/main)
-  - 浙江大学DAILY实验室毛玉仁研究员、高云君教授领衔撰写的《大模型基础》教材！本书包括传统语言模型、大语言模型架构、提示工程、高效参数、模型编辑、搜索增强增加生成等六章内容。为增加本书的易读性，每章分别以一种动物为背景，对具体技术进行举例说明，故此本书以六种动物作为封面
+  - 浙江大学DAILY实验室毛玉仁研究员、高云君教授领衔撰写的《大模型基础》教材！本书包括传统语言模型、大语言模型架构、提示工程、高效参数、模型编辑、搜索增强增加生成等六章内容。为增加本书的易读性，每章分别以一种动物为背景，对具体技术进行举例说明，故此本书以六种动物作为封面。
+  - 因为大模型的技术这几年发展太快了，本书的一个目标也是“月度更新”，自半年前发布后就在不断update，致力打造易读、严谨、有深度的大模型教材。
   - ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250107134449.png)
-
+- [《大规模语言模型：从理论到实践》](https://intro-llm.github.io/)
+  - 本书围绕大语言模型构建的四个主要阶段：预训练、有监督微调、奖励建模和强化学习，详细介绍各阶段使用的算法、数据、难点以及实践经验。
+  - **下载地址：** [https://intro-llm.github.io/chapter/LLM-TAP.pdf](https://intro-llm.github.io/chapter/LLM-TAP.pdf)
+  - ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250117090904.png)
 ## 编码实践
 
 - [编码实践](./practice.md)
