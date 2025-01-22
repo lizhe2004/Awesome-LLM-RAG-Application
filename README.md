@@ -473,30 +473,30 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 
 ### AI搜索类项目
 
-1 https://github.com/leptonai/search_with_lepton
-2 https://github.com/khoj-ai/khoj
-3 https://github.com/YassKhazzan/openperplex_front
-4 https://github.com/supermemoryai/opensearch-ai
-5 https://github.com/InternLM/MindSearch
-6 https://github.com/luyu0279/BrainyAI
-7 https://github.com/memfreeme/memfree
-8 https://github.com/shadowfax92/Fyin
-9 https://github.com/Nutlope/turboseek
-10 https://github.com/ItzCrazyKns/Perplexica
-11 https://github.com/rashadphz/farfalle
-12 https://github.com/yokingma/search_with_ai
-13 https://github.com/nashsu/FreeAskInternet
-14 https://github.com/jjleng/sensei
-15 https://github.com/miurla/morphic
-16 https://github.com/nilsherzig/LLocalSearch
-17 https://github.com/OcularEngineering/ocular
-18 https://github.com/QmiAI/Qmedia?tab=readme-ov-file
-19 Zure-search-openai-demo：https://github.com/Azure-Samples/azure-search-openai-demo
-21 Gerev：https://github.com/GerevAI/gerev
-22 OpenPerPlex：https://github.com/YassKhazzan/openperplex_backend_os
-23 llm-answer-engine：https://github.com/developersdigest/llm-answer-engine
-24 search4all：https://github.com/fatwang2/search4all
-25 scira： https://github.com/zaidmukaddam/scira
+1. https://github.com/leptonai/search_with_lepton
+2. https://github.com/khoj-ai/khoj
+3. https://github.com/YassKhazzan/openperplex_front
+4. https://github.com/supermemoryai/opensearch-ai
+5. https://github.com/InternLM/MindSearch
+6. https://github.com/luyu0279/BrainyAI
+7. https://github.com/memfreeme/memfree
+8. https://github.com/shadowfax92/Fyin
+9. https://github.com/Nutlope/turboseek
+10. https://github.com/ItzCrazyKns/Perplexica
+11. https://github.com/rashadphz/farfalle
+12. https://github.com/yokingma/search_with_ai
+13. https://github.com/nashsu/FreeAskInternet
+14. https://github.com/jjleng/sensei
+15. https://github.com/miurla/morphic
+16. https://github.com/nilsherzig/LLocalSearch
+17. https://github.com/OcularEngineering/ocular
+18. https://github.com/QmiAI/Qmedia?tab=readme-ov-file
+19. Zure-search-openai-demo：https://github.com/Azure-Samples/azure-search-openai-demo
+21. Gerev：https://github.com/GerevAI/gerev
+22. OpenPerPlex：https://github.com/YassKhazzan/openperplex_backend_os
+23. llm-answer-engine：https://github.com/developersdigest/llm-answer-engine
+24. search4all：https://github.com/fatwang2/search4all
+25. scira： https://github.com/zaidmukaddam/scira
   - <details>
       <summary>详情</summary>
     网页搜索:使用 Tavily 的 API 搜索网页。
@@ -511,7 +511,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
     热门电影和电视节目:获取热门电影和电视节目的信息。
     电影或电视节目搜索:获取任何电影或电视节目的信息。
     </details>
-26 Gemini-Search：https://github.com/ammaarreshi/Gemini-Search
+26. Gemini-Search：https://github.com/ammaarreshi/Gemini-Search
   - 一个基于 Google 的 Gemini 2.0 Flash 模型和 Google 搜索的 Perplexity 风格的搜索引擎。它提供 AI 驱动的问答功能,可以实时获取网络资源并提供引用。
 
 ## 应用参考
