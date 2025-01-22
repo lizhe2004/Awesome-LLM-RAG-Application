@@ -32,6 +32,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - [知识库建设](#知识库建设)
 - [论文](#论文-1)
 - [RAG构建策略](#rag构建策略)
+  - [总览](#总览)
   - [预处理](#预处理-1)
   - [查询问句分类和微调](#查询问句分类和微调)
   - [检索](#检索)
@@ -302,10 +303,6 @@ Awesome LLM RAG Application is a curated list of application resources based on 
   - OmniParser 是一个统一的框架，无缝地结合了三个基本的 OCR 任务：文本识别、关键信息提取和表格识别。
 - [python-readability](https://github.com/buriy/python-readability)
   - 给定一个 HTML 文档，提取并清理主体文本和标题。
-- [firecrawl](https://github.com/mendableai/firecrawl)
-  - 将整个网站转变为 LLM 可用的 Markdown 或结构化数据。使用单个 API 进行抓取、爬行和提取。
-- [jina-reader](https://github.com/jina-ai/reader)
-  - 它将任何 URL 转换为LLM 友好的输入
 - [nougat](https://github.com/facebookresearch/nougat)
   - Neural Optical Understanding for Academic Documents.这是学术文档 PDF 解析器，它能理解 LaTeX 数学和表格。但对中文支持不好,需要单独微调。
 - [Pix2Struct](https://github.com/google-research/pix2struct)
@@ -371,7 +368,8 @@ Awesome LLM RAG Application is a curated list of application resources based on 
     强大的功能: 支持 LLM 就绪格式、代理、反机器人机制、动态内容(JS 渲染)、输出解析、编排等
     - 可定制性: 排除标签、在身份验证墙后爬取、最大爬取深度等
     </details>
-
+- [jina-reader](https://github.com/jina-ai/reader)
+  - 它将任何 URL 转换为LLM 友好的输入，
 
 
 ### 安全护栏
@@ -652,6 +650,10 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102135250.png)
 
 </details>
+### 总览
+- [Weaviate Advanced RAG Techniques电子书](https://weaviate.io/ebooks/advanced-rag-techniques)
+  - [中文解读](https://mp.weixin.qq.com/s/62EJx_JAkAiStmoL_p_yjQ)
+
 
 ### 预处理
 
