@@ -56,6 +56,23 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 ### 论文 
 
   论文顺序由近及远
+
+- 2025.02.04 Agentic 总结
+  - [《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》](https://arxiv.org/abs/2501.09136)
+    <details>
+      <summary>详情</summary>
+      
+
+    https://arxiv.org/abs/2501.09136
+    - 核心原理与机制：阐释Agentic RAG的基础概念及核心Agentic机制，包括反思（reflection）、规划（planning）、工具调用（tool use） 与多智能体协作（multi-agent collaboration）。
+    - 系统分类框架：构建Agentic RAG的详细分类体系，涵盖单智能体（single-agent）、多智能体（multi-agent）、层次化（hierarchical）、纠错型（corrective）、自适应（adaptive） 及图结构驱动（graph-based RAG） 等不同架构。
+    - 横向对比分析：系统比较传统RAG、Agentic RAG与智能体文档工作流（ADW） 的优劣势及适用场景。
+    - 落地应用案例：探索Agentic RAG在医疗诊断、个性化教育、金融风控、法律合规等行业的实际应用。
+    - 挑战与发展趋势：探讨该领域面临的系统可扩展性、AI伦理规范、多模态融合、人机协同模式等关键问题及未来方向。
+ ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250826171435348.png)
+
+    </details>
+  
 - 2024.12.23 RAG中的查询优化技术总结
   - [《A Survey of Query Optimization in Large Language Models》](https://arxiv.org/abs/2412.17558)
     <details>
@@ -530,6 +547,17 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 
 
 ## 企业级实践
+
+- [Qcon 句子互动 高原 Agentic RAG 的现在与未来](https://www.alipan.com/s/GLQJ9mndKfB)
+- [Qcon 尹一峰-RAG 基本范式的选择与系统设计](https://www.alipan.com/s/i9fb44JgnR2)
+- [Qcon 夏源-在医疗健康领域，企业大模型RAG优化实践](https://www.alipan.com/s/bPCphy9Gi88)
+- [Qcon 费跃 阿里云-构建企业级 RAG 系统的创新实践](https://www.alipan.com/s/zANqVirq1hS)
+- [AIConf 阿里云客户服务领域Agent在业务提效上的思考与创新实践_姜剑(飞樰)](https://www.alipan.com/s/gw8a3SXLCoL)
+- [黄佳-大模型+数据资产变现，RAG 驱动企业智能化实践案例](https://www.alipan.com/s/RF2h66CZbFY)
+- [王传阳 - QCon北京2025-复杂场景下的 RAG 架构演进：跨模态知识联邦与统一语义推理实践]( https://www.alipan.com/s/csdCULVZ7QL)
+- [AI Conf 覃睿-DeepResearch如何在企业内落地](https://www.alipan.com/s/sdD8JunrAMm)
+- [AIConf QAnything：大模型驱动下的知识库问答体系革新与实践](https://www.alipan.com/s/RTpj3HbaDPe)
+- [Qconf 董振兴-明略科技多模态数据驱动的RAG增强实践.pdf](https://www.alipan.com/s/8y8T7UcvnDU)
 - [B站大模型×领域RAG：打造高效、智能化的用户服务体验 PPT](https://www.alipan.com/s/KQBhhZvaUVK)
 - [哈啰出行从Copilot到Agent模式的探索-贾立 PPT](https://www.alipan.com/s/U58jxu9vrKd)
 - [51Talk-AI+Agent+-+在业务增长中的落地实践 PPT](https://www.alipan.com/s/ztfCspjsvDG)
@@ -650,9 +678,26 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250102135250.png)
 
 </details>
+
 ### 总览
 - [Weaviate Advanced RAG Techniques电子书](https://weaviate.io/ebooks/advanced-rag-techniques)
   - [中文解读](https://mp.weixin.qq.com/s/62EJx_JAkAiStmoL_p_yjQ)
+
+
+### Agentic RAG
+- [Weaviate What is Agentic RAG](https://weaviate.io/blog/what-is-agentic-rag)
+- [Traditional RAG vs. Agentic RAG—Why AI Agents Need Dynamic Knowledge to Get Smarter](https://developer.nvidia.com/blog/traditional-rag-vs-agentic-rag-why-ai-agents-need-dynamic-knowledge-to-get-smarter/)
+- [What is agentic RAG?](https://www.ibm.com/think/topics/agentic-rag)
+- [Agentic RAG: How It Works, Use Cases, Comparison With RAG](https://www.datacamp.com/blog/agentic-rag)
+- [RAG, AI Agents, and Agentic RAG: An In-Depth Review and Comparative Analysis](https://www.digitalocean.com/community/conceptual-articles/rag-ai-agents-agentic-rag-comparative-analysis)
+- [Agentic RAG: How It Works, and How to Evaluate RAG agents](https://www.superannotate.com/blog/agentic-rag)
+- [Agentic RAG vs. Traditional RAG: The Future of AI Decision-Making](https://www.fluid.ai/blog/agentic-rag-vs-traditional-rag-the-future-of-ai-decision-making)
+- [Top 20+ Agentic RAG  Frameworks in 2025](https://research.aimultiple.com/agentic-rag/#different-types-of-agentic-rag-models)
+- [RAG vs Agentic RAG: The Evolution of Smarter, More Dynamic AI Systems](https://www.secureitworld.com/blog/rag-vs-agentic-rag-the-evolution-of-smarter-more-dynamic-ai-systems/)
+- [Agentic RAG Systems: Integration of Retrieval and Generation in AI Architectures](https://galileo.ai/blog/agentic-rag-integration-ai-architecture)
+- [Building an agentic RAG pipeline](https://developer.ibm.com/articles/agentic-rag-pipeline/)
+
+
 
 
 ### 预处理
