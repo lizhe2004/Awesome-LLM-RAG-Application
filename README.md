@@ -4,7 +4,7 @@
 </div>
 
 Awesome LLM RAG Application is a curated list of application resources based on LLM with RAG pattern.
-(latest update: 2025-01-02)
+(latest update: 2025-08-27)
 
 --- 
 
