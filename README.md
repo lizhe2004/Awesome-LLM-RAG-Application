@@ -57,7 +57,54 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 
   论文顺序由近及远
 
-- 2025.02.04 Agentic 总结
+- 2025.08.19 基于大模型的Deep Search智能体综述
+  - [《A Survey of LLM-based Deep Search Agents: Paradigm, Optimization, Evaluation, and Challenges》](https://arxiv.org/abs/2508.05668)
+    <details>
+      <summary>详情</summary>
+      
+    </details>
+- 2025.08.18 Deep Search: 自治型研究智能体综述
+  - [《Deep Research: A Survey of Autonomous Research Agents》](https://arxiv.org/abs/2508.12752)
+    <details>
+      <summary>详情</summary>
+      
+    </details>
+      
+      
+- 2025.08.13 Open Deep Search的优化和演进
+  - [《Improving and Evaluating Open Deep Research Agents》](https://arxiv.org/abs/2508.10152)
+    <details>
+      <summary>详情</summary>
+      
+    </details>
+      
+- 2025.07.03 从网页搜索到智能体特性的深度研究功能：通过推理智能体优化搜索
+  - [《From Web Search towards Agentic Deep Research: Incentivizing Search with Reasoning Agents》](https://arxiv.org/abs/2506.18959)
+    <details>
+      <summary>详情</summary>
+      
+    </details>
+
+ - 2025.06.22 Deep Search Agents 总结
+  - [《Deep Research Agents: A Systematic Examination And Roadmap》](https://arxiv.org/abs/2506.12594)
+    <details>
+      <summary>详情</summary>
+      
+ 
+    </details>
+
+- 2025.06.14 Deep Search 总结
+  - [《A Comprehensive Survey of Deep Research: Systems, Methodologies, and Applications》](https://arxiv.org/abs/2506.12594)
+    <details>
+      <summary>详情</summary>
+      
+ 
+    </details>
+
+
+
+https://arxiv.org/abs/2506.18096
+- 2025.02.04 Agentic RAG 总结
   - [《Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG》](https://arxiv.org/abs/2501.09136)
     <details>
       <summary>详情</summary>
