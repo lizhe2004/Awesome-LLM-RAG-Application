@@ -265,6 +265,7 @@ https://arxiv.org/abs/2506.18096
 - [关于RAG技术的综合合集RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)
 
 ## 介绍
+
 - [Microsoft-Retrieval Augmented Generation (RAG) in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview)
   - [**微软**-Azure AI 搜索之检索增强生成（RAG）](https://tczjw7bsp1.feishu.cn/docx/JJ7ldrO4Zokjq7xZIJcc5IZjnFh?from=from_copylink)
 - [**azure** openai design patterns- RAG](https://github.com/microsoft/azure-openai-design-patterns/tree/main/patterns/03-retrieval-augmented-generation)
@@ -299,7 +300,8 @@ https://arxiv.org/abs/2506.18096
 - [LangChain](https://github.com/langchain-ai/langchain/)
 - [langchain4j](https://github.com/langchain4j/langchain4j)
 - [LlamaIndex](https://github.com/run-llama/llama_index/)
-- [GPT-RAG](https://github.com/Azure/GPT-RAG)
+- [GPT-RAG](https://github.com/Azure/GPT-RAG) 
+- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bibinprathap/VeritasGraph) Graph RAG pipeline that runs locally with ollama and has full source attribution
   - GPT-RAG提供了一个强大的架构，专为RAG模式的企业级部署量身定制。它确保了扎实的回应，并建立在零信任安全和负责任的人工智能基础上，确保可用性、可扩展性和可审计性。非常适合正在从探索和PoC阶段过渡到全面生产和MVP的组织。
 - [QAnything](https://github.com/netease-youdao/QAnything/tree/master)
   - 致力于支持任意格式文件或数据库的本地知识库问答系统，可断网安装使用。任何格式的本地文件都可以往里扔，即可获得准确、快速、靠谱的问答体验。目前已支持格式: PDF，Word(doc/docx)，PPT，Markdown，Eml，TXT，图片（jpg，png等），网页链接
