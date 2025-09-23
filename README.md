@@ -595,13 +595,13 @@ https://arxiv.org/abs/2506.18096
  
   
 ### Deep Search/Research
-https://github.com/Alibaba-NLP/DeepResearch  ![GitHub Repo stars](https://img.shields.io/github/stars/Alibaba-NLP/DeepResearch)
-https://github.com/jina-ai/node-DeepResearch  ![GitHub Repo stars](https://img.shields.io/github/stars/jina-ai/node-DeepResearch)
-https://github.com/bytedance/deer-flow  ![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/deer-flow)
-https://github.com/dzhng/deep-research  ![GitHub Repo stars](https://img.shields.io/github/stars/dzhng/deep-research)
-https://github.com/langchain-ai/open_deep_research  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/open_deep_research)
-https://github.com/langchain-ai/local-deep-researcher  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/local-deep-researcher)
-https://github.com/firecrawl/firesearch  ![GitHub Repo stars](https://img.shields.io/github/stars/firecrawl/firesearch)
+- https://github.com/Alibaba-NLP/DeepResearch  ![GitHub Repo stars](https://img.shields.io/github/stars/Alibaba-NLP/DeepResearch)
+- https://github.com/jina-ai/node-DeepResearch  ![GitHub Repo stars](https://img.shields.io/github/stars/jina-ai/node-DeepResearch)
+- https://github.com/bytedance/deer-flow  ![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/deer-flow)
+- https://github.com/dzhng/deep-research  ![GitHub Repo stars](https://img.shields.io/github/stars/dzhng/deep-research)
+- https://github.com/langchain-ai/open_deep_research  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/open_deep_research)
+- https://github.com/langchain-ai/local-deep-researcher  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/local-deep-researcher)
+- https://github.com/firecrawl/firesearch  ![GitHub Repo stars](https://img.shields.io/github/stars/firecrawl/firesearch)
 
 ## 应用参考
 
