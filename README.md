@@ -63,7 +63,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
       <summary>详情</summary>
       
     </details>
-- 2025.08.18 Deep Search: 自治型研究智能体综述
+- 2025.08.18 Deep Research: 自治型研究智能体综述
   - [《Deep Research: A Survey of Autonomous Research Agents》](https://arxiv.org/abs/2508.12752)
     <details>
       <summary>详情</summary>
@@ -71,13 +71,14 @@ Awesome LLM RAG Application is a curated list of application resources based on 
     </details>
       
       
-- 2025.08.13 Open Deep Search的优化和演进
+- 2025.08.13 Open Deep Research的优化和演进
   - [《Improving and Evaluating Open Deep Research Agents》](https://arxiv.org/abs/2508.10152)
     <details>
       <summary>详情</summary>
       
     </details>
       
+      https://arxiv.org/abs/2507.09477
 - 2025.07.03 从网页搜索到智能体特性的深度研究功能：通过推理智能体优化搜索
   - [《From Web Search towards Agentic Deep Research: Incentivizing Search with Reasoning Agents》](https://arxiv.org/abs/2506.18959)
     <details>
@@ -85,7 +86,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
       
     </details>
 
- - 2025.06.22 Deep Search Agents 总结
+ - 2025.06.22 Deep Research Agents 总结
   - [《Deep Research Agents: A Systematic Examination And Roadmap》](https://arxiv.org/abs/2506.12594)
     <details>
       <summary>详情</summary>
@@ -93,7 +94,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
  
     </details>
 
-- 2025.06.14 Deep Search 总结
+- 2025.06.14 Deep Research 总结
   - [《A Comprehensive Survey of Deep Research: Systems, Methodologies, and Applications》](https://arxiv.org/abs/2506.12594)
     <details>
       <summary>详情</summary>
@@ -265,6 +266,7 @@ https://arxiv.org/abs/2506.18096
 - [关于RAG技术的综合合集RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)
 
 ## 介绍
+- [DeepSearch 与 DeepResearch 的设计和实现](https://mp.weixin.qq.com/s/-pPhHDi2nz8hp5R3Lm_mww)
 - [Microsoft-Retrieval Augmented Generation (RAG) in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview)
   - [**微软**-Azure AI 搜索之检索增强生成（RAG）](https://tczjw7bsp1.feishu.cn/docx/JJ7ldrO4Zokjq7xZIJcc5IZjnFh?from=from_copylink)
 - [**azure** openai design patterns- RAG](https://github.com/microsoft/azure-openai-design-patterns/tree/main/patterns/03-retrieval-augmented-generation)
@@ -296,35 +298,21 @@ https://arxiv.org/abs/2506.18096
 
 ### RAG框架
 
-- [LangChain](https://github.com/langchain-ai/langchain/)
-- [langchain4j](https://github.com/langchain4j/langchain4j)
-- [LlamaIndex](https://github.com/run-llama/llama_index/)
-- [GPT-RAG](https://github.com/Azure/GPT-RAG)
-  - GPT-RAG提供了一个强大的架构，专为RAG模式的企业级部署量身定制。它确保了扎实的回应，并建立在零信任安全和负责任的人工智能基础上，确保可用性、可扩展性和可审计性。非常适合正在从探索和PoC阶段过渡到全面生产和MVP的组织。
-- [QAnything](https://github.com/netease-youdao/QAnything/tree/master)
-  - 致力于支持任意格式文件或数据库的本地知识库问答系统，可断网安装使用。任何格式的本地文件都可以往里扔，即可获得准确、快速、靠谱的问答体验。目前已支持格式: PDF，Word(doc/docx)，PPT，Markdown，Eml，TXT，图片（jpg，png等），网页链接
-- [Quivr](https://github.com/StanGirard/quivr)
+- [LangChain](https://github.com/langchain-ai/langchain/)  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langchain)
+- [RAGFlow](https://github.com/infiniflow/ragflow) ![GitHub Repo stars](https://img.shields.io/github/stars/infiniflow/ragflow)
+  - RAGFlow：基于OCR和文档解析的下一代 RAG 引擎。在文档解析上做了增强，2024年4月1日开源，在数据处理上支持文档结构、图片、表格的深度解析，支持可控分片，可对查询进行深入分析识别关键信息，在检索上提供多路找回/重排能力，界面提供友好的引用参考查看功能。
+
+
+- [LlamaIndex](https://github.com/run-llama/llama_index/)  ![GitHub Repo stars](https://img.shields.io/github/stars/run-llama/llama_index)
+
+- [Dify](https://github.com/langgenius/dify)  ![GitHub Repo stars](https://img.shields.io/github/stars/langgenius/dify)
+  - 融合了 Backend as Service 和 LLMOps 的理念，涵盖了构建生成式 AI 原生应用所需的核心技术栈，包括一个内置 RAG 引擎。使用 Dify，你可以基于任何模型自部署类似 Assistants API 和 GPTs 的能力。
+- [Quivr](https://github.com/StanGirard/quivr)  ![GitHub Repo stars](https://img.shields.io/github/stars/StanGirard/quivr)
   - 您的第二大脑，利用 GenerativeAI 的力量成为您的私人助理！但增强了人工智能功能。
   - [Quivr](https://www.quivr.app/chat)
-- [Dify](https://github.com/langgenius/dify)
-  - 融合了 Backend as Service 和 LLMOps 的理念，涵盖了构建生成式 AI 原生应用所需的核心技术栈，包括一个内置 RAG 引擎。使用 Dify，你可以基于任何模型自部署类似 Assistants API 和 GPTs 的能力。
-- [Verba](https://github.com/weaviate/Verba)
-  - 这是向量数据库weaviate开源的一款RAG应用，旨在为开箱即用的检索增强生成 (RAG) 提供端到端、简化且用户友好的界面。只需几个简单的步骤，即可在本地或通过 OpenAI、Cohere 和 HuggingFace 等 LLM 提供商轻松探索数据集并提取见解。
-- [danswer](https://github.com/danswer-ai/danswer)
-  - 允许您针对内部文档提出自然语言问题，并获得由源材料中的引用和参考文献支持的可靠答案，以便您始终可以信任您得到的结果。您可以连接到许多常用工具，例如 Slack、GitHub、Confluence 等。
-- [RAGFlow](https://github.com/infiniflow/ragflow)
-  - RAGFlow：基于OCR和文档解析的下一代 RAG 引擎。在文档解析上做了增强，2024年4月1日开源，在数据处理上支持文档结构、图片、表格的深度解析，支持可控分片，可对查询进行深入分析识别关键信息，在检索上提供多路找回/重排能力，界面提供友好的引用参考查看功能。
-- [Cognita](https://github.com/truefoundry/cognita)
-  - Cognita 在底层使用了Langchain/Llamaindex，并对代码进行了结构化组织，其中每个 RAG 组件都是模块化的、API 驱动的、易于扩展的。Cognita 可在本地设置中轻松使用，同时还能为您提供无代码用户界面支持的生产就绪环境。Cognita 默认还支持增量索引。
-- [LazyLLM](https://github.com/LazyAGI/LazyLLM)
-    <details>
-      <summary>详情</summary>
 
-  一款低代码构建多Agent大模型应用的开发工具，协助开发者用极低的成本构建复杂的AI应用，并可以持续的迭代优化效果。使用LazyLLM搭建RAG应用非常便捷和灵活，可以任意字定义多路检索和召回策略。除此之外，LazyLLM的AI应用构建流程是原型搭建 -> 数据回流 -> 迭代优化，用户可以先基于LazyLLM快速搭建RAG应用的，再结合场景任务数据进行bad-case分析，然后对应用中的关键环节进行算法迭代和模型微调，进而逐步提升整个RAG应用的效果。
-  
-    </details>
 
-- [GraphRAG](https://github.com/microsoft/GraphRAG)
+- [GraphRAG](https://github.com/microsoft/GraphRAG) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/GraphRAG)
     <details>
       <summary>详情</summary>
 
@@ -333,22 +321,44 @@ https://arxiv.org/abs/2506.18096
   
     </details>
 
-- [LightRAG](https://github.com/HKUDS/LightRAG)
+- [LightRAG](https://github.com/HKUDS/LightRAG) ![GitHub Repo stars](https://img.shields.io/github/stars/HKUDS/LightRAG)
     <details>
       <summary>详情</summary>
       
     - 微软Graph的简化版本，将社区、社区宅摘要这些环节做了去除，这种去除是好的，不会太重，对于知识更新也更快；
   
     </details>
-- [kotaemon](https://github.com/Cinnamon/kotaemon)
+- [kotaemon](https://github.com/Cinnamon/kotaemon) ![GitHub Repo stars](https://img.shields.io/github/stars/Cinnamon/kotaemon)
     <details>
       <summary>详情</summary>
 
   一个开源的、基于 RAG (Retrieval-Augmented Generation) 的文档问答工具,支持多用户登录、本地和云端 LLM 及 Embedding 模型、图表多模态文档解析和问答、混合检索带文档预览的高级引用功能、持复杂推理方法,如问题分解、基于 agent 的推理(如 ReAct、ReWOO)等。
   
     </details>
-      
 
+- [QAnything](https://github.com/netease-youdao/QAnything/tree/master)  ![GitHub Repo stars](https://img.shields.io/github/stars/netease-youdao/QAnything)
+  - 致力于支持任意格式文件或数据库的本地知识库问答系统，可断网安装使用。任何格式的本地文件都可以往里扔，即可获得准确、快速、靠谱的问答体验。目前已支持格式: PDF，Word(doc/docx)，PPT，Markdown，Eml，TXT，图片（jpg，png等），网页链接
+
+
+- [Verba](https://github.com/weaviate/Verba) ![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/Verba)
+  - 这是向量数据库weaviate开源的一款RAG应用，旨在为开箱即用的检索增强生成 (RAG) 提供端到端、简化且用户友好的界面。只需几个简单的步骤，即可在本地或通过 OpenAI、Cohere 和 HuggingFace 等 LLM 提供商轻松探索数据集并提取见解。
+- [danswer](https://github.com/danswer-ai/danswer) ![GitHub Repo stars](https://img.shields.io/github/stars/danswer-ai/danswer)
+  - 允许您针对内部文档提出自然语言问题，并获得由源材料中的引用和参考文献支持的可靠答案，以便您始终可以信任您得到的结果。您可以连接到许多常用工具，例如 Slack、GitHub、Confluence 等。
+
+- [langchain4j](https://github.com/langchain4j/langchain4j)  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain4j/langchain4j)  
+- [Cognita](https://github.com/truefoundry/cognita) ![GitHub Repo stars](https://img.shields.io/github/stars/truefoundry/cognita)
+  - Cognita 在底层使用了Langchain/Llamaindex，并对代码进行了结构化组织，其中每个 RAG 组件都是模块化的、API 驱动的、易于扩展的。Cognita 可在本地设置中轻松使用，同时还能为您提供无代码用户界面支持的生产就绪环境。Cognita 默认还支持增量索引。
+- [LazyLLM](https://github.com/LazyAGI/LazyLLM) ![GitHub Repo stars](https://img.shields.io/github/stars/LazyAGI/LazyLLM)
+    <details>
+      <summary>详情</summary>
+
+  一款低代码构建多Agent大模型应用的开发工具，协助开发者用极低的成本构建复杂的AI应用，并可以持续的迭代优化效果。使用LazyLLM搭建RAG应用非常便捷和灵活，可以任意字定义多路检索和召回策略。除此之外，LazyLLM的AI应用构建流程是原型搭建 -> 数据回流 -> 迭代优化，用户可以先基于LazyLLM快速搭建RAG应用的，再结合场景任务数据进行bad-case分析，然后对应用中的关键环节进行算法迭代和模型微调，进而逐步提升整个RAG应用的效果。
+  
+    </details>
+
+   
+- [GPT-RAG](https://github.com/Azure/GPT-RAG)  ![GitHub Repo stars](https://img.shields.io/github/stars/Azure/GPT-RAG)
+  - GPT-RAG提供了一个强大的架构，专为RAG模式的企业级部署量身定制。它确保了扎实的回应，并建立在零信任安全和负责任的人工智能基础上，确保可用性、可扩展性和可审计性。非常适合正在从探索和PoC阶段过渡到全面生产和MVP的组织。
 ### 预处理
 
 - [Unstructured](https://github.com/Unstructured-IO/unstructured)
@@ -382,20 +392,20 @@ https://arxiv.org/abs/2506.18096
 
 ### 评测框架
 
-- [ragas](https://github.com/explodinggradients/ragas?tab=readme-ov-file)
+- [ragas](https://github.com/explodinggradients/ragas?tab=readme-ov-file)  ![GitHub Repo stars](https://img.shields.io/github/stars/explodinggradients/ragas)
   - Ragas是一个用于评估RAG应用的框架，包括忠诚度（Faithfulness）、答案相关度（Answer Relevance）、上下文精确度（Context Precision）、上下文相关度（Context Relevancy）、上下文召回（Context Recall）
-- [tonic_validate](https://github.com/TonicAI/tonic_validate)
-  - 一个用于 RAG 开发和实验跟踪的平台,用于评估检索增强生成 (RAG) 应用程序响应质量的指标。
-- [deepeval](https://github.com/confident-ai/deepeval)
+
+- [deepeval](https://github.com/confident-ai/deepeval)  ![GitHub Repo stars](https://img.shields.io/github/stars/confident-ai/deepeval)
   - 一个简单易用的开源LLM评估框架，适用于LLM应用程序。它与 Pytest 类似，但专门用于单元测试 LLM 应用程序。 DeepEval 使用 LLMs 以及在您的计算机上本地运行的各种其他 NLP 模型，根据幻觉、答案相关性、RAGAS 等指标来评估性能。
-- [trulens](https://github.com/truera/trulens)
+- [trulens](https://github.com/truera/trulens)  ![GitHub Repo stars](https://img.shields.io/github/stars/truera/trulens)
   - TruLens 提供了一套用于开发和监控神经网络的工具，包括大型语言模型。这包括使用 TruLens-Eval 评估基于 LLMs 和 LLM 的应用程序的工具以及使用 TruLens-Explain 进行深度学习可解释性的工具。 TruLens-Eval 和 TruLens-Explain 位于单独的软件包中，可以独立使用。
-- [uptrain](https://github.com/uptrain-ai/uptrain)
+- [uptrain](https://github.com/uptrain-ai/uptrain)  ![GitHub Repo stars](https://img.shields.io/github/stars/uptrain-ai/uptrain)
   - 用于评估和改进生成式人工智能应用的开源统一平台。提供了20多项预配置检查（涵盖语言、代码、嵌入用例）评分，对失败案例进行根本原因分析，并就如何解决这些问题提出见解。
   - 比如prompt注入、越狱检测、整通对话的用户满意度等
 - [langchain-evaluation](https://python.langchain.com/docs/guides/evaluation/)
 - [Llamaindex-evaluation](https://docs.llamaindex.ai/en/stable/optimizing/evaluation/evaluation.html)
-
+- [tonic_validate](https://github.com/TonicAI/tonic_validate)  ![GitHub Repo stars](https://img.shields.io/github/stars/TonicAI/tonic_validate)
+  - 一个用于 RAG 开发和实验跟踪的平台,用于评估检索增强生成 (RAG) 应用程序响应质量的指标。
 ### Embedding
 
 - [BCEmbedding](https://github.com/netease-youdao/BCEmbedding/tree/master)
@@ -438,14 +448,14 @@ https://arxiv.org/abs/2506.18096
 
 ### 安全护栏
 
-- [NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)
+- [NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)  ![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails)
     <details>
       <summary>详情</summary>
 
     NeMo Guardrails 是一个开源工具包，用于为基于 LLM 的对话应用程序轻松添加可编程的保护轨。Guardrails（简称 "轨"）是控制大型语言模型输出的特定方式，例如不谈论政治、以特定方式响应特定用户请求、遵循预定义对话路径、使用特定语言风格、提取结构化数据等。
     </details>
 
-- [Guardrails](https://github.com/guardrails-ai/guardrails)
+- [Guardrails](https://github.com/guardrails-ai/guardrails)  ![GitHub Repo stars](https://img.shields.io/github/stars/guardrails-ai/guardrails)
     <details>
       <summary>详情</summary>
 
@@ -454,7 +464,7 @@ https://arxiv.org/abs/2506.18096
     - Guardrails 可帮助您从 LLMs 生成结构化数据。对输入和输出进行检测
     </details>
 
-- [LLM-Guard](https://github.com/protectai/llm-guard)
+- [LLM-Guard](https://github.com/protectai/llm-guard)  ![GitHub Repo stars](https://img.shields.io/github/stars/protectai/llm-guard)
     <details>
       <summary>详情</summary>
 
@@ -465,7 +475,7 @@ https://arxiv.org/abs/2506.18096
     - 各个检测功能是利用了huggingface上的各种开源模型
     </details>
 
-- [Llama-Guard](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard)
+- [Llama-Guard](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard)  ![GitHub Repo stars](https://img.shields.io/github/stars/meta-llama/PurpleLlama)
     <details>
       <summary>详情</summary>
 
@@ -475,9 +485,9 @@ https://arxiv.org/abs/2506.18096
 </div>
     </details>
 
-- [RefChecker](https://github.com/amazon-science/RefChecker)
+- [RefChecker](https://github.com/amazon-science/RefChecker)  ![GitHub Repo stars](https://img.shields.io/github/stars/amazon-science/RefChecker)
   - RefChecker 提供了一个标准化的评估框架来识别大型语言模型输出中存在的微妙幻觉。
-- [vigil-llm](https://github.com/deadbits/vigil-llm/)
+- [vigil-llm](https://github.com/deadbits/vigil-llm/)  ![GitHub Repo stars](https://img.shields.io/github/stars/deadbits/vigil-llm)
   - Vigil是一个Python库和REST API，可以根据一组扫描器评估大型语言模型提示和响应，以检测提示注入、越狱和其他潜在威胁。该存储库还提供了必要的检测特征（签名）和数据集，支持用户自行部署和使用。
   该应用程序目前处于 alpha 状态，应被视为实验/用于研究目的。
 
@@ -490,22 +500,22 @@ https://arxiv.org/abs/2506.18096
 
 ### SQL增强
 
-- [vanna](https://github.com/vanna-ai/vanna)
+- [vanna](https://github.com/vanna-ai/vanna)  ![GitHub Repo stars](https://img.shields.io/github/stars/vanna-ai/vanna)
   - Vanna 是一个MIT许可的开源Python RAG（检索增强生成）框架，用于SQL生成和相关功能。
   - Vanna 的工作过程分为两个简单步骤 - 在您的数据上训练 RAG“模型”，然后提出问题，这些问题将返回 SQL 查询。训练的数据主要是一些 DDL schema、业务说明文档以及示例sql等，所谓训练主要是将这些数据embedding化，用于向量检索。
-- [Chat2DB](https://github.com/chat2db/Chat2DB)
+- [Chat2DB](https://github.com/chat2db/Chat2DB)  ![GitHub Repo stars](https://img.shields.io/github/stars/chat2db/Chat2DB)
   - 由前阿里巴巴成员创建并开源，一个智能和多功能的通用SQL客户端和报表工具，集成了ChatGPT功能，，14.3k
 
-- [SQLChat](https://github.com/sqlchat/sqlchat) 
+- [SQLChat](https://github.com/sqlchat/sqlchat)  ![GitHub Repo stars](https://img.shields.io/github/stars/sqlchat/sqlchat)
   - 一个可以将自然语言转换为SQL查询的工具，4.1k
 
-- [Dataherald](https://github.com/dataherald/dataherald) 
+- [Dataherald](https://github.com/dataherald/dataherald)  ![GitHub Repo stars](https://img.shields.io/github/stars/dataherald/dataherald)
   - 使用AI驱动的数据管理平台，帮助用户将自然语言查询转换为SQL。，3.2k
 
-- [WrenAI](https://github.com/Canner/WrenAI) 
+- [WrenAI](https://github.com/Canner/WrenAI)  ![GitHub Repo stars](https://img.shields.io/github/stars/Canner/WrenAI)
   - 一个高效的自然语言到SQL转换工具，支持多种数据库。，1.4k
 
-- [SuperSonic](https://github.com/tencentmusic/supersonic) 
+- [SuperSonic](https://github.com/tencentmusic/supersonic)   ![GitHub Repo stars](https://img.shields.io/github/stars/tencentmusic/supersonic)
   - 由腾讯音乐开源，高性能的SQL生成工具，支持复杂查询的自动生成。1.6k
 
 
@@ -517,9 +527,9 @@ https://arxiv.org/abs/2506.18096
 ### 可观测性
 
 - [llamaindex-可观测性](https://docs.llamaindex.ai/en/stable/module_guides/observability/observability.html)
-  - [langfuse](https://github.com/langfuse/langfuse)
-  - [phoenix](https://github.com/Arize-ai/phoenix)
-  - [openllmetry](https://github.com/traceloop/openllmetry)
+- [langfuse](https://github.com/langfuse/langfuse)  ![GitHub Repo stars](https://img.shields.io/github/stars/langfuse/langfuse)
+- [phoenix](https://github.com/Arize-ai/phoenix) ![GitHub Repo stars](https://img.shields.io/github/stars/Arize-ai/phoenix)
+- [openllmetry](https://github.com/traceloop/openllmetry) ![GitHub Repo stars](https://img.shields.io/github/stars/traceloop/openllmetry)
 - [lunary](https://lunary.ai/)
 
 ### 其他
@@ -535,46 +545,63 @@ https://arxiv.org/abs/2506.18096
 
 ### AI搜索类项目
 
-1. https://github.com/leptonai/search_with_lepton
-2. https://github.com/khoj-ai/khoj
-3. https://github.com/YassKhazzan/openperplex_front
-4. https://github.com/supermemoryai/opensearch-ai
-5. https://github.com/InternLM/MindSearch
-6. https://github.com/luyu0279/BrainyAI
-7. https://github.com/memfreeme/memfree
-8. https://github.com/shadowfax92/Fyin
-9. https://github.com/Nutlope/turboseek
-10. https://github.com/ItzCrazyKns/Perplexica
-11. https://github.com/rashadphz/farfalle
-12. https://github.com/yokingma/search_with_ai
-13. https://github.com/nashsu/FreeAskInternet
-14. https://github.com/jjleng/sensei
-15. https://github.com/miurla/morphic
-16. https://github.com/nilsherzig/LLocalSearch
-17. https://github.com/OcularEngineering/ocular
-18. https://github.com/QmiAI/Qmedia?tab=readme-ov-file
-19. Zure-search-openai-demo：https://github.com/Azure-Samples/azure-search-openai-demo
-21. Gerev：https://github.com/GerevAI/gerev
-22. OpenPerPlex：https://github.com/YassKhazzan/openperplex_backend_os
-23. llm-answer-engine：https://github.com/developersdigest/llm-answer-engine
-24. search4all：https://github.com/fatwang2/search4all
-25. scira： https://github.com/zaidmukaddam/scira
+1.  https://github.com/khoj-ai/khoj ![GitHub Repo stars](https://img.shields.io/github/stars/khoj-ai/khoj)
+2. https://github.com/ItzCrazyKns/Perplexica ![GitHub Repo stars](https://img.shields.io/github/stars/ItzCrazyKns/Perplexica)
+3. scira： https://github.com/zaidmukaddam/scira  ![GitHub Repo stars](https://img.shields.io/github/stars/zaidmukaddam/scira)
   - <details>
-      <summary>详情</summary>
-    网页搜索:使用 Tavily 的 API 搜索网页。
-    特定 URL 搜索:从特定 URL 获取信息。
-    天气:使用 OpenWeather 的 API 获取任何位置的当前天气。
-    编程:使用 E2B 的 API 运行多种语言的代码片段。
-    地图:使用 Google Maps API、Mapbox API 和 TripAdvisor API 获取任何地点的位置。
-    YouTube 搜索:搜索 YouTube 视频并获取时间戳和字幕。
-    学术搜索:搜索学术论文。
-    X 帖子搜索:搜索 X.com 上的帖子。
-    航班跟踪:使用 AviationStack 的 API 跟踪航班。
-    热门电影和电视节目:获取热门电影和电视节目的信息。
-    电影或电视节目搜索:获取任何电影或电视节目的信息。
+        <summary>详情</summary>
+      网页搜索:使用 Tavily 的 API 搜索网页。
+      特定 URL 搜索:从特定 URL 获取信息。
+      天气:使用 OpenWeather 的 API 获取任何位置的当前天气。
+      编程:使用 E2B 的 API 运行多种语言的代码片段。
+      地图:使用 Google Maps API、Mapbox API 和 TripAdvisor API 获取任何地点的位置。
+      YouTube 搜索:搜索 YouTube 视频并获取时间戳和字幕。
+      学术搜索:搜索学术论文。
+      X 帖子搜索:搜索 X.com 上的帖子。
+      航班跟踪:使用 AviationStack 的 API 跟踪航班。
+      热门电影和电视节目:获取热门电影和电视节目的信息。
+      电影或电视节目搜索:获取任何电影或电视节目的信息。
     </details>
-26. Gemini-Search：https://github.com/ammaarreshi/Gemini-Search
+4. https://github.com/nashsu/FreeAskInternet  ![GitHub Repo stars](https://img.shields.io/github/stars/nashsu/FreeAskInternet)
+5. https://github.com/miurla/morphic  ![GitHub Repo stars](https://img.shields.io/github/stars/miurla/morphic)
+6. https://github.com/leptonai/search_with_lepton ![GitHub Repo stars](https://img.shields.io/github/stars/leptonai/search_with_lepton)
+7. AZure-search-openai-demo：https://github.com/Azure-Samples/azure-search-openai-demo  ![GitHub Repo stars](https://img.shields.io/github/stars/Azure-Samples/azure-search-openai-demo)
+8. https://github.com/InternLM/MindSearch ![GitHub Repo stars](https://img.shields.io/github/stars/InternLM/MindSearch) 
+9. https://github.com/nilsherzig/LLocalSearch  ![GitHub Repo stars](https://img.shields.io/github/stars/nilsherzig/LLocalSearch)
+10. llm-answer-engine：https://github.com/developersdigest/llm-answer-engine  ![GitHub Repo stars](https://img.shields.io/github/stars/developersdigest/llm-answer-engine) 
+11. https://github.com/rashadphz/farfalle  ![GitHub Repo stars](https://img.shields.io/github/stars/rashadphz/farfalle)
+12. Gerev：https://github.com/GerevAI/gerev  ![GitHub Repo stars](https://img.shields.io/github/stars/GerevAI/gerev)
+13. Gemini-Search：https://github.com/ammaarreshi/Gemini-Search ![GitHub Repo stars](https://img.shields.io/github/stars/ammaarreshi/Gemini-Search)
   - 一个基于 Google 的 Gemini 2.0 Flash 模型和 Google 搜索的 Perplexity 风格的搜索引擎。它提供 AI 驱动的问答功能,可以实时获取网络资源并提供引用。
+
+14. https://github.com/Nutlope/turboseek ![GitHub Repo stars](https://img.shields.io/github/stars/Nutlope/turboseek)
+15. https://github.com/memfreeme/memfree ![GitHub Repo stars](https://img.shields.io/github/stars/memfreeme/memfree)
+16. https://github.com/supermemoryai/opensearch-ai ![GitHub Repo stars](https://img.shields.io/github/stars/supermemoryai/opensearch-ai)
+ 
+17. https://github.com/yokingma/search_with_ai  ![GitHub Repo stars](https://img.shields.io/github/stars/yokingma/search_with_ai)
+
+
+
+18. OpenPerPlex：https://github.com/YassKhazzan/openperplex_backend_os  ![GitHub Repo stars](https://img.shields.io/github/stars/YassKhazzan/openperplex_backend_os)
+
+19. search4all：https://github.com/fatwang2/search4all  ![GitHub Repo stars](https://img.shields.io/github/stars/fatwang2/search4all)
+
+20. https://github.com/QmiAI/Qmedia?tab=readme-ov-file  ![GitHub Repo stars](https://img.shields.io/github/stars/QmiAI/Qmedia)
+21. https://github.com/luyu0279/BrainyAI ![GitHub Repo stars](https://img.shields.io/github/stars/luyu0279/BrainyAI)
+22. https://github.com/OcularEngineering/ocular  ![GitHub Repo stars](https://img.shields.io/github/stars/OcularEngineering/ocular )
+23. https://github.com/jjleng/sensei  ![GitHub Repo stars](https://img.shields.io/github/stars/jjleng/sensei)
+24. https://github.com/shadowfax92/Fyin ![GitHub Repo stars](https://img.shields.io/github/stars/shadowfax92/Fyin)
+25. https://github.com/YassKhazzan/openperplex_front ![GitHub Repo stars](https://img.shields.io/github/stars/YassKhazzan/openperplex_front)
+ 
+  
+### Deep Search/Research
+https://github.com/Alibaba-NLP/DeepResearch
+https://github.com/jina-ai/node-DeepResearch
+https://github.com/bytedance/deer-flow
+https://github.com/dzhng/deep-research
+https://github.com/langchain-ai/open_deep_research
+https://github.com/langchain-ai/local-deep-researcher
+https://github.com/firecrawl/firesearch
 
 ## 应用参考
 
