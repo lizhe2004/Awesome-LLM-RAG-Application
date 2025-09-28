@@ -448,6 +448,8 @@ https://arxiv.org/abs/2506.18096
 
 ### 安全护栏
 
+- [JoySafety ](https://github.com/jd-opensource/JoySafety) ![GitHub Repo stars](https://img.shields.io/github/stars/jd-opensource/JoySafety)
+  - JoySafety 是一个开源的大模型安全框架。该框架在京东内部广泛应用，覆盖AI导购、物流客服、销售助手、医疗问诊、商家工作台、法务咨询、安全问答等场景，支持日均亿级调用、95%+攻击拦截率，致力于为企业提供一套成熟、可靠、免费的大模型安全防护方案。
 - [NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)  ![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails)
     <details>
       <summary>详情</summary>
@@ -577,15 +579,9 @@ https://arxiv.org/abs/2506.18096
 14. https://github.com/Nutlope/turboseek ![GitHub Repo stars](https://img.shields.io/github/stars/Nutlope/turboseek)
 15. https://github.com/memfreeme/memfree ![GitHub Repo stars](https://img.shields.io/github/stars/memfreeme/memfree)
 16. https://github.com/supermemoryai/opensearch-ai ![GitHub Repo stars](https://img.shields.io/github/stars/supermemoryai/opensearch-ai)
- 
 17. https://github.com/yokingma/search_with_ai  ![GitHub Repo stars](https://img.shields.io/github/stars/yokingma/search_with_ai)
-
-
-
 18. OpenPerPlex：https://github.com/YassKhazzan/openperplex_backend_os  ![GitHub Repo stars](https://img.shields.io/github/stars/YassKhazzan/openperplex_backend_os)
-
 19. search4all：https://github.com/fatwang2/search4all  ![GitHub Repo stars](https://img.shields.io/github/stars/fatwang2/search4all)
-
 20. https://github.com/QmiAI/Qmedia?tab=readme-ov-file  ![GitHub Repo stars](https://img.shields.io/github/stars/QmiAI/Qmedia)
 21. https://github.com/luyu0279/BrainyAI ![GitHub Repo stars](https://img.shields.io/github/stars/luyu0279/BrainyAI)
 22. https://github.com/OcularEngineering/ocular  ![GitHub Repo stars](https://img.shields.io/github/stars/OcularEngineering/ocular )
