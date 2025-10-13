@@ -361,29 +361,51 @@ https://arxiv.org/abs/2506.18096
   - GPT-RAG提供了一个强大的架构，专为RAG模式的企业级部署量身定制。它确保了扎实的回应，并建立在零信任安全和负责任的人工智能基础上，确保可用性、可扩展性和可审计性。非常适合正在从探索和PoC阶段过渡到全面生产和MVP的组织。
 ### 预处理
 
-- [Unstructured](https://github.com/Unstructured-IO/unstructured)
+- [markitdown](https://github.com/microsoft/markitdown) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/markitdown)
+    <details>
+      <summary>详情</summary>
+
+  MarkItDown 是一个轻量级的 Python 工具，用于将各种文件转换为 Markdown 格式，以便与 LLMs 和相关文本分析流程一起使用。为此，它与 textract 最相似，但更注重保留重要的文档结构和内容作为 Markdown（包括：标题、列表、表格、链接等）。虽然输出通常相当可读且适合人类阅读，但其目的是供文本分析工具使用——可能不是为人类消费进行高保真文档转换的最佳选择。
+
+  MarkItDown 目前支持以下格式的转换：
+
+  PDF
+  PowerPoint
+  Word 
+  Excel
+  Images (EXIF metadata and OCR)
+  Audio (EXIF metadata and speech transcription)
+  HTML
+  基于文本的格式（CSV、JSON、XML）
+  ZIP 文件（遍历内容）
+  Youtube URLs
+  EPubs 等
+    </details>
+- [docling](https://github.com/docling-project/docling) ![GitHub Repo stars](https://img.shields.io/github/stars/docling-project/docling)
+  - Docling 是一个简化文档处理和解析的工具,支持多种文档格式,包括 PDF、DOCX、PPTX、XLSX、HTML、WAV、MP3、VTT 和图像等。它提供了先进的 PDF 理解功能,如页面布局、读取顺序、表格结构、代码、公式和图像分类等。Docling 还提供了统一的 DoclingDocument 表示格式,支持多种导出格式,如 Markdown、HTML、DocTags 和 JSON。此外,Docling 还支持本地执行、集成 LangChain、LlamaIndex、Crew AI 和 Haystack 等 AI 框架,以及广泛的光学字符识别 (OCR) 和音频支持。
+- [Unstructured](https://github.com/Unstructured-IO/unstructured) ![GitHub Repo stars](https://img.shields.io/github/stars/Unstructured-IO/unstructured)
     <details>
       <summary>详情</summary>
 
     该库提供了用于摄取和预处理图像和文本文档（如 PDF、HTML、WORD 文档等）的开源组件。 unstructured的使用场景围绕着简化和优化LLM数据处理工作流程，   unstructured模块化功能和连接器形成了一个有内聚性的系统，简化了数据摄取和预处理，使其能够适应不同的平台，并有效地将非结构化数据转换为结构化输出。
     </details>
 
-- [Open Parse](https://github.com/Filimoa/open-parse)
+- [Open Parse](https://github.com/Filimoa/open-parse) ![GitHub Repo stars](https://img.shields.io/github/stars/Filimoa/open-parse)
   - 对文档进行分块是一项具有挑战性的任务，它支撑着任何 RAG 系统。高质量的结果对于人工智能应用的成功至关重要，但大多数开源库处理复杂文档的能力都受到限制。
   - Open Parse 旨在通过提供灵活、易于使用的库来填补这一空白，该库能够直观地识别文档布局并有效地对其进行分块。
-- [ExtractThinker](https://github.com/enoch3712/ExtractThinker)
+- [ExtractThinker](https://github.com/enoch3712/ExtractThinker) ![GitHub Repo stars](https://img.shields.io/github/stars/enoch3712/ExtractThinker)
   - 使用 LLMs 从文件和文档中提取数据的库。 extract_thinker 在文件和 LLMs 之间提供 ORM 风格的交互，从而实现灵活且强大的文档提取工作流程。
-- [OmniParser](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/OCR/OmniParser)
+- [OmniParser](https://github.com/AlibabaResearch/AdvancedLiterateMachinery/tree/main/OCR/OmniParser) ![GitHub Repo stars](https://img.shields.io/github/stars/AlibabaResearch/AdvancedLiterateMachinery)
   - OmniParser 是一个统一的框架，无缝地结合了三个基本的 OCR 任务：文本识别、关键信息提取和表格识别。
-- [python-readability](https://github.com/buriy/python-readability)
+- [python-readability](https://github.com/buriy/python-readability) ![GitHub Repo stars](https://img.shields.io/github/stars/buriy/python-readability)
   - 给定一个 HTML 文档，提取并清理主体文本和标题。
-- [nougat](https://github.com/facebookresearch/nougat)
+- [nougat](https://github.com/facebookresearch/nougat) ![GitHub Repo stars](https://img.shields.io/github/stars/facebookresearch/nougat)
   - Neural Optical Understanding for Academic Documents.这是学术文档 PDF 解析器，它能理解 LaTeX 数学和表格。但对中文支持不好,需要单独微调。
-- [Pix2Struct](https://github.com/google-research/pix2struct)
+- [Pix2Struct](https://github.com/google-research/pix2struct) ![GitHub Repo stars](https://img.shields.io/github/stars/google-research/pix2struct)
   - Pix2Struct 是一种预训练的图像到文本模型，专为纯视觉语言理解而设计。
-- [Indexify](https://github.com/tensorlakeai/indexify)
+- [Indexify](https://github.com/tensorlakeai/indexify) ![GitHub Repo stars](https://img.shields.io/github/stars/tensorlakeai/indexify)
   - Indexify 是一个开源引擎，用于使用可重复使用的提取器进行嵌入、转换和特征提取，为非结构化数据（视频、音频、图像和文档）快速构建数据流水线。当；流水线生成嵌入或结构化数据时，Indexify 会自动更新向量数据库、结构化数据库 (Postgres)。
-- [MegaParse](https://github.com/QuivrHQ/MegaParse)
+- [MegaParse](https://github.com/QuivrHQ/MegaParse) ![GitHub Repo stars](https://img.shields.io/github/stars/QuivrHQ/MegaParse)
   - MegaParse 是一个强大且通用的解析器,可以轻松处理各种类型的文档,包括文本、PDF、PowerPoint 演示文稿、Word 文档等。它旨在在解析过程中尽可能减少信息丢失。
   - 解析内容包括: ✅ Tables ✅ TOC ✅ Headers ✅ Footers ✅ Images
 
@@ -544,7 +566,15 @@ https://arxiv.org/abs/2506.18096
   - 借助大模型从一段文本中提取为结构化数据的库
 - [RAGLAB](https://github.com/fate-ubw/raglab)
   - RAGLAB是一个模块化、面向研究的开源框架,用于检索增强型生成(Retrieval-Augmented Generation, RAG)算法。它提供了6种现有RAG算法的复制,以及一个全面的评估系统,包括10个基准数据集,使得RAG算法之间的公平比较和新算法、数据集和评估指标的高效开发成为可能。
-
+- [bRAG-langchain](https://github.com/bRAGAI/bRAG-langchain/)
+  - 这个项目是一个全面探索检索增强型生成(Retrieval-Augmented Generation, RAG)的仓库,包含从入门到高级实现的详细教程,涵盖多查询、自定义RAG构建等内容。
+  - ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master//imgs/20251013092105667.png)
+  • 查询构建——将自然语言转换为结构化查询（SQL、Cypher 或基于向量的检索） . (文本到 SQL、文本到 Cypher、自查询检索器
+  • 查询翻译——分解并重新表述输入，以实现更佳的检索效果。（多查询、RAG 融合、假设文档）
+  • 路由——动态选择正确的数据库或嵌入查询上下文以获得更相关的答案。
+  • 检索——使用 Re-Rank、RankGPT、RAG-Fusion、CRAG 对检索到的数据进行排名和优化，甚至从外部来源提取实时更新。
+  • 索引——利用多表示嵌入、分层摘要和结构化搜索优化。（RAPTOR、CoLBERT、微调）
+  • 生成——使用 Self-RAG 和 RRR 生成和完善响应，在需要时实现迭代推理和检索循环。
 ### AI搜索类项目
 
 1.  https://github.com/khoj-ai/khoj ![GitHub Repo stars](https://img.shields.io/github/stars/khoj-ai/khoj)
