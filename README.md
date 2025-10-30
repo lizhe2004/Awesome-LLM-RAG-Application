@@ -267,6 +267,9 @@ https://arxiv.org/abs/2506.18096
 
 ## 介绍
 - [DeepSearch 与 DeepResearch 的设计和实现](https://mp.weixin.qq.com/s/-pPhHDi2nz8hp5R3Lm_mww)
+- [2025-10-20 魔搭社区：万字长文深度解析最新Deep Research技术：前沿架构、核心技术与未来展望](https://mp.weixin.qq.com/s?__biz=Mzk3NTc1NTU0Mw==&mid=2247501545&idx=1&sn=8c1a7c78cbd5d882cc6baac18375b7bd&poc_token=HMt_AWmj8tsyTUtrKrV54iHLGa8dciM_aDsjcZeg
+)
+
 - [Microsoft-Retrieval Augmented Generation (RAG) in Azure AI Search](https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview)
   - [**微软**-Azure AI 搜索之检索增强生成（RAG）](https://tczjw7bsp1.feishu.cn/docx/JJ7ldrO4Zokjq7xZIJcc5IZjnFh?from=from_copylink)
 - [**azure** openai design patterns- RAG](https://github.com/microsoft/azure-openai-design-patterns/tree/main/patterns/03-retrieval-augmented-generation)
@@ -335,7 +338,8 @@ https://arxiv.org/abs/2506.18096
   一个开源的、基于 RAG (Retrieval-Augmented Generation) 的文档问答工具,支持多用户登录、本地和云端 LLM 及 Embedding 模型、图表多模态文档解析和问答、混合检索带文档预览的高级引用功能、持复杂推理方法,如问题分解、基于 agent 的推理(如 ReAct、ReWOO)等。
   
     </details>
-
+- [MaxKB](https://github.com/1Panel-dev/MaxKB)![GitHub Repo stars](https://img.shields.io/github/stars/1Panel-dev/MaxKB)
+  - MaxKB是一个开源的企业级智能体平台。它集成了检索增强型生成(RAG)管道,支持强大的工作流,并提供了高级的MCP工具使用功能。MaxKB广泛应用于智能客户服务、企业内部知识库、学术研究和教育等场景。
 - [QAnything](https://github.com/netease-youdao/QAnything/tree/master)  ![GitHub Repo stars](https://img.shields.io/github/stars/netease-youdao/QAnything)
   - 致力于支持任意格式文件或数据库的本地知识库问答系统，可断网安装使用。任何格式的本地文件都可以往里扔，即可获得准确、快速、靠谱的问答体验。目前已支持格式: PDF，Word(doc/docx)，PPT，Markdown，Eml，TXT，图片（jpg，png等），网页链接
 
@@ -359,6 +363,8 @@ https://arxiv.org/abs/2506.18096
    
 - [GPT-RAG](https://github.com/Azure/GPT-RAG)  ![GitHub Repo stars](https://img.shields.io/github/stars/Azure/GPT-RAG)
   - GPT-RAG提供了一个强大的架构，专为RAG模式的企业级部署量身定制。它确保了扎实的回应，并建立在零信任安全和负责任的人工智能基础上，确保可用性、可扩展性和可审计性。非常适合正在从探索和PoC阶段过渡到全面生产和MVP的组织。
+
+
 ### 预处理
 
 - [markitdown](https://github.com/microsoft/markitdown) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/markitdown)
@@ -646,8 +652,9 @@ https://arxiv.org/abs/2506.18096
   - 最懂程序员的新一代 AI 搜索引擎，底层采用了RAG的大模型应用模式，LLM模型为其微调的模型。
 
 
-## 企业级实践
 
+## 企业级实践
+- [2025-05 Uber:Enhanced Agentic-RAG: What If Chatbots Could Deliver Near-Human Precision?](https://www.uber.com/en-PK/blog/enhanced-agentic-rag/)
 - [Qcon 句子互动 高原 Agentic RAG 的现在与未来](https://www.alipan.com/s/GLQJ9mndKfB)
 - [Qcon 尹一峰-RAG 基本范式的选择与系统设计](https://www.alipan.com/s/i9fb44JgnR2)
 - [Qcon 夏源-在医疗健康领域，企业大模型RAG优化实践](https://www.alipan.com/s/bPCphy9Gi88)
@@ -906,6 +913,7 @@ https://arxiv.org/abs/2506.18096
 - [大型语言模型中的幻觉前沿](https://readmedium.com/zh/the-frontiers-of-hallucination-in-large-language-models-b4e5d666737a)
 
 ## 课程
+- [Project: Deep Research with LangGraph](https://academy.langchain.com/courses/deep-research-with-langgraph)
 - [短课程 Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
 - [Retrieval Augmented Generation for Production with LangChain & LlamaIndex](https://learn.activeloop.ai/courses/rag?utm_source=Twitter&utm_medium=social&utm_campaign=student-social-share)
 
