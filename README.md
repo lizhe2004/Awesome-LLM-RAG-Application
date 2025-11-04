@@ -527,6 +527,31 @@ https://arxiv.org/abs/2506.18096
 
 - [YiVal](https://github.com/YiVal/YiVal)
   - GenAI 应用程序的自动提示工程助手 YiVal 是一款最先进的工具，旨在简化 GenAI 应用程序提示和循环中任何配置的调整过程。有了 YiVal，手动调整已成为过去。这种以数据驱动和以评估为中心的方法可确保最佳提示、精确的 RAG 配置和微调的模型参数。使用 YiVal 使您的应用程序能够轻松实现增强的结果、减少延迟并最大限度地降低推理成本！
+#### AI攻击
+- [PyRIT](https://github.com/Azure/PyRIT)
+  - PyRIT（Python Risk Identification Tool）是一个开源框架，旨在帮助安全专业人员和工程师主动识别生成式AI系统中的风险。该工具专注于通过红队测试和风险评估来提高AI系统的安全性。
+  - 主要功能点
+    - 为生成式AI系统提供安全风险识别
+    - 支持安全专业人员进行主动风险评估
+    - 提供开源的AI安全测试框架
+    - 支持对AI系统进行红队测试
+    - 帮助识别潜在的AI系统安全漏洞
+- [promptfoo](https://github.com/promptfoo/promptfoo)
+  - LLM应用测试和安全评估工具,Promptfoo是一个面向开发者的本地工具，用于测试和评估大语言模型（LLM）应用程序。它提供了一种系统化的方法来测试提示词、模型性能和应用安全性。
+  - 主要功能点
+    - 自动化评估提示词和模型
+    - 进行LLM应用的安全漏洞扫描
+    - 多模型并排比较（支持OpenAI、Anthropic等多种模型）
+    - 在CI/CD流程中自动化检查
+    - 生成详细的安全漏洞报告
+- [deepteam](github.com/confident-ai/deepteam?tab=readme-ov-file)
+  - 一个开源的LLM红队测试框架，专注于通过模拟对抗性攻击来发现和防护大型语言模型系统的安全漏洞。
+  - 主要功能点
+    - 提供40多种开箱即用的漏洞检测，包括偏见、隐私泄露、错误信息等
+    - 支持10多种单轮和多轮对抗性攻击方法
+    - 可以自定义特定组织需求的漏洞和攻击
+    - 提供风险评估报告，支持本地保存和数据框展示
+    - 支持OWASP Top 10和NIST AI RMF等标准指南
 
 ### SQL增强
 
@@ -628,11 +653,16 @@ https://arxiv.org/abs/2506.18096
   
 ### Deep Search/Research
 - https://github.com/Alibaba-NLP/DeepResearch  ![GitHub Repo stars](https://img.shields.io/github/stars/Alibaba-NLP/DeepResearch)
+- https://github.com/assafelovic/gpt-researcher  ![GitHub Repo stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher)
 - https://github.com/jina-ai/node-DeepResearch  ![GitHub Repo stars](https://img.shields.io/github/stars/jina-ai/node-DeepResearch)
 - https://github.com/bytedance/deer-flow  ![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/deer-flow)
+
 - https://github.com/dzhng/deep-research  ![GitHub Repo stars](https://img.shields.io/github/stars/dzhng/deep-research)
 - https://github.com/langchain-ai/open_deep_research  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/open_deep_research)
 - https://github.com/langchain-ai/local-deep-researcher  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/local-deep-researcher)
+- https://github.com/zilliztech/deep-searcher  ![GitHub Repo stars](https://img.shields.io/github/stars/zilliztech/deep-searcher)
+https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://img.shields.io/github/stars/nickscamara/open-deep-research)
+
 - https://github.com/firecrawl/firesearch  ![GitHub Repo stars](https://img.shields.io/github/stars/firecrawl/firesearch)
 
 ## 应用参考
