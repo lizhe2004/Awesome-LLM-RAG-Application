@@ -364,6 +364,8 @@ https://arxiv.org/abs/2506.18096
 - [GPT-RAG](https://github.com/Azure/GPT-RAG)  ![GitHub Repo stars](https://img.shields.io/github/stars/Azure/GPT-RAG)
   - GPT-RAG提供了一个强大的架构，专为RAG模式的企业级部署量身定制。它确保了扎实的回应，并建立在零信任安全和负责任的人工智能基础上，确保可用性、可扩展性和可审计性。非常适合正在从探索和PoC阶段过渡到全面生产和MVP的组织。
 
+- [PraisonAI](https://github.com/MervinPraison/PraisonAI) ![GitHub Repo stars](https://img.shields.io/github/stars/MervinPraison/PraisonAI)
+  - 生产就绪的多AI代理框架，支持RAG、Agentic RAG工作流、100+LLM支持、MCP协议集成、内置记忆系统（短期、长期、实体、情景记忆）和自我反思功能。
 
 ### 预处理
 
