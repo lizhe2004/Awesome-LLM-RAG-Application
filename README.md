@@ -4,7 +4,7 @@
 </div>
 
 Awesome LLM RAG Application is a curated list of application resources based on LLM with RAG pattern.
-(latest update: 2025-08-27)
+(latest update: 2025-12-19)
 
 --- 
 
@@ -651,18 +651,17 @@ https://arxiv.org/abs/2506.18096
 25. https://github.com/YassKhazzan/openperplex_front ![GitHub Repo stars](https://img.shields.io/github/stars/YassKhazzan/openperplex_front)
  
   
-### Deep Search/Research
+### Deep Search/ Deep Research
 - https://github.com/Alibaba-NLP/DeepResearch  ![GitHub Repo stars](https://img.shields.io/github/stars/Alibaba-NLP/DeepResearch)
 - https://github.com/assafelovic/gpt-researcher  ![GitHub Repo stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher)
+- https://github.com/langchain-ai/open_deep_research  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/open_deep_research)
 - https://github.com/jina-ai/node-DeepResearch  ![GitHub Repo stars](https://img.shields.io/github/stars/jina-ai/node-DeepResearch)
 - https://github.com/bytedance/deer-flow  ![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/deer-flow)
-
 - https://github.com/dzhng/deep-research  ![GitHub Repo stars](https://img.shields.io/github/stars/dzhng/deep-research)
-- https://github.com/langchain-ai/open_deep_research  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/open_deep_research)
 - https://github.com/langchain-ai/local-deep-researcher  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/local-deep-researcher)
 - https://github.com/zilliztech/deep-searcher  ![GitHub Repo stars](https://img.shields.io/github/stars/zilliztech/deep-searcher)
 https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://img.shields.io/github/stars/nickscamara/open-deep-research)
-
+- https://github.com/SkyworkAI/DeepResearchAgent ![GitHub Repo stars](https://img.shields.io/github/stars/SkyworkAI/DeepResearchAgent)
 - https://github.com/firecrawl/firesearch  ![GitHub Repo stars](https://img.shields.io/github/stars/firecrawl/firesearch)
 
 ## 应用参考
@@ -946,6 +945,17 @@ https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://
 - [Project: Deep Research with LangGraph](https://academy.langchain.com/courses/deep-research-with-langgraph)
 - [短课程 Building and Evaluating Advanced RAG Applications](https://www.deeplearning.ai/short-courses/building-evaluating-advanced-rag/)
 - [Retrieval Augmented Generation for Production with LangChain & LlamaIndex](https://learn.activeloop.ai/courses/rag?utm_source=Twitter&utm_medium=social&utm_campaign=student-social-share)
+- [agentic-rag-for-dummies](https://github.com/GiovanniPasq/agentic-rag-for-dummies)
+  - 这是一个使用 LangGraph 构建的生产级智能RAG（检索增强生成）系统。该项目提供了两种学习路径：交互式Notebook用于快速理解核心概念，以及模块化Python项目用于开发实际应用。系统支持对话记忆、智能查询澄清、分层索引检索、多智能体并行处理和人在环交互等高级功能。通过端到端的Gradio界面，用户可以上传PDF文档、进行自然对话查询，系统会自动将PDF转换为Markdown、构建分层索引、智能重写查询、并行检索信息、聚合多个答案生成最终回应。
+  - 主要功能点
+    - 对话记忆管理：跨多个问题维持对话上下文的自然连续性
+    - 智能查询澄清：自动重写模糊查询，支持人在环交互式确认
+    - 分层索引检索：使用Parent/Child分块策略平衡精确性和上下文丰富性
+    - 多智能体并行处理：使用LangGraph的Send API对复杂查询进行并行分解和处理
+    - 自适应检索：自动评估搜索结果相关性，不足时主动获取更大的上下文块
+    - 端到端Gradio界面：支持文档管理、对话交互和可视化管理
+    - 模块化架构：每个组件（LLM提供商、嵌入模型、分块策略等）可独立定制和替换
+
 
 ## 视频
 - [A Survey of Techniques for Maximizing LLM Performance](https://www.youtube.com/watch?v=ahnGLM-RC1Y&ab_channel=OpenAI)
