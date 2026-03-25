@@ -591,6 +591,7 @@ https://arxiv.org/abs/2506.18096
 
 ### 其他
 
+- [Cortex](https://github.com/SKULLFIRE07/cortex-memory) - Persistent AI memory for coding assistants. Auto-captures decisions, patterns, and context from Claude Code, Cursor, and Cline sessions. VSCode extension + CLI + MCP server. Free.
 - [RAGxplorer](https://github.com/gabrielchua/RAGxplorer)
   - RAGxplorer 是一种交互式 Streamlit 工具，通过将文档块和的查询问句展示为embedding向量空间中可的视化内容来支持检索增强生成 (RAG) 应用程序的构建。
 - [Rule-Based-Retrieval](https://github.com/whyhow-ai/rule-based-retrieval)
