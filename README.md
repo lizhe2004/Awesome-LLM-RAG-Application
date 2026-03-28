@@ -844,6 +844,7 @@ https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://
 
 ### 预处理
 
+- [Preparing Documents for RAG: A Practical Guide](https://alexchernysh.com/blog/rag-document-preparation)
 - [From Good to Great: How Pre-processing Documents Supercharges AI’s Output](https://readmedium.com/https://medium.com/mlearning-ai/from-good-to-great-how-pre-processing-documents-supercharges-ais-output-cf9ecf1bd18c)
   - [从好到优秀：如何预处理文件来加速人工智能的输出](https://tczjw7bsp1.feishu.cn/docx/HpFOdBVlIo2nE5xHN8GcPqaSnxg?from=from_copylink)
 - [Advanced RAG 02: Unveiling PDF Parsing](https://readmedium.com/https://Fpub.towardsai.net/advanced-rag-02-unveiling-pdf-parsing-b84ae866344e)
@@ -872,6 +873,7 @@ https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://
 - [Query Construction](https://blog.langchain.dev/query-construction/)
   - [查询构造](https://tczjw7bsp1.feishu.cn/docx/Wo0Sdn23voh0Wqx245zcu1Kpnuf?from=from_copylink)
 - - [Advanced RAG Series -  Query Translation](https://div.beehiiv.com/p/rag-say)
+- [Query Transformation Techniques for RAG](https://alexchernysh.com/blog/query-transformation-for-rag)
 
 #### 检索策略
 
