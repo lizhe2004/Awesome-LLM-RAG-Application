@@ -601,6 +601,8 @@ https://arxiv.org/abs/2506.18096
   - RAGLAB是一个模块化、面向研究的开源框架,用于检索增强型生成(Retrieval-Augmented Generation, RAG)算法。它提供了6种现有RAG算法的复制,以及一个全面的评估系统,包括10个基准数据集,使得RAG算法之间的公平比较和新算法、数据集和评估指标的高效开发成为可能。
 - [WFGY 16 Problem Map](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md)
   - WFGY 是一个面向 RAG 系统的结构化故障排查项目,提供 16 问题清单,用于系统性分析检索增强生成 (RAG) 应用中的常见失败模式,如命中错误、引用陈旧内容、分块不合理、重排序失效、多轮记忆漂移等问题,帮助开发者快速定位问题属于检索、分块、重排、提示、缓存或评估链路。
+- [Hindsight](https://github.com/vectorize-io/hindsight) ![GitHub Repo stars](https://img.shields.io/github/stars/vectorize-io/hindsight)
+  - Vectorize开源的AI智能体长期记忆系统，支持语义检索、BM25、图检索和时序检索等多种召回策略。提供记忆存储（retain）、召回（recall）和反思（reflect）三大核心操作，可自动从对话中提取事实、实体和关系构建知识图谱。支持完全本地化部署，集成LangChain、LlamaIndex、CrewAI、MCP等主流框架。
 - [bRAG-langchain](https://github.com/bRAGAI/bRAG-langchain/)
   - 这个项目是一个全面探索检索增强型生成(Retrieval-Augmented Generation, RAG)的仓库,包含从入门到高级实现的详细教程,涵盖多查询、自定义RAG构建等内容。
   - ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master//imgs/20251013092105667.png)
