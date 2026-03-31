@@ -683,6 +683,8 @@ https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://
   - 应用编辑平台，旨在开发下一代人工智能聊天机器人。无论您是否有编程经验，该平台都可以让您快速创建各种类型的聊天机器人并将其部署在不同的社交平台和消息应用程序上。
 - [Devv-ai](https://devv.ai/zh)
   - 最懂程序员的新一代 AI 搜索引擎，底层采用了RAG的大模型应用模式，LLM模型为其微调的模型。
+- [FoJin 佛津](https://github.com/xr843/fojin) ![GitHub Repo stars](https://img.shields.io/github/stars/xr843/fojin)
+  - 佛教数字文本聚合平台，汇聚 500+ 数据源、9,200+ 经典文献，支持 8 种界面语言。基于 RAG 的 AI 问答可对佛教典籍进行语义检索与智能回答，并提供知识图谱和全文搜索功能。技术栈：FastAPI + PostgreSQL + Elasticsearch + Redis + React + Docker。
 
 
 
