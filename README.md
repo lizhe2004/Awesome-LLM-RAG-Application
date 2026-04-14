@@ -992,5 +992,6 @@ https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://
 - [Gen AI: why does simple Retrieval Augmented Generation (RAG) not work for insurance?](https://www.zelros.com/2023/10/27/gen-ai-why-does-simple-retrieval-augmented-generation-rag-not-work-for-insurance/)
   - [生成式AI:为什么RAG在保险领域起不了作用？](https://tczjw7bsp1.feishu.cn/docx/KfbidIiZBoPfb3xrT0WcL70LnPd?from=from_copylink)
 - [End-to-End LLMOps Platform](https://medium.com/@bijit211987/end-to-end-llmops-platform-514044dc791d)
+- [CCHub](https://github.com/Moresl/cchub) - A desktop control panel for the Claude Code / Codex / Gemini CLI ecosystem. Manage MCP servers, config profiles, agent skills, CLAUDE.md, hooks, and workflow templates from a single Tauri app (Windows / macOS / Linux).
 
 [![Star History Chart](https://api.star-history.com/svg?repos=lizhe2004/Awesome-LLM-RAG-Application&type=Date)](https://star-history.com/#lizhe2004/Awesome-LLM-RAG-Application&Date)
