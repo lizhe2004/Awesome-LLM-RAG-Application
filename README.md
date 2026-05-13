@@ -436,6 +436,8 @@ https://arxiv.org/abs/2506.18096
 - [Llamaindex-evaluation](https://docs.llamaindex.ai/en/stable/optimizing/evaluation/evaluation.html)
 - [tonic_validate](https://github.com/TonicAI/tonic_validate)  ![GitHub Repo stars](https://img.shields.io/github/stars/TonicAI/tonic_validate)
   - 一个用于 RAG 开发和实验跟踪的平台,用于评估检索增强生成 (RAG) 应用程序响应质量的指标。
+- [ai-evaluation](https://github.com/future-agi/ai-evaluation) ![GitHub Repo stars](https://img.shields.io/github/stars/future-agi/ai-evaluation)
+  - 开源的 LLM 评估框架，提供 50+ 指标、LLM-as-Judge、护栏扫描器（越狱、PII、提示注入检测），以及支持 CI/CD 的 AutoEval 自动评估流水线。
 ### Embedding
 
 - [BCEmbedding](https://github.com/netease-youdao/BCEmbedding/tree/master)
@@ -588,6 +590,8 @@ https://arxiv.org/abs/2506.18096
 - [phoenix](https://github.com/Arize-ai/phoenix) ![GitHub Repo stars](https://img.shields.io/github/stars/Arize-ai/phoenix)
 - [openllmetry](https://github.com/traceloop/openllmetry) ![GitHub Repo stars](https://img.shields.io/github/stars/traceloop/openllmetry)
 - [lunary](https://lunary.ai/)
+- [traceAI](https://github.com/future-agi/traceAI) ![GitHub Repo stars](https://img.shields.io/github/stars/future-agi/traceAI)
+  - 开源的 OpenTelemetry 原生 LLM 和 AI Agent 追踪框架，自动埋点 20+ 框架（OpenAI、Anthropic、LangChain、LlamaIndex、CrewAI、Bedrock）以捕获提示词、token、延迟与错误。
 
 ### 其他
 
