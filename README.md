@@ -588,6 +588,8 @@ https://arxiv.org/abs/2506.18096
 - [phoenix](https://github.com/Arize-ai/phoenix) ![GitHub Repo stars](https://img.shields.io/github/stars/Arize-ai/phoenix)
 - [openllmetry](https://github.com/traceloop/openllmetry) ![GitHub Repo stars](https://img.shields.io/github/stars/traceloop/openllmetry)
 - [lunary](https://lunary.ai/)
+- [Future AGI](https://github.com/future-agi/future-agi) ![GitHub Repo stars](https://img.shields.io/github/stars/future-agi/future-agi)
+  - 开源可自托管的端到端 Agent 工程与优化平台，统一提供追踪、评估、模拟、数据集、网关和护栏功能。
 
 ### 其他
 
