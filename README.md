@@ -264,6 +264,8 @@ https://arxiv.org/abs/2506.18096
   - Open RAG Base 是一个基于公开资料收集整理汇总的RAG知识库。它基于Notion构建，是目前最全面RAG的资料汇总仓库。目的是为读者提提供前沿和全面的RAG知识，提供多维度的分析汇总，涵盖RAG的方方面，包括：学术论文、前沿阅读资料、RAG评估与基准、下游任务与数据集、工具与技术栈
 - [一个繁体的RAG资料集](https://ihower.tw/notes/AI-Engineer/RAG/Adaptive+RAG)
 - [关于RAG技术的综合合集RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)
+- [面向生产环境的RAG资源汇总Awesome-RAG-Production](https://github.com/Yigtwxx/Awesome-RAG-Production)
+  - 聚焦生产级RAG系统的精选资源列表，涵盖参考架构、向量数据库、Embedding模型、检索与重排、评估、可观测性、缓存、安全与成本管理等，数据指标均附带证据标签（[3P]/[V]/[A]）与方法论引用
 
 ## 介绍
 - [DeepSearch 与 DeepResearch 的设计和实现](https://mp.weixin.qq.com/s/-pPhHDi2nz8hp5R3Lm_mww)
