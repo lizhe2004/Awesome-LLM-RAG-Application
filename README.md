@@ -299,7 +299,10 @@ https://arxiv.org/abs/2506.18096
 
 ## 开源工具
 
-### RAG框架
+### RAG
+
+- [Mimir](https://github.com/tcconnally/mimir) - Persistent memory engine for AI agents. 23 MCP tools, structured entities, sqlite-vec semantic search.
+框架
 
 - [LangChain](https://github.com/langchain-ai/langchain/)  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langchain)
 - [RAGFlow](https://github.com/infiniflow/ragflow) ![GitHub Repo stars](https://img.shields.io/github/stars/infiniflow/ragflow)
