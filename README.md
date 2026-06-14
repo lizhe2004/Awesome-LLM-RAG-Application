@@ -588,6 +588,8 @@ https://arxiv.org/abs/2506.18096
 - [phoenix](https://github.com/Arize-ai/phoenix) ![GitHub Repo stars](https://img.shields.io/github/stars/Arize-ai/phoenix)
 - [openllmetry](https://github.com/traceloop/openllmetry) ![GitHub Repo stars](https://img.shields.io/github/stars/traceloop/openllmetry)
 - [lunary](https://lunary.ai/)
+- [Future AGI](https://github.com/future-agi/future-agi)  ![GitHub Repo stars](https://img.shields.io/github/stars/future-agi/future-agi)
+  - 面向自我改进 AI 智能体的开源一体化平台，将评估、追踪、模拟、安全护栏、网关与优化统一在同一平台和同一反馈闭环中，覆盖从原型到上线的全流程。自托管，Apache-2.0。
 
 ### 其他
 
