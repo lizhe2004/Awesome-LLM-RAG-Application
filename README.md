@@ -824,6 +824,8 @@ https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://
 ### 总览
 - [Weaviate Advanced RAG Techniques电子书](https://weaviate.io/ebooks/advanced-rag-techniques)
   - [中文解读](https://mp.weixin.qq.com/s/62EJx_JAkAiStmoL_p_yjQ)
+- [构建RAG系统的核心策略：从60%到94%准确率](https://aibook.ren/archives/ai-rag-advanced-optimization)
+  - 中文 RAG 优化实践文章，整理上下文感知分块、重排序、查询扩展、多查询 RAG、Agentic RAG、自反思和知识图谱等策略，适合作为 RAG 系统优化路线参考。
 
 
 ### Agentic RAG
