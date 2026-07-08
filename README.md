@@ -299,10 +299,9 @@ https://arxiv.org/abs/2506.18096
 
 ## 开源工具
 
-### RAG
+### RAG框架
 
-- [Mimir](https://github.com/tcconnally/mimir) - Persistent memory engine for AI agents. 23 MCP tools, structured entities, sqlite-vec semantic search.
-框架
+- [Perseus Vault](https://github.com/Perseus-Computing-LLC/perseus-vault) - Local-first, encrypted persistent memory engine for AI agents. 55 MCP tools, structured entities, SQLite + FTS5 hybrid (keyword + vector) search.
 
 - [LangChain](https://github.com/langchain-ai/langchain/)  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langchain)
 - [RAGFlow](https://github.com/infiniflow/ragflow) ![GitHub Repo stars](https://img.shields.io/github/stars/infiniflow/ragflow)
