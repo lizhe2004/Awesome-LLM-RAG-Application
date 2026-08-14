@@ -299,6 +299,8 @@ https://arxiv.org/abs/2506.18096
 
 ## 开源工具
 
+- [Clickyy](https://github.com/jayamitkatariya/clickyyy) - Shake your cursor to summon an AI agent that sees your screen and clicks, types, drags, and acts for you on macOS. Open-source, MIT.
+
 ### RAG框架
 
 - [LangChain](https://github.com/langchain-ai/langchain/)  ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/langchain)
