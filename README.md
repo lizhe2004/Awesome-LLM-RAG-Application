@@ -683,6 +683,8 @@ https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://
   - 应用编辑平台，旨在开发下一代人工智能聊天机器人。无论您是否有编程经验，该平台都可以让您快速创建各种类型的聊天机器人并将其部署在不同的社交平台和消息应用程序上。
 - [Devv-ai](https://devv.ai/zh)
   - 最懂程序员的新一代 AI 搜索引擎，底层采用了RAG的大模型应用模式，LLM模型为其微调的模型。
+- [博思AI智能体](https://github.com/ysy0915/chat-system)
+  - 开源多模型协作与智能辩论平台，内置对话自动 RAG（Milvus 向量检索）与知识图谱（Neo4j 自动抽取三元组），支持 Multi-Agent 并行工作流与多模型辩论
 
 
 
