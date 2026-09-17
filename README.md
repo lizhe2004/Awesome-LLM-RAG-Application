@@ -601,6 +601,8 @@ https://arxiv.org/abs/2506.18096
   - RAGLAB是一个模块化、面向研究的开源框架,用于检索增强型生成(Retrieval-Augmented Generation, RAG)算法。它提供了6种现有RAG算法的复制,以及一个全面的评估系统,包括10个基准数据集,使得RAG算法之间的公平比较和新算法、数据集和评估指标的高效开发成为可能。
 - [WFGY 16 Problem Map](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md)
   - WFGY 是一个面向 RAG 系统的结构化故障排查项目,提供 16 问题清单,用于系统性分析检索增强生成 (RAG) 应用中的常见失败模式,如命中错误、引用陈旧内容、分块不合理、重排序失效、多轮记忆漂移等问题,帮助开发者快速定位问题属于检索、分块、重排、提示、缓存或评估链路。
+- [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) ![GitHub Repo stars](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server)
+  - 面向 AI 智能体的托管记忆服务，通过 MCP 接入；告诉它某条召回的记忆是有帮助还是有误导，它会据此重新排序之后返回的结果。MCP 服务端以 MIT 许可开源，记忆引擎为托管服务，有免费层。
 - [bRAG-langchain](https://github.com/bRAGAI/bRAG-langchain/)
   - 这个项目是一个全面探索检索增强型生成(Retrieval-Augmented Generation, RAG)的仓库,包含从入门到高级实现的详细教程,涵盖多查询、自定义RAG构建等内容。
   - ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master//imgs/20251013092105667.png)
