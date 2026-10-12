@@ -336,6 +336,7 @@ https://arxiv.org/abs/2506.18096
       <summary>详情</summary>
 
   一个开源的、基于 RAG (Retrieval-Augmented Generation) 的文档问答工具,支持多用户登录、本地和云端 LLM 及 Embedding 模型、图表多模态文档解析和问答、混合检索带文档预览的高级引用功能、持复杂推理方法,如问题分解、基于 agent 的推理(如 ReAct、ReWOO)等。
+- [chat-system](https://github.com/ysy0915/chat-system) — 博思AI智能体：基于Milvus的RAG知识检索系统，支持文档上传自动解析分块向量化、对话时意图驱动自动检索增强、三层对话记忆（Redis短期+Milvus长期+用户画像），并集成多模型辩论与Multi-Agent并行工作流（Spring Boot/Java）
   
     </details>
 - [MaxKB](https://github.com/1Panel-dev/MaxKB)![GitHub Repo stars](https://img.shields.io/github/stars/1Panel-dev/MaxKB)
