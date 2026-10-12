@@ -478,6 +478,8 @@ https://arxiv.org/abs/2506.18096
 
 ### 安全护栏
 
+- [Stipple](https://github.com/Sketchjar/stipple-mcp) ![GitHub Repo stars](https://img.shields.io/github/stars/Sketchjar/stipple-mcp)
+  - Stipple 是一个托管 MCP 服务器，用于文档可信度验证与预入库（pre-ingestion）信任门控：法证式真伪检测（risk_band + 逐信号证据）、带 grounding 的结构化字段抽取（缺失值进入 not_found 而非幻觉），以及 AI 生成文本检测。在文档进入 RAG 索引前过滤被篡改或合成来源。13 个工具，匿名免费层；远程端点 https://www.stipple.sh/mcp 。入门套件：[stipple-kits](https://github.com/Sketchjar/stipple-kits)
 - [JoySafety ](https://github.com/jd-opensource/JoySafety) ![GitHub Repo stars](https://img.shields.io/github/stars/jd-opensource/JoySafety)
   - JoySafety 是一个开源的大模型安全框架。该框架在京东内部广泛应用，覆盖AI导购、物流客服、销售助手、医疗问诊、商家工作台、法务咨询、安全问答等场景，支持日均亿级调用、95%+攻击拦截率，致力于为企业提供一套成熟、可靠、免费的大模型安全防护方案。
 - [NeMo-Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)  ![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails)
