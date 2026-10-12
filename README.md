@@ -522,6 +522,8 @@ https://arxiv.org/abs/2506.18096
 - [vigil-llm](https://github.com/deadbits/vigil-llm/)  ![GitHub Repo stars](https://img.shields.io/github/stars/deadbits/vigil-llm)
   - Vigil是一个Python库和REST API，可以根据一组扫描器评估大型语言模型提示和响应，以检测提示注入、越狱和其他潜在威胁。该存储库还提供了必要的检测特征（签名）和数据集，支持用户自行部署和使用。
   该应用程序目前处于 alpha 状态，应被视为实验/用于研究目的。
+- [EmbedGuard](https://github.com/neerazz/embedguard) ![GitHub Repo stars](https://img.shields.io/github/stars/neerazz/embedguard)
+  - Cross-layer detection and provenance attestation for adversarial embedding attacks in RAG systems. Published in IJCESEN 2026 (DOI [10.22399/ijcesen.4869](https://doi.org/10.22399/ijcesen.4869)). MIT-licensed reference implementation combining runtime detection with cryptographic provenance attestation across embedding, retrieval, and generation layers.
 
 ### Prompting
 - [ DSPy](https://github.com/stanfordnlp/dspy)
