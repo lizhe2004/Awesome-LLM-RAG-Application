@@ -416,6 +416,8 @@ https://arxiv.org/abs/2506.18096
 - [MegaParse](https://github.com/QuivrHQ/MegaParse) ![GitHub Repo stars](https://img.shields.io/github/stars/QuivrHQ/MegaParse)
   - MegaParse 是一个强大且通用的解析器,可以轻松处理各种类型的文档,包括文本、PDF、PowerPoint 演示文稿、Word 文档等。它旨在在解析过程中尽可能减少信息丢失。
   - 解析内容包括: ✅ Tables ✅ TOC ✅ Headers ✅ Footers ✅ Images
+- [pdftomarkdown-mcp](https://github.com/happywpco/pdftomarkdown-mcp) ![GitHub Repo stars](https://img.shields.io/github/stars/happywpco/pdftomarkdown-mcp)
+  - [PDFtoMarkdown.ai](https://pdftomarkdown.ai/) 的 MCP 服务器（MIT 开源），可将本地 PDF、DOCX、PPTX、XLSX、图片、HTML 和 EPUB 文件转换为保留标题、列表和表格结构的 Markdown，扫描件可选 OCR，便于 RAG 切分与索引。转换由托管的 PDFtoMarkdown.ai API 完成（需要 API Key，有免费额度，之后按页计费，无订阅），也可直接使用网页版或 REST API。
 
 ### 路由
 - [semantic-router](https://github.com/aurelio-labs/semantic-router)
