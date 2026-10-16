@@ -996,3 +996,5 @@ https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://
 - [End-to-End LLMOps Platform](https://medium.com/@bijit211987/end-to-end-llmops-platform-514044dc791d)
 
 [![Star History Chart](https://api.star-history.com/svg?repos=lizhe2004/Awesome-LLM-RAG-Application&type=Date)](https://star-history.com/#lizhe2004/Awesome-LLM-RAG-Application&Date)
+
+- **[QWK ($QWK) Autonomous MEV & Systematic Trading Agent / MCP](https://github.com/chase-tqg/QWIK-MEV-Core)** - Autonomous Web3 DeFi & systematic MEV infrastructure agent, `SKILL.md`, EIP-1153 transient-storage `AtomicArb.sol`, 0%-fee Morpho Blue flash-loan callback (`QWKZeroCapitalMorphoArb.sol`), and MCP server (`verify_enterprise_backing`, `get_escrow_contract_details`, `generate_seed_deposit_tx`) with on-chain Merkle commitments (`0x1Cc436b4D9316ee623CFeB760C44F84c9bD9C20A`) for $400,000+ in project-reported Google Cloud, NVIDIA, and Cloudflare resources.
