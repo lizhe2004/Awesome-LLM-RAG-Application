@@ -911,6 +911,8 @@ https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://
   - 第一种压缩方法是 AutoCompressors。它的工作原理是将长文本汇总为短向量表示，称为汇总向量。然后，这些压缩的摘要向量充当模型的软提示。
 - [LangChain Contextual Compression](https://python.langchain.com/docs/modules/data_connection/retrievers/contextual_compression/?ref=blog.langchain.dev)
   - [Advanced RAG 09: Prompt Compression](https://readmedium.com/https://ai.gopubby.com/advanced-rag-09-prompt-compression-95a589f7b554)
+- [LLMSlim](https://github.com/Thanatos9404/llmslim) ![GitHub Repo stars](https://img.shields.io/github/stars/Thanatos9404/llmslim)
+  - 开源（MIT）Python 库，在调用模型之前按问题相关性把检索到的文档压缩到指定的 token 预算内；默认的抽取式模式只从原文中挑选句子，不调用任何模型。提供 LangChain、LlamaIndex 和 Haystack 的压缩组件。
 
 #### 其他
 
