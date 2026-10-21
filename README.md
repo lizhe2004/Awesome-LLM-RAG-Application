@@ -420,7 +420,7 @@ https://arxiv.org/abs/2506.18096
     <details>
       <summary>详情</summary>
 
-  免费 Apify Actor，批量导出整个 YouTube 频道/播放列表的字幕文本（仅字幕，不做语音识别），输出适合 RAG 的 JSON。
+  Apify Actor（每 1,000 条字幕 $2 + Apify 平台用量），批量导出整个 YouTube 频道/播放列表的字幕文本（仅字幕，不做语音识别），输出适合 RAG 的 JSON。
     </details>
 
 ### 路由
