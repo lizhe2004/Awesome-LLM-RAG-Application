@@ -416,6 +416,12 @@ https://arxiv.org/abs/2506.18096
 - [MegaParse](https://github.com/QuivrHQ/MegaParse) ![GitHub Repo stars](https://img.shields.io/github/stars/QuivrHQ/MegaParse)
   - MegaParse 是一个强大且通用的解析器,可以轻松处理各种类型的文档,包括文本、PDF、PowerPoint 演示文稿、Word 文档等。它旨在在解析过程中尽可能减少信息丢失。
   - 解析内容包括: ✅ Tables ✅ TOC ✅ Headers ✅ Footers ✅ Images
+- [YouTube Channel Transcripts for RAG](https://apify.com/prospect_antechamber/youtube-transcript-bulk)
+    <details>
+      <summary>详情</summary>
+
+  免费 Apify Actor，批量导出整个 YouTube 频道/播放列表的字幕文本（仅字幕，不做语音识别），输出适合 RAG 的 JSON。
+    </details>
 
 ### 路由
 - [semantic-router](https://github.com/aurelio-labs/semantic-router)
