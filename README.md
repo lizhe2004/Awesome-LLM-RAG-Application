@@ -436,6 +436,8 @@ https://arxiv.org/abs/2506.18096
 - [Llamaindex-evaluation](https://docs.llamaindex.ai/en/stable/optimizing/evaluation/evaluation.html)
 - [tonic_validate](https://github.com/TonicAI/tonic_validate)  ![GitHub Repo stars](https://img.shields.io/github/stars/TonicAI/tonic_validate)
   - 一个用于 RAG 开发和实验跟踪的平台,用于评估检索增强生成 (RAG) 应用程序响应质量的指标。
+- [Future AGI](https://github.com/future-agi/future-agi)  ![GitHub Repo stars](https://img.shields.io/github/stars/future-agi/future-agi)
+  - 开源、可自托管的 RAG 与 Agent 评估和追踪平台（Apache-2.0）。支持自定义 LLM-as-Judge 评估，并内置不调用 LLM 的检索指标，如 Recall@K、Precision@K、NDCG@K、MRR 和 Hit Rate。
 ### Embedding
 
 - [BCEmbedding](https://github.com/netease-youdao/BCEmbedding/tree/master)
