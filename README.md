@@ -436,6 +436,8 @@ https://arxiv.org/abs/2506.18096
 - [Llamaindex-evaluation](https://docs.llamaindex.ai/en/stable/optimizing/evaluation/evaluation.html)
 - [tonic_validate](https://github.com/TonicAI/tonic_validate)  ![GitHub Repo stars](https://img.shields.io/github/stars/TonicAI/tonic_validate)
   - 一个用于 RAG 开发和实验跟踪的平台,用于评估检索增强生成 (RAG) 应用程序响应质量的指标。
+- [rag-verifier](https://github.com/hlc0000/rag-verifier)  ![GitHub Repo stars](https://img.shields.io/github/stars/hlc0000/rag-verifier)
+  - RAG 质量门控：入库前检查切块自足性（条件句被切半、悬空指代、模板空位），生成后校验引用忠实性。确定性规则层（纯正则零成本）+ fail-open LLM 兜底，核心零依赖，中英文规则对等并由 CI 强制保障。
 ### Embedding
 
 - [BCEmbedding](https://github.com/netease-youdao/BCEmbedding/tree/master)
