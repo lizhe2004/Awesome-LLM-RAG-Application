@@ -476,6 +476,9 @@ https://arxiv.org/abs/2506.18096
   - 它将任何 URL 转换为LLM 友好的输入，
 
 
+- [YouTube Transcript Scraper](https://apify.com/taroyamada/youtube-transcript-bulk-api)
+  - 抓取 YouTube 字幕与文字稿（text / SRT / VTT），导出 JSON 或 CSV。无需 API key。Apify 定价 $2.50 / 1,000 results。
+
 ### 安全护栏
 
 - [JoySafety ](https://github.com/jd-opensource/JoySafety) ![GitHub Repo stars](https://img.shields.io/github/stars/jd-opensource/JoySafety)
