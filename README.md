@@ -969,6 +969,9 @@ https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://
   - [文字版](https://scriv.ai/guides/retrieval-augmented-generation-overview/)
 - [nvidia:Augmenting LLMs Using Retrieval Augmented Generation](https://courses.nvidia.com/courses/course-v1:NVIDIA+S-FX-16+v1/course/)
 - [How to Choose a Vector Database](https://www.youtube.com/watch?v=Yo-AzVpWrRg&ab_channel=Pinecone)
+- [PromptImage](https://promptimage.cloud) - Free AI image & video studio with a prompt library (signup credits, multi-model). Freemium
+- [TeslaWraps](https://teslawraps.design) - Browser Tesla Paint Shop wrap designer — core editing + PNG export free without account; optional AI credit…
+- [GrokVideo Studio](https://grokvideogenerator.dev) - Independent web app for text/image-to-video via Grok Imagine API (Free Trial, 20 credits). Not an official …
 ## 图书
 - [大语言模型](https://llmbook-zh.github.io/)
   - ![](https://cdn.jsdelivr.net/gh/lizhe2004/pic-repo@master/imgs/20250107115756.png)
