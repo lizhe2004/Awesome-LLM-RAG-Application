@@ -345,7 +345,7 @@ https://arxiv.org/abs/2506.18096
 
 
 - [bilibili-rag](https://github.com/via007/bilibili-rag) ![GitHub Repo stars](https://img.shields.io/github/stars/via007/bilibili-rag)
-  - 把 B 站收藏夹变成可对话的 RAG 知识库：收藏夹视频 → 语音转写(ASR) → 向量检索 → 问答。支持本地部署，在线版 https://bilimind.xyz
+  - 把 B 站收藏夹变成可对话的 RAG 知识库：收藏夹视频 → 语音转写(ASR) → 向量检索 → 问答。支持本地部署，在线版 https://www.bilimind.xyz
 
 
 - [Verba](https://github.com/weaviate/Verba) ![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/Verba)
