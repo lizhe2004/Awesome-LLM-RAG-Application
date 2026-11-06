@@ -344,6 +344,10 @@ https://arxiv.org/abs/2506.18096
   - 致力于支持任意格式文件或数据库的本地知识库问答系统，可断网安装使用。任何格式的本地文件都可以往里扔，即可获得准确、快速、靠谱的问答体验。目前已支持格式: PDF，Word(doc/docx)，PPT，Markdown，Eml，TXT，图片（jpg，png等），网页链接
 
 
+- [bilibili-rag](https://github.com/via007/bilibili-rag) ![GitHub Repo stars](https://img.shields.io/github/stars/via007/bilibili-rag)
+  - 把 B 站收藏夹变成可对话的 RAG 知识库：收藏夹视频 → 语音转写(ASR) → 向量检索 → 问答。支持本地部署，在线版 https://www.bilimind.xyz
+
+
 - [Verba](https://github.com/weaviate/Verba) ![GitHub Repo stars](https://img.shields.io/github/stars/weaviate/Verba)
   - 这是向量数据库weaviate开源的一款RAG应用，旨在为开箱即用的检索增强生成 (RAG) 提供端到端、简化且用户友好的界面。只需几个简单的步骤，即可在本地或通过 OpenAI、Cohere 和 HuggingFace 等 LLM 提供商轻松探索数据集并提取见解。
 - [danswer](https://github.com/danswer-ai/danswer) ![GitHub Repo stars](https://img.shields.io/github/stars/danswer-ai/danswer)
