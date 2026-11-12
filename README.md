@@ -367,6 +367,9 @@ https://arxiv.org/abs/2506.18096
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI) ![GitHub Repo stars](https://img.shields.io/github/stars/MervinPraison/PraisonAI)
   - 生产就绪的多AI代理框架，支持RAG、Agentic RAG工作流、100+LLM支持、MCP协议集成、内置记忆系统（短期、长期、实体、情景记忆）和自我反思功能。
 
+- [ClickHouse Loom](https://github.com/ClickHouse/loom) ![GitHub Repo stars](https://img.shields.io/github/stars/ClickHouse/loom)
+  - ClickHouse 开源的自托管 MCP 服务器和 HTTP API：为 AI 智能体提供带引用的文档检索（支持 PDF、DOCX、PPTX，按文档结构切分）、跨会话共享的长期记忆和代码仓库索引，一次检索同时覆盖记忆、文档和历史会话，数据存储在 ClickHouse 中。
+
 ### 预处理
 
 - [markitdown](https://github.com/microsoft/markitdown) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/markitdown)
