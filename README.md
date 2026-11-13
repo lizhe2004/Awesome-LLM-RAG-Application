@@ -416,6 +416,8 @@ https://arxiv.org/abs/2506.18096
 - [MegaParse](https://github.com/QuivrHQ/MegaParse) ![GitHub Repo stars](https://img.shields.io/github/stars/QuivrHQ/MegaParse)
   - MegaParse 是一个强大且通用的解析器,可以轻松处理各种类型的文档,包括文本、PDF、PowerPoint 演示文稿、Word 文档等。它旨在在解析过程中尽可能减少信息丢失。
   - 解析内容包括: ✅ Tables ✅ TOC ✅ Headers ✅ Footers ✅ Images
+- [OpenDocKit](https://github.com/hyeonsang010716/OpenDocKit) ![GitHub Repo stars](https://img.shields.io/github/stars/hyeonsang010716/OpenDocKit)
+  - OpenDocKit 是一个把 PDF、Word、PowerPoint、Excel、HWP/HWPX、OpenDocument、RTF、EPUB、HTML 和邮件转换为 Markdown 的 Python 库，用于 RAG 的文档预处理。重点是保留结构：合并单元格、同一工作表中的多个表格、多栏 PDF 的阅读顺序、公式（转为 LaTeX）。纯 Python 实现，不需要模型和 GPU，并提供 LangChain、LlamaIndex 加载器和 MCP 服务器。
 
 ### 路由
 - [semantic-router](https://github.com/aurelio-labs/semantic-router)
