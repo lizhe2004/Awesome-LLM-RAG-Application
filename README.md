@@ -472,6 +472,16 @@ https://arxiv.org/abs/2506.18096
     强大的功能: 支持 LLM 就绪格式、代理、反机器人机制、动态内容(JS 渲染)、输出解析、编排等
     - 可定制性: 排除标签、在身份验证墙后爬取、最大爬取深度等
     </details>
+- [huntsman](https://github.com/TulipFarm/huntsman)
+    <details>
+      <summary>详情</summary>
+
+    - Huntsman 是一个自托管的网页抓取工具,用 Go 编写,可将任意网页转换为适合 LLM 和搜索的干净 Markdown。
+    - 提供与 Firecrawl 兼容的 `/v1/scrape` API,大多数客户端只需更换 base URL。
+    - 在同一台 8 vCPU 机器上,每秒抓取的页面数是 Firecrawl 的 4 倍。
+    - 使用 Lightpanda 渲染 JavaScript,无需 Redis、Playwright 或 Chrome。
+    - 支持批量抓取和整站爬取,并遵守 robots.txt。
+    </details>
 - [jina-reader](https://github.com/jina-ai/reader)
   - 它将任何 URL 转换为LLM 友好的输入，
 
