@@ -472,6 +472,8 @@ https://arxiv.org/abs/2506.18096
     强大的功能: 支持 LLM 就绪格式、代理、反机器人机制、动态内容(JS 渲染)、输出解析、编排等
     - 可定制性: 排除标签、在身份验证墙后爬取、最大爬取深度等
     </details>
+- [SpecStream](https://specstream.ai)
+  - Live web data engine providing a Search API and Extract API with drop-in support for popular search provider interfaces.
 - [jina-reader](https://github.com/jina-ai/reader)
   - 它将任何 URL 转换为LLM 友好的输入，
 
@@ -655,6 +657,7 @@ https://arxiv.org/abs/2506.18096
 23. https://github.com/jjleng/sensei  ![GitHub Repo stars](https://img.shields.io/github/stars/jjleng/sensei)
 24. https://github.com/shadowfax92/Fyin ![GitHub Repo stars](https://img.shields.io/github/stars/shadowfax92/Fyin)
 25. https://github.com/YassKhazzan/openperplex_front ![GitHub Repo stars](https://img.shields.io/github/stars/YassKhazzan/openperplex_front)
+26. https://specstream.ai SpecStream
  
   
 ### Deep Search/ Deep Research
