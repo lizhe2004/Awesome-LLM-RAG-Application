@@ -474,6 +474,15 @@ https://arxiv.org/abs/2506.18096
     </details>
 - [jina-reader](https://github.com/jina-ai/reader)
   - 它将任何 URL 转换为LLM 友好的输入，
+- [Spider](https://github.com/spider-rs/spider)
+    <details>
+      <summary>详情</summary>
+
+    - Spider 是用 Rust 编写的开源（MIT）网络爬虫与抓取工具，面向 AI 应用和数据流水线。
+    - 抓取单个页面或爬取整站，输出 Markdown、纯文本或 HTML。
+    - 支持无头 Chrome 渲染动态页面、代理和并发控制。
+    - 可通过 Rust crate、Python 和 Node 客户端或 MCP 服务器使用。
+    </details>
 
 
 ### 安全护栏
