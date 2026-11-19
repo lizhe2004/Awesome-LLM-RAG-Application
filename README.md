@@ -474,6 +474,8 @@ https://arxiv.org/abs/2506.18096
     </details>
 - [jina-reader](https://github.com/jina-ai/reader)
   - 它将任何 URL 转换为LLM 友好的输入，
+- [YouTube Transcript MCP](https://github.com/tubeagentkit/youtube-mcp)
+  - 获取 YouTube 视频带时间戳的字幕文字稿（支持视频自带的所有字幕语言），并可搜索 YouTube、列出频道与播放列表视频，用于把视频内容导入 RAG 流程和 Agent。提供远程 MCP 服务器和 REST API（Python/JS SDK）；客户端代码 MIT 开源，需要 GetYouTubeTranscript API Key（注册送 100 积分，之后付费）。
 
 
 ### 安全护栏
