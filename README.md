@@ -686,6 +686,8 @@ https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://
 - [Devv-ai](https://devv.ai/zh)
   - 最懂程序员的新一代 AI 搜索引擎，底层采用了RAG的大模型应用模式，LLM模型为其微调的模型。
 
+- [LazyMind](https://github.com/LazyAGI/LazyMind)
+  - 开源 AI Skill Runtime，将文档知识库、混合检索和带引用的问答连接到写作与演示工作流。
 
 
 ## 企业级实践
