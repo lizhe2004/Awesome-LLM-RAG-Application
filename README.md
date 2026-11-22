@@ -367,6 +367,9 @@ https://arxiv.org/abs/2506.18096
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI) ![GitHub Repo stars](https://img.shields.io/github/stars/MervinPraison/PraisonAI)
   - 生产就绪的多AI代理框架，支持RAG、Agentic RAG工作流、100+LLM支持、MCP协议集成、内置记忆系统（短期、长期、实体、情景记忆）和自我反思功能。
 
+- [ApeRAG](https://github.com/apecloud/ApeRAG) ![GitHub Repo stars](https://img.shields.io/github/stars/apecloud/ApeRAG)
+  - 开源（Apache-2.0）生产级 GraphRAG 与混合检索知识库平台（企业级产品 [ApeMind](https://apemind.ai/) 的开源内核），融合向量、全文、实体归一化知识图谱、摘要与视觉多模态索引，集成 MinerU 文档解析、内置 MCP 服务（`/mcp/`）以及 Docker Compose / Kubernetes Helm 部署。
+
 ### 预处理
 
 - [markitdown](https://github.com/microsoft/markitdown) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/markitdown)
