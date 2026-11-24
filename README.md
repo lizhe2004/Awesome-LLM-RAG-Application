@@ -459,6 +459,15 @@ https://arxiv.org/abs/2506.18096
     - 采用高级算法进行高效抽取,减少对昂贵模型的依赖。
     - 完全开源无API密钥,支持Docker和云端集成。
     </details>
+- [FlashData MCP](https://github.com/flashdatadev/flashdata-mcp) ![GitHub Repo stars](https://img.shields.io/github/stars/flashdatadev/flashdata-mcp)
+    <details>
+      <summary>详情</summary>
+
+    - 开源 MIT 本地 stdio 及托管远程 Streamable HTTP MCP 服务（`https://data.flashdata.dev/mcp`），一套 API Key 覆盖 22 项实时数据工具。
+    - 实时 Google 搜索（Web、News、Images、Shopping、Videos、Places）返回干净结构化 JSON，免维护代理池与解析器。
+    - 带时间戳的 YouTube 字幕转录（Transcript）与视频元数据提取，开箱适配 RAG 向量切分与内容总结；同时支持批量视频/音频直传 S3、GCS、Azure Blob 与 Cloudflare R2。
+    - 注册验证邮箱即可免绑卡免费试用（https://flashdata.dev）。
+    </details>
 - [firecrawl](https://github.com/mendableai/firecrawl)
     <details>
       <summary>详情</summary>
