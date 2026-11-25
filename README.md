@@ -367,6 +367,9 @@ https://arxiv.org/abs/2506.18096
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI) ![GitHub Repo stars](https://img.shields.io/github/stars/MervinPraison/PraisonAI)
   - 生产就绪的多AI代理框架，支持RAG、Agentic RAG工作流、100+LLM支持、MCP协议集成、内置记忆系统（短期、长期、实体、情景记忆）和自我反思功能。
 
+- [知序 ZHIXU](https://github.com/JoeJiang-927117/ZHIXUAgentic-Knowledge-Base) ![GitHub Repo stars](https://img.shields.io/github/stars/JoeJiang-927117/ZHIXUAgentic-Knowledge-Base)
+  - 轻量单体、本地优先的开源 AI 知识编译器与可审计 Markdown Wiki 工作台（Markdown + SQLite + Git，无需 Docker/ES）。支持原件 SHA-256 只读追踪、两阶段编译、原文行/页摘录回查核验、草稿审核流、AI 删除拦截回收站与本地 Ollama 三层模型路由。
+
 ### 预处理
 
 - [markitdown](https://github.com/microsoft/markitdown) ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/markitdown)
