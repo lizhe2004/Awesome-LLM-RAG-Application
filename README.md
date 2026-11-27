@@ -689,6 +689,8 @@ https://github.com/nickscamara/open-deep-research  ![GitHub Repo stars](https://
   - 应用编辑平台，旨在开发下一代人工智能聊天机器人。无论您是否有编程经验，该平台都可以让您快速创建各种类型的聊天机器人并将其部署在不同的社交平台和消息应用程序上。
 - [Devv-ai](https://devv.ai/zh)
   - 最懂程序员的新一代 AI 搜索引擎，底层采用了RAG的大模型应用模式，LLM模型为其微调的模型。
+- [vsummary](https://github.com/alpha03123/vsummary)
+  - 开源的视频总结与本地知识库工具。导入 B站、YouTube、抖音链接或本地视频，本地转写后生成章节纪要、思维导图和知识卡片，并在多个视频的转写稿上做 RAG 问答，回答中的引用可以跳回视频原位置。
 
 
 
