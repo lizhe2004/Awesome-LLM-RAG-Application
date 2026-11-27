@@ -366,6 +366,13 @@ https://arxiv.org/abs/2506.18096
 
 - [PraisonAI](https://github.com/MervinPraison/PraisonAI) ![GitHub Repo stars](https://img.shields.io/github/stars/MervinPraison/PraisonAI)
   - 生产就绪的多AI代理框架，支持RAG、Agentic RAG工作流、100+LLM支持、MCP协议集成、内置记忆系统（短期、长期、实体、情景记忆）和自我反思功能。
+- [Knovum](https://github.com/madebyzan/knovum) ![GitHub Repo stars](https://img.shields.io/github/stars/madebyzan/knovum)
+    <details>
+      <summary>详情</summary>
+
+  基于 Tauri 2 + Rust + Vue 3 构建的桌面原生、端侧本地优先（Local-First）2D 空间 AI 知识库。内嵌 LanceDB 向量检索与 SQLite 双存储架构，支持 6 类结构化实体图谱、变异感知溯源（源文件变更自动标记引文 Detached）、端侧 Whisper 语音转录与离线 OCR。全量 100% MIT 开源。
+
+    </details>
 
 ### 预处理
 
