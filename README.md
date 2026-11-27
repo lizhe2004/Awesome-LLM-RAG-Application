@@ -524,6 +524,8 @@ https://arxiv.org/abs/2506.18096
   该应用程序目前处于 alpha 状态，应被视为实验/用于研究目的。
 - [EmbedGuard](https://github.com/neerazz/embedguard) ![GitHub Repo stars](https://img.shields.io/github/stars/neerazz/embedguard)
   - Cross-layer detection and provenance attestation for adversarial embedding attacks in RAG systems. Published in IJCESEN 2026 (DOI [10.22399/ijcesen.4869](https://doi.org/10.22399/ijcesen.4869)). MIT-licensed reference implementation combining runtime detection with cryptographic provenance attestation across embedding, retrieval, and generation layers.
+- [Enterprise RAG Engine](https://github.com/CyberAli-eng/enterprise-rag-engine) ![GitHub Repo stars](https://img.shields.io/github/stars/CyberAli-eng/enterprise-rag-engine)
+  - 多租户隔离的 RAG 服务（FastAPI + LangChain）：文档入库时按租户 ID 标记，检索时在向量库内按租户过滤，防止跨客户数据泄露；内置 API Key 鉴权、限流和上传校验，答案附带引用来源；支持通过 Ollama 在本地免费运行。
 
 ### Prompting
 - [ DSPy](https://github.com/stanfordnlp/dspy)
