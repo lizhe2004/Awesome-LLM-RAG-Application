@@ -440,6 +440,8 @@ https://arxiv.org/abs/2506.18096
   - 开源、可自托管的 RAG 与 Agent 评估和追踪平台（Apache-2.0）。支持自定义 LLM-as-Judge 评估，并内置不调用 LLM 的检索指标，如 Recall@K、Precision@K、NDCG@K、MRR 和 Hit Rate。
 ### Embedding
 
+- [FreeRet](https://github.com/MCG-NJU/FreeRet)
+  - ICML 2026：无需额外训练，将现有多模态大模型用于语义向量检索与候选重排，并保留生成能力以支持单模型 RAG。[[论文]](https://proceedings.mlr.press/v306/zhu26ba.html)
 - [BCEmbedding](https://github.com/netease-youdao/BCEmbedding/tree/master)
   - **网易有道**开发的双语和跨语种语义表征算法模型库，其中包含 **Embedding**Model和 **Reranker**Model两类基础模型。EmbeddingModel专门用于生成语义向量，在语义搜索和问答中起着关键作用，而 RerankerModel擅长优化语义搜索结果和语义相关顺序精排。
 - [BGE-Embedding](https://github.com/FlagOpen/FlagEmbedding/tree/master/FlagEmbedding/baai_general_embedding)
