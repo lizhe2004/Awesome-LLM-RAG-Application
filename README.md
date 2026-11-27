@@ -7,6 +7,7 @@ Awesome LLM RAG Application is a curated list of application resources based on 
 (latest update: 2025-12-19)
 
 --- 
+提示：更多关于agent智能体相关材料，可以访问[https://github.com/lizhe2004/awesome-llm-agent](https://github.com/lizhe2004/awesome-llm-agent)
 
 - [综述](#综述)
   - [论文](#论文)
